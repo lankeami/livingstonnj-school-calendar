@@ -56,10 +56,30 @@ Mapping guide:
 
 Check if `data/YYYY-YYYY.json` already exists.
 
-- If it **does not exist**: create it fresh.
-- If it **does exist**: the screenshot is the authoritative source — replace the entire `events` array with the newly parsed events. This is intentional: it handles both additions and deletions cleanly. Preserve the `schoolYear` field; update `lastUpdated` to today's date.
+- If it **does not exist**: create it fresh, skip to step 5.
+- If it **does exist**: upsert against the existing events array using the process below.
 
-Show the user a brief diff summary: "X events added, Y events removed, Z unchanged" (compare by title+date).
+**Upsert logic — match key: normalized start date + event type**
+
+The match key for each event is: `(startDate or date) + type`. Normalize titles before comparing (lowercase, strip punctuation) to avoid false misses on minor wording changes.
+
+For each event parsed from the screenshot:
+- **Match found in existing data** → update its `title`, `endDate` (if multi-day), and `description` in place. Keep any manually added fields that aren't in the screenshot.
+- **No match found** → insert as a new event.
+
+For each event in existing data with **no corresponding match in the screenshot**:
+- **Remove it.** The screenshot is the authoritative source for what should exist; absence means the event was cancelled or the date changed (in which case it will appear as a new insertion at the new date).
+
+Update `lastUpdated` to today's date.
+
+Show the user a brief diff summary before writing:
+```
+  Added:   X events  (list titles)
+  Updated: Y events  (list titles where anything changed)
+  Removed: Z events  (list titles)
+  Unchanged: N events
+```
+If any removals look surprising (e.g. a major holiday disappearing), flag them explicitly and ask the user to confirm before proceeding.
 
 ### 5. Write `data/YYYY-YYYY.json`
 
