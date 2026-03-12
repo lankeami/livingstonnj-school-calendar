@@ -1,7 +1,7 @@
 {
   "schoolYear": "2025-2026 + 2026-2027",
   "lastUpdated": "2026-03-12",
-  "generatedAt": "2026-03-12T03:24:37.238Z",
+  "generatedAt": "2026-03-12T19:10:57.414Z",
   "events": [
     {
       "title": "Professional Development Days - No Students",
@@ -237,94 +237,209 @@
       "allDay": true
     },
     {
-      "title": "Labor Day - No School",
+      "title": "Professional Development Days",
+      "type": "no-school",
+      "start": "2026-08-26",
+      "end": "2026-08-27",
+      "allDay": true
+    },
+    {
+      "title": "First Day for Students",
+      "type": "first-day",
+      "start": "2026-08-31",
+      "end": "2026-08-31",
+      "allDay": true
+    },
+    {
+      "title": "Labor Day - Early Dismissal",
+      "type": "early-dismissal",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "allDay": true
+    },
+    {
+      "title": "Labor Day - District Closed",
       "type": "holiday",
       "start": "2026-09-07",
       "end": "2026-09-07",
       "allDay": true
     },
     {
-      "title": "First Day of School",
-      "type": "first-day",
-      "start": "2026-09-08",
-      "end": "2026-09-08",
+      "title": "Yom Kippur - District Closed",
+      "type": "holiday",
+      "start": "2026-09-21",
+      "end": "2026-09-21",
       "allDay": true
     },
     {
-      "title": "Yom Kippur - No School",
-      "type": "holiday",
-      "start": "2026-09-20",
-      "end": "2026-09-20",
-      "allDay": true
+      "title": "Delayed Opening for Students/Staff PD",
+      "type": "school",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "allDay": true,
+      "description": "Delayed opening"
     },
     {
-      "title": "Columbus Day - No School",
-      "type": "holiday",
+      "title": "Columbus Day - No School for Students",
+      "type": "no-school",
       "start": "2026-10-12",
       "end": "2026-10-12",
       "allDay": true
     },
     {
-      "title": "Election Day - No School",
-      "type": "no-school",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
+      "title": "Parent/Teacher Conferences - Early Dismissal Elem",
+      "type": "early-dismissal",
+      "start": "2026-11-02",
+      "end": "2026-11-04",
       "allDay": true
     },
     {
-      "title": "Veterans Day - No School",
-      "type": "holiday",
+      "title": "NJEA Convention - No School",
+      "type": "no-school",
+      "start": "2026-11-05",
+      "end": "2026-11-06",
+      "allDay": true
+    },
+    {
+      "title": "Early Dismissal for All",
+      "type": "early-dismissal",
       "start": "2026-11-11",
       "end": "2026-11-11",
       "allDay": true
     },
     {
-      "title": "Thanksgiving Recess",
+      "title": "Thanksgiving Recess - District Closed",
       "type": "break",
-      "start": "2026-11-25",
+      "start": "2026-11-26",
       "end": "2026-11-27",
       "allDay": true
     },
     {
-      "title": "Winter Recess",
+      "title": "Delayed Opening for Students/Staff PD",
+      "type": "school",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "allDay": true,
+      "description": "Delayed opening"
+    },
+    {
+      "title": "Early Dismissal for All",
+      "type": "early-dismissal",
+      "start": "2026-12-23",
+      "end": "2026-12-23",
+      "allDay": true
+    },
+    {
+      "title": "Winter Recess - District Closed",
       "type": "break",
       "start": "2026-12-24",
+      "end": "2026-12-31",
+      "allDay": true
+    },
+    {
+      "title": "New Years Day - District Closed",
+      "type": "holiday",
+      "start": "2027-01-01",
       "end": "2027-01-01",
       "allDay": true
     },
     {
-      "title": "MLK Day - No School",
+      "title": "MLK Jr. Day - District Closed",
       "type": "holiday",
       "start": "2027-01-18",
       "end": "2027-01-18",
       "allDay": true
     },
     {
-      "title": "Presidents Day - No School",
+      "title": "Delayed Opening for Students/Staff PD",
+      "type": "school",
+      "start": "2027-01-19",
+      "end": "2027-01-19",
+      "allDay": true,
+      "description": "Delayed opening"
+    },
+    {
+      "title": "Early Dismissal LHS Only - Semester Chg",
+      "type": "early-dismissal",
+      "start": "2027-01-25",
+      "end": "2027-01-25",
+      "allDay": true
+    },
+    {
+      "title": "Presidents Day - District Closed",
       "type": "holiday",
       "start": "2027-02-15",
       "end": "2027-02-15",
       "allDay": true
     },
     {
-      "title": "Spring Recess",
+      "title": "February Break - Schools Closed",
       "type": "break",
-      "start": "2027-04-05",
-      "end": "2027-04-09",
+      "start": "2027-02-16",
+      "end": "2027-02-19",
       "allDay": true
     },
     {
-      "title": "Memorial Day - No School",
+      "title": "Parent/Teacher Conferences - Early Dismissal Elem",
+      "type": "early-dismissal",
+      "start": "2027-03-01",
+      "end": "2027-03-05",
+      "allDay": true
+    },
+    {
+      "title": "Early Dismissal for Students/Staff PD",
+      "type": "early-dismissal",
+      "start": "2027-03-09",
+      "end": "2027-03-09",
+      "allDay": true
+    },
+    {
+      "title": "EID - District Closed",
+      "type": "holiday",
+      "start": "2027-03-10",
+      "end": "2027-03-10",
+      "allDay": true
+    },
+    {
+      "title": "Good Friday - District Closed",
+      "type": "holiday",
+      "start": "2027-03-26",
+      "end": "2027-03-26",
+      "allDay": true
+    },
+    {
+      "title": "Spring Recess - Schools Closed",
+      "type": "break",
+      "start": "2027-04-19",
+      "end": "2027-04-23",
+      "allDay": true
+    },
+    {
+      "title": "Memorial Day - District Closed",
       "type": "holiday",
       "start": "2027-05-31",
       "end": "2027-05-31",
       "allDay": true
     },
     {
-      "title": "Last Day of School",
-      "type": "last-day",
+      "title": "Juneteenth - District Closed",
+      "type": "holiday",
+      "start": "2027-06-18",
+      "end": "2027-06-18",
+      "allDay": true
+    },
+    {
+      "title": "Early Dismissal for Students",
+      "type": "early-dismissal",
       "start": "2027-06-21",
-      "end": "2027-06-21",
+      "end": "2027-06-22",
+      "allDay": true
+    },
+    {
+      "title": "Last Day of School/Graduation",
+      "type": "last-day",
+      "start": "2027-06-22",
+      "end": "2027-06-22",
       "allDay": true
     }
   ]
