@@ -61,7 +61,14 @@ header {
 .header-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.4rem;
+}
+
+.header-subscribe-label {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  white-space: nowrap;
 }
 
 .logo {
@@ -87,6 +94,41 @@ main {
   margin: 0 auto;
   padding: 2rem 1rem;
   width: 100%;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-section > p {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.subscribe-note {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: #f0f4f8;
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
 }
 
 .btn {
@@ -199,6 +241,7 @@ main {
 .event-card.today-anchor {
   outline: 2px solid #3498db;
   outline-offset: -2px;
+  scroll-margin-top: 80px;
 }
 
 .event-date {

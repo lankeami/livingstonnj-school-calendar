@@ -7,28 +7,30 @@ function getIcsUrl() {
 const ICS_URL = getIcsUrl();
 const WEBCAL_URL = ICS_URL.replace(/^https?:\/\//, "webcal://");
 
-// Wire up subscribe buttons
-document.getElementById("btn-google").addEventListener("click", () => {
-  const calUrl = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(WEBCAL_URL);
-  window.open(calUrl, "_blank");
-});
+// Wire up subscribe buttons (header + main section)
+function wireSubscribeButtons(suffix) {
+  const s = suffix ? `-${suffix}` : "";
+  document.getElementById(`btn-google${s}`).addEventListener("click", () => {
+    const calUrl = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(WEBCAL_URL);
+    window.open(calUrl, "_blank");
+  });
+  document.getElementById(`btn-apple${s}`).addEventListener("click", () => {
+    window.location.href = WEBCAL_URL;
+  });
+  document.getElementById(`btn-outlook${s}`).addEventListener("click", () => {
+    const outlookUrl = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(ICS_URL);
+    window.open(outlookUrl, "_blank");
+  });
+  document.getElementById(`btn-download${s}`).addEventListener("click", () => {
+    const a = document.createElement("a");
+    a.href = ICS_URL;
+    a.download = "livingston-schools.ics";
+    a.click();
+  });
+}
 
-document.getElementById("btn-apple").addEventListener("click", () => {
-  window.location.href = WEBCAL_URL;
-});
-
-document.getElementById("btn-outlook").addEventListener("click", () => {
-  // Outlook supports subscribing via direct HTTPS ICS URL
-  const outlookUrl = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(ICS_URL);
-  window.open(outlookUrl, "_blank");
-});
-
-document.getElementById("btn-download").addEventListener("click", () => {
-  const a = document.createElement("a");
-  a.href = ICS_URL;
-  a.download = "livingston-schools.ics";
-  a.click();
-});
+wireSubscribeButtons();       // header buttons (btn-google, etc.)
+wireSubscribeButtons("main"); // section buttons (btn-google-main, etc.)
 
 // Show subscribe URL in footer
 const urlDisplay = document.getElementById("subscribe-url-display");
