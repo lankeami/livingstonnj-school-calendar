@@ -72,18 +72,28 @@ For each event in existing data with **no corresponding match in the screenshot*
 
 Update `lastUpdated` to today's date.
 
-Show the user a brief diff summary before writing:
+### 5. Write preview file and wait for confirmation
+
+Write the full parsed event list to `data/YYYY-YYYY.preview.json` (same structure as the real data file).
+
+Then show the user a diff summary in chat:
 ```
-  Added:   X events  (list titles)
-  Updated: Y events  (list titles where anything changed)
+  Added:   X events  (list titles + dates)
+  Updated: Y events  (list titles + old → new dates)
   Removed: Z events  (list titles)
   Unchanged: N events
 ```
-If any removals look surprising (e.g. a major holiday disappearing), flag them explicitly and ask the user to confirm before proceeding.
+Flag any surprising removals (e.g. major holidays disappearing) explicitly.
 
-### 5. Write `data/YYYY-YYYY.json`
+Then say:
+> **Please review `data/YYYY-YYYY.preview.json` and confirm the dates look correct. Reply "looks good" (or note any corrections) and I'll write the real data file and open a PR.**
 
-Write the file with this structure:
+**Do not proceed to step 6 until the user confirms.**
+
+### 6. Write `data/YYYY-YYYY.json`
+
+Once the user confirms, delete the preview file and write the real data file:
+
 ```json
 {
   "schoolYear": "YYYY-YYYY",
@@ -92,17 +102,19 @@ Write the file with this structure:
 }
 ```
 
-### 6. Update `config.json`
+If the user provides corrections, apply them to the event list first, then write.
+
+### 7. Update `config.json`
 
 - Add the year to `activeYears` if not already present (append in chronological order).
 - If this year comes after `currentYear` chronologically, update `currentYear` to this year and update `calendarName` to `"Livingston Schools YYYY-YYYY"`.
 - Otherwise leave `currentYear` unchanged.
 
-### 7. Run the build
+### 8. Run the build
 
 Run `npm run build` and confirm it succeeds. If it fails, fix the issue before continuing.
 
-### 8. Create a branch and PR
+### 9. Create a branch and PR
 
 ```bash
 git checkout -b calendar/YYYY-YYYY
