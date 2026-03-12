@@ -30,6 +30,11 @@ export function buildEventAttributes(
   const rawSiteUrl = config.siteUrl ?? `https://${config.repoOwner}.github.io/${config.repoName}/`;
   const siteUrl = rawSiteUrl.endsWith("/") ? rawSiteUrl : rawSiteUrl + "/";
 
+  function buildDescription(eventDescription: string | undefined, anchor: string): string {
+    const link = `${siteUrl}#${anchor}`;
+    return eventDescription ? `${eventDescription}\n\n${link}` : link;
+  }
+
   const attrs: EventAttributes[] = [];
 
   for (const event of data.events) {
@@ -48,7 +53,7 @@ export function buildEventAttributes(
         startOutputType: "local",
         endInputType: "local",
         endOutputType: "local",
-        description: event.description,
+        description: buildDescription(event.description, event.date),
         categories: [event.type],
         url: `${siteUrl}#${event.date}`,
       });
@@ -67,7 +72,7 @@ export function buildEventAttributes(
         startOutputType: "local",
         endInputType: "local",
         endOutputType: "local",
-        description: event.description,
+        description: buildDescription(event.description, event.startDate),
         categories: [event.type],
         url: `${siteUrl}#${event.startDate}`,
       });
