@@ -6,12 +6,12 @@ A subscribable school calendar for the [Livingston, NJ School District](https://
 
 | App | Link |
 |-----|------|
-| Google Calendar | [Add to Google](https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2FYOUR_GITHUB_USERNAME.github.io%2Flivingston-schools%2Fcalendars%2Flatest.ics) |
-| Apple Calendar | `webcal://YOUR_GITHUB_USERNAME.github.io/livingston-schools/calendars/latest.ics` |
-| Outlook | Subscribe via the [calendar page](https://YOUR_GITHUB_USERNAME.github.io/livingston-schools/) |
-| Download | [latest.ics](https://YOUR_GITHUB_USERNAME.github.io/livingston-schools/calendars/latest.ics) |
+| Google Calendar | [Add to Google](https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Flankeami.github.io%2Flivingston-schools%2Fcalendars%2Flatest.ics) |
+| Apple Calendar | `webcal://lankeami.github.io/livingstonnj-school-calendar/calendars/latest.ics` |
+| Outlook | Subscribe via the [calendar page](https://lankeami.github.io/livingstonnj-school-calendar/) |
+| Download | [latest.ics](https://lankeami.github.io/livingstonnj-school-calendar/calendars/latest.ics) |
 
-> Replace `YOUR_GITHUB_USERNAME` with the actual GitHub username, or just visit the GitHub Pages site and use the subscribe buttons there.
+> Replace `lankeami` with the actual GitHub username, or just visit the GitHub Pages site and use the subscribe buttons there.
 
 ## Development
 
