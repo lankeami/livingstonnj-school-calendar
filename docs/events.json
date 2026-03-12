@@ -1,8 +1,241 @@
 {
-  "schoolYear": "2026-2027",
-  "lastUpdated": "2026-03-11",
-  "generatedAt": "2026-03-12T03:00:45.846Z",
+  "schoolYear": "2025-2026 + 2026-2027",
+  "lastUpdated": "2026-03-12",
+  "generatedAt": "2026-03-12T03:24:37.238Z",
   "events": [
+    {
+      "title": "Professional Development Days - No Students",
+      "type": "no-school",
+      "start": "2025-08-25",
+      "end": "2025-08-26",
+      "allDay": true
+    },
+    {
+      "title": "First Day of School",
+      "type": "first-day",
+      "start": "2025-08-27",
+      "end": "2025-08-27",
+      "allDay": true
+    },
+    {
+      "title": "Early Dismissal - Labor Day Weekend",
+      "type": "early-dismissal",
+      "start": "2025-08-29",
+      "end": "2025-08-29",
+      "allDay": true
+    },
+    {
+      "title": "Labor Day - District Closed",
+      "type": "holiday",
+      "start": "2025-09-01",
+      "end": "2025-09-01",
+      "allDay": true
+    },
+    {
+      "title": "Rosh Hashanah - District Closed",
+      "type": "holiday",
+      "start": "2025-09-23",
+      "end": "2025-09-24",
+      "allDay": true
+    },
+    {
+      "title": "Yom Kippur - District Closed",
+      "type": "holiday",
+      "start": "2025-10-02",
+      "end": "2025-10-02",
+      "allDay": true
+    },
+    {
+      "title": "Columbus Day - No School",
+      "type": "no-school",
+      "start": "2025-10-13",
+      "end": "2025-10-13",
+      "allDay": true,
+      "description": "No school for students; PD staff day"
+    },
+    {
+      "title": "Diwali - District Closed",
+      "type": "holiday",
+      "start": "2025-10-20",
+      "end": "2025-10-20",
+      "allDay": true
+    },
+    {
+      "title": "Parent/Teacher Conferences - Early Dismissal (Elementary)",
+      "type": "early-dismissal",
+      "start": "2025-11-03",
+      "end": "2025-11-05",
+      "allDay": true,
+      "description": "Early dismissal for elementary students"
+    },
+    {
+      "title": "NJEA Convention - District Closed",
+      "type": "no-school",
+      "start": "2025-11-06",
+      "end": "2025-11-07",
+      "allDay": true
+    },
+    {
+      "title": "Early Dismissal for All",
+      "type": "early-dismissal",
+      "start": "2025-11-26",
+      "end": "2025-11-26",
+      "allDay": true
+    },
+    {
+      "title": "Thanksgiving Recess - District Closed",
+      "type": "break",
+      "start": "2025-11-27",
+      "end": "2025-11-28",
+      "allDay": true
+    },
+    {
+      "title": "Delayed Opening",
+      "type": "school",
+      "start": "2025-12-01",
+      "end": "2025-12-01",
+      "allDay": true,
+      "description": "Delayed opening for students; PD staff"
+    },
+    {
+      "title": "Early Dismissal for All",
+      "type": "early-dismissal",
+      "start": "2025-12-23",
+      "end": "2025-12-23",
+      "allDay": true
+    },
+    {
+      "title": "Winter Recess - District Closed",
+      "type": "break",
+      "start": "2025-12-24",
+      "end": "2025-12-31",
+      "allDay": true
+    },
+    {
+      "title": "New Year's Day - District Closed",
+      "type": "holiday",
+      "start": "2026-01-01",
+      "end": "2026-01-01",
+      "allDay": true
+    },
+    {
+      "title": "MLK Jr. Day - District Closed",
+      "type": "holiday",
+      "start": "2026-01-19",
+      "end": "2026-01-19",
+      "allDay": true
+    },
+    {
+      "title": "Delayed Opening",
+      "type": "school",
+      "start": "2026-01-20",
+      "end": "2026-01-20",
+      "allDay": true,
+      "description": "Delayed opening for students; PD staff"
+    },
+    {
+      "title": "Partial Day - Semester Change (LHS Only)",
+      "type": "early-dismissal",
+      "start": "2026-01-27",
+      "end": "2026-01-27",
+      "allDay": true,
+      "description": "Partial day for LHS only - Semester Change"
+    },
+    {
+      "title": "Presidents Day - District Closed",
+      "type": "holiday",
+      "start": "2026-02-16",
+      "end": "2026-02-16",
+      "allDay": true
+    },
+    {
+      "title": "Lunar New Year - District Closed",
+      "type": "holiday",
+      "start": "2026-02-17",
+      "end": "2026-02-17",
+      "allDay": true
+    },
+    {
+      "title": "February Break - Schools Closed",
+      "type": "break",
+      "start": "2026-02-18",
+      "end": "2026-02-20",
+      "allDay": true
+    },
+    {
+      "title": "Delayed Opening",
+      "type": "school",
+      "start": "2026-02-23",
+      "end": "2026-02-23",
+      "allDay": true,
+      "description": "Delayed opening for students; PD staff"
+    },
+    {
+      "title": "Parent/Teacher Conferences - Early Dismissal (Elementary)",
+      "type": "early-dismissal",
+      "start": "2026-03-04",
+      "end": "2026-03-06",
+      "allDay": true,
+      "description": "Early dismissal for elementary students"
+    },
+    {
+      "title": "Early Dismissal for Students",
+      "type": "early-dismissal",
+      "start": "2026-03-19",
+      "end": "2026-03-19",
+      "allDay": true,
+      "description": "Early dismissal students; PD staff"
+    },
+    {
+      "title": "Eid - District Closed",
+      "type": "holiday",
+      "start": "2026-03-20",
+      "end": "2026-03-20",
+      "allDay": true
+    },
+    {
+      "title": "Spring Recess - Schools Closed",
+      "type": "break",
+      "start": "2026-03-30",
+      "end": "2026-04-02",
+      "allDay": true,
+      "description": "Inclement weather makeup days taken in this window first (Mar 30, 31, Apr 1)"
+    },
+    {
+      "title": "Good Friday - District Closed",
+      "type": "holiday",
+      "start": "2026-04-03",
+      "end": "2026-04-03",
+      "allDay": true
+    },
+    {
+      "title": "Memorial Day - District Closed",
+      "type": "holiday",
+      "start": "2026-05-25",
+      "end": "2026-05-25",
+      "allDay": true
+    },
+    {
+      "title": "Early Dismissal for Students",
+      "type": "early-dismissal",
+      "start": "2026-06-16",
+      "end": "2026-06-18",
+      "allDay": true
+    },
+    {
+      "title": "Last Day of School / Graduation",
+      "type": "last-day",
+      "start": "2026-06-18",
+      "end": "2026-06-18",
+      "allDay": true
+    },
+    {
+      "title": "Juneteenth - District Closed",
+      "type": "holiday",
+      "start": "2026-06-19",
+      "end": "2026-06-19",
+      "allDay": true
+    },
     {
       "title": "Labor Day - No School",
       "type": "holiday",

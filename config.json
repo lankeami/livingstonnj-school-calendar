@@ -1,8 +1,9 @@
 {
   "currentYear": "2026-2027",
+  "activeYears": ["2025-2026", "2026-2027"],
   "schoolName": "Livingston School District",
   "repoOwner": "lankeami",
   "repoName": "livingstonnj-school-calendar",
-  "calendarName": "Livingston Schools 2026-2027",
+  "calendarName": "Livingston Schools",
   "calendarDescription": "Official school calendar for the Livingston, NJ School District"
 }

@@ -41,6 +41,7 @@ export interface SchoolYearData {
 
 export interface Config {
   currentYear: string;
+  activeYears?: string[]; // years to merge into latest.ics; defaults to [currentYear]
   schoolName: string;
   repoOwner: string;
   repoName: string;

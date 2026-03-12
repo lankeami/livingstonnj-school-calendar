@@ -16,29 +16,8 @@ function ensureDir(filePath: string): void {
   mkdirSync(dirname(filePath), { recursive: true });
 }
 
-function main(): void {
-  const config = readJson<Config>(join(root, "config.json"));
-  const { currentYear } = config;
-
-  console.log(`Building calendar for ${currentYear}...`);
-
-  const dataPath = join(root, "data", `${currentYear}.json`);
-  const data = readJson<SchoolYearData>(dataPath);
-
-  // Generate ICS
-  const icsContent = generateIcs(data, config);
-
-  const versionedIcsPath = join(root, "docs", "calendars", `${currentYear}.ics`);
-  const latestIcsPath = join(root, "docs", "calendars", "latest.ics");
-
-  ensureDir(versionedIcsPath);
-  writeFileSync(versionedIcsPath, icsContent, "utf-8");
-  copyFileSync(versionedIcsPath, latestIcsPath);
-  console.log(`  → docs/calendars/${currentYear}.ics`);
-  console.log(`  → docs/calendars/latest.ics`);
-
-  // Generate events.json
-  const publishedEvents: PublishedEvent[] = data.events.map((event) => {
+function toPublishedEvents(data: SchoolYearData): PublishedEvent[] {
+  return data.events.map((event) => {
     if (isSingleDay(event)) {
       return {
         title: event.title,
@@ -60,22 +39,61 @@ function main(): void {
     }
     throw new Error(`Unknown event shape: ${JSON.stringify(event)}`);
   });
+}
 
-  // Sort by start date
-  publishedEvents.sort((a, b) => a.start.localeCompare(b.start));
+function main(): void {
+  const config = readJson<Config>(join(root, "config.json"));
+  const activeYears = config.activeYears ?? [config.currentYear];
 
+  console.log(`Active years: ${activeYears.join(", ")}`);
+
+  // Generate per-year ICS files and collect all events
+  const allPublishedEvents: PublishedEvent[] = [];
+  ensureDir(join(root, "docs", "calendars", "placeholder"));
+
+  for (const year of activeYears) {
+    const dataPath = join(root, "data", `${year}.json`);
+    const data = readJson<SchoolYearData>(dataPath);
+
+    const icsContent = generateIcs(data, config);
+    const versionedIcsPath = join(root, "docs", "calendars", `${year}.ics`);
+    writeFileSync(versionedIcsPath, icsContent, "utf-8");
+    console.log(`  → docs/calendars/${year}.ics (${data.events.length} events)`);
+
+    allPublishedEvents.push(...toPublishedEvents(data));
+  }
+
+  // Sort combined events chronologically
+  allPublishedEvents.sort((a, b) => a.start.localeCompare(b.start));
+
+  // latest.ics = merged calendar across all active years
+  const mergedData: SchoolYearData = {
+    schoolYear: activeYears.join(" + "),
+    lastUpdated: new Date().toISOString().slice(0, 10),
+    events: allPublishedEvents.map((e) =>
+      e.start === e.end
+        ? { title: e.title, type: e.type, allDay: e.allDay, date: e.start, description: e.description }
+        : { title: e.title, type: e.type, allDay: e.allDay, startDate: e.start, endDate: e.end, description: e.description }
+    ),
+  };
+
+  const latestIcsPath = join(root, "docs", "calendars", "latest.ics");
+  writeFileSync(latestIcsPath, generateIcs(mergedData, config), "utf-8");
+  console.log(`  → docs/calendars/latest.ics (${allPublishedEvents.length} total events)`);
+
+  // events.json — all events combined
   const eventsFile: PublishedEventsFile = {
-    schoolYear: data.schoolYear,
-    lastUpdated: data.lastUpdated,
+    schoolYear: activeYears.join(" + "),
+    lastUpdated: new Date().toISOString().slice(0, 10),
     generatedAt: new Date().toISOString(),
-    events: publishedEvents,
+    events: allPublishedEvents,
   };
 
   const eventsJsonPath = join(root, "docs", "events.json");
   writeFileSync(eventsJsonPath, JSON.stringify(eventsFile, null, 2), "utf-8");
   console.log(`  → docs/events.json`);
 
-  console.log(`\nBuild complete! ${publishedEvents.length} events processed.`);
+  console.log(`\nBuild complete! ${allPublishedEvents.length} total events across ${activeYears.length} year(s).`);
   console.log(`\nSubscribe URL (after GitHub Pages deploy):`);
   console.log(
     `  webcal://${config.repoOwner}.github.io/${config.repoName}/calendars/latest.ics`
