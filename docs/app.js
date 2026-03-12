@@ -162,7 +162,6 @@ function renderEvents(eventsData) {
   }
 }
 
-
 // Load events.json
 fetch("events.json")
   .then((res) => {
