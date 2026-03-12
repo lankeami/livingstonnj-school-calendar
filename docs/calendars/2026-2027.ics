@@ -8,238 +8,267 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:professional-development-days-2026-08-26@livingston-schools
 SUMMARY:Professional Development Days
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260828
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-08-26
 CATEGORIES:no-school
 END:VEVENT
 BEGIN:VEVENT
 UID:first-day-for-students-2026-08-31@livingston-schools
 SUMMARY:First Day for Students
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-08-31
 CATEGORIES:first-day
 END:VEVENT
 BEGIN:VEVENT
 UID:labor-day-early-dismissal-2026-09-04@livingston-schools
 SUMMARY:Labor Day - Early Dismissal
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-09-04
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:labor-day-district-closed-2026-09-07@livingston-schools
 SUMMARY:Labor Day - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-09-07
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:yom-kippur-district-closed-2026-09-21@livingston-schools
 SUMMARY:Yom Kippur - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-09-21
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:delayed-opening-for-students-staff-pd-2026-09-22@livingston-schools
 SUMMARY:Delayed Opening for Students/Staff PD
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 DESCRIPTION:Delayed opening
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-09-22
 CATEGORIES:school
 END:VEVENT
 BEGIN:VEVENT
 UID:columbus-day-no-school-for-students-2026-10-12@livingston-schools
 SUMMARY:Columbus Day - No School for Students
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-10-12
 CATEGORIES:no-school
 END:VEVENT
 BEGIN:VEVENT
 UID:parent-teacher-conferences-early-dismissal-elem-2026-11-02@livingston-s
 	chools
 SUMMARY:Parent/Teacher Conferences - Early Dismissal Elem
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261105
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-11-02
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:njea-convention-no-school-2026-11-05@livingston-schools
 SUMMARY:NJEA Convention - No School
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261107
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-11-05
 CATEGORIES:no-school
 END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-all-2026-11-11@livingston-schools
 SUMMARY:Early Dismissal for All
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-11-11
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:thanksgiving-recess-district-closed-2026-11-26@livingston-schools
 SUMMARY:Thanksgiving Recess - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-11-26
 CATEGORIES:break
 END:VEVENT
 BEGIN:VEVENT
 UID:delayed-opening-for-students-staff-pd-2026-11-30@livingston-schools
 SUMMARY:Delayed Opening for Students/Staff PD
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 DESCRIPTION:Delayed opening
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-11-30
 CATEGORIES:school
 END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-all-2026-12-23@livingston-schools
 SUMMARY:Early Dismissal for All
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-12-23
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:winter-recess-district-closed-2026-12-24@livingston-schools
 SUMMARY:Winter Recess - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20270101
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2026-12-24
 CATEGORIES:break
 END:VEVENT
 BEGIN:VEVENT
 UID:new-years-day-district-closed-2027-01-01@livingston-schools
 SUMMARY:New Years Day - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-01-01
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:mlk-jr-day-district-closed-2027-01-18@livingston-schools
 SUMMARY:MLK Jr. Day - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270118
 DTEND;VALUE=DATE:20270119
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-01-18
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:delayed-opening-for-students-staff-pd-2027-01-19@livingston-schools
 SUMMARY:Delayed Opening for Students/Staff PD
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 DESCRIPTION:Delayed opening
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-01-19
 CATEGORIES:school
 END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-lhs-only-semester-chg-2027-01-25@livingston-schools
 SUMMARY:Early Dismissal LHS Only - Semester Chg
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-01-25
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:presidents-day-district-closed-2027-02-15@livingston-schools
 SUMMARY:Presidents Day - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-02-15
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:february-break-schools-closed-2027-02-16@livingston-schools
 SUMMARY:February Break - Schools Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270220
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-02-16
 CATEGORIES:break
 END:VEVENT
 BEGIN:VEVENT
 UID:parent-teacher-conferences-early-dismissal-elem-2027-03-01@livingston-s
 	chools
 SUMMARY:Parent/Teacher Conferences - Early Dismissal Elem
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270306
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-03-01
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-students-staff-pd-2027-03-09@livingston-schools
 SUMMARY:Early Dismissal for Students/Staff PD
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-03-09
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:eid-district-closed-2027-03-10@livingston-schools
 SUMMARY:EID - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-03-10
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:good-friday-district-closed-2027-03-26@livingston-schools
 SUMMARY:Good Friday - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-03-26
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:spring-recess-schools-closed-2027-04-19@livingston-schools
 SUMMARY:Spring Recess - Schools Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270419
 DTEND;VALUE=DATE:20270424
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-04-19
 CATEGORIES:break
 END:VEVENT
 BEGIN:VEVENT
 UID:memorial-day-district-closed-2027-05-31@livingston-schools
 SUMMARY:Memorial Day - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270531
 DTEND;VALUE=DATE:20270601
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-05-31
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:juneteenth-district-closed-2027-06-18@livingston-schools
 SUMMARY:Juneteenth - District Closed
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270619
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-06-18
 CATEGORIES:holiday
 END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-students-2027-06-21@livingston-schools
 SUMMARY:Early Dismissal for Students
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270621
 DTEND;VALUE=DATE:20270623
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-06-21
 CATEGORIES:early-dismissal
 END:VEVENT
 BEGIN:VEVENT
 UID:last-day-of-school-graduation-2027-06-22@livingston-schools
 SUMMARY:Last Day of School/Graduation
-DTSTAMP:20260312T191057Z
+DTSTAMP:20260312T202207Z
 DTSTART;VALUE=DATE:20270622
 DTEND;VALUE=DATE:20270623
+URL:https://lankeami.github.io/livingstonnj-school-calendar/#2027-06-22
 CATEGORIES:last-day
 END:VEVENT
 END:VCALENDAR

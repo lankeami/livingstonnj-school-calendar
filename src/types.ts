@@ -47,6 +47,7 @@ export interface Config {
   repoName: string;
   calendarName: string;
   calendarDescription: string;
+  siteUrl?: string;
 }
 
 export interface PublishedEvent {

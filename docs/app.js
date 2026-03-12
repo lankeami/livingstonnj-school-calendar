@@ -117,6 +117,7 @@ function renderEvents(eventsData) {
     for (const event of events) {
       const card = document.createElement("div");
       card.className = `event-card ${event.type}`;
+      card.dataset.date = event.start;  // enables deep-link anchoring
 
       // Mark first event on or after today as the scroll target
       if (!scrollTarget && event.end >= today) {
@@ -151,7 +152,12 @@ function renderEvents(eventsData) {
     container.appendChild(groupEl);
   }
 
-  if (scrollTarget) {
+  const hash = window.location.hash.slice(1); // strip leading "#"
+  const hashTarget = hash ? document.querySelector(`[data-date="${hash}"]`) : null;
+
+  if (hashTarget) {
+    hashTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+  } else if (scrollTarget) {
     scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 }
