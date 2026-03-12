@@ -35,7 +35,11 @@ body {
 header {
   background: var(--header-bg);
   color: white;
-  padding: 1.5rem 1rem;
+  padding: 0.75rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 .header-inner {
@@ -43,23 +47,37 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
 
 header h1 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .subtitle {
   opacity: 0.75;
-  font-size: 0.95rem;
-  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  margin-top: 0.1rem;
 }
 
 /* Main */
@@ -71,45 +89,19 @@ main {
   width: 100%;
 }
 
-/* Subscribe Section */
-.subscribe-section {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1.75rem;
-  margin-bottom: 2rem;
-}
-
-.subscribe-section h2 {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.subscribe-section > p {
-  color: var(--text-muted);
-  margin-bottom: 1.25rem;
-  font-size: 0.95rem;
-}
-
-.button-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-bottom: 1rem;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.55rem 1rem;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
   border: none;
-  border-radius: 8px;
-  font-size: 0.875rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
   transition: opacity 0.15s, transform 0.1s;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .btn:hover {
@@ -125,14 +117,6 @@ main {
 .btn-apple   { background: #1c1c1e; color: white; }
 .btn-outlook { background: #0078d4; color: white; }
 .btn-download { background: #27ae60; color: white; }
-
-.subscribe-note {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  background: #f0f4f8;
-  border-radius: 6px;
-  padding: 0.6rem 0.9rem;
-}
 
 /* Events Section */
 .events-section h2 {
@@ -212,6 +196,11 @@ main {
 .event-card.last-day        { border-left-color: var(--color-last-day); }
 .event-card.school          { border-left-color: var(--color-school); }
 
+.event-card.today-anchor {
+  outline: 2px solid #3498db;
+  outline-offset: -2px;
+}
+
 .event-date {
   min-width: 90px;
   font-size: 0.82rem;
@@ -281,7 +270,13 @@ footer code {
 
 @media (max-width: 600px) {
   header h1 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+  .subtitle {
+    display: none;
+  }
+  .header-actions {
+    width: 100%;
   }
   .event-card {
     flex-direction: column;

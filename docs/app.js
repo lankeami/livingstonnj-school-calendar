@@ -71,6 +71,15 @@ function getMonthKey(dateStr) {
   return date.toLocaleDateString("en-US", { month: "long", year: "numeric" });
 }
 
+// Get today's date as YYYY-MM-DD (local time)
+function todayStr() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
 // Render events grouped by month
 function renderEvents(eventsData) {
   const container = document.getElementById("events-list");
@@ -91,6 +100,9 @@ function renderEvents(eventsData) {
     groups.get(key).push(event);
   }
 
+  const today = todayStr();
+  let scrollTarget = null;
+
   for (const [monthLabel, events] of groups) {
     const groupEl = document.createElement("div");
     groupEl.className = "month-group";
@@ -103,6 +115,12 @@ function renderEvents(eventsData) {
     for (const event of events) {
       const card = document.createElement("div");
       card.className = `event-card ${event.type}`;
+
+      // Mark first event on or after today as the scroll target
+      if (!scrollTarget && event.end >= today) {
+        scrollTarget = card;
+        card.classList.add("today-anchor");
+      }
 
       const dateEl = document.createElement("div");
       dateEl.className = "event-date";
@@ -129,6 +147,10 @@ function renderEvents(eventsData) {
     }
 
     container.appendChild(groupEl);
+  }
+
+  if (scrollTarget) {
+    scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 }
 
