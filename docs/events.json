@@ -1,0 +1,98 @@
+{
+  "schoolYear": "2026-2027",
+  "lastUpdated": "2026-03-11",
+  "generatedAt": "2026-03-12T02:21:21.857Z",
+  "events": [
+    {
+      "title": "Labor Day - No School",
+      "type": "holiday",
+      "start": "2026-09-07",
+      "end": "2026-09-07",
+      "allDay": true
+    },
+    {
+      "title": "First Day of School",
+      "type": "first-day",
+      "start": "2026-09-08",
+      "end": "2026-09-08",
+      "allDay": true
+    },
+    {
+      "title": "Yom Kippur - No School",
+      "type": "holiday",
+      "start": "2026-09-20",
+      "end": "2026-09-20",
+      "allDay": true
+    },
+    {
+      "title": "Columbus Day - No School",
+      "type": "holiday",
+      "start": "2026-10-12",
+      "end": "2026-10-12",
+      "allDay": true
+    },
+    {
+      "title": "Election Day - No School",
+      "type": "no-school",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "allDay": true
+    },
+    {
+      "title": "Veterans Day - No School",
+      "type": "holiday",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": true
+    },
+    {
+      "title": "Thanksgiving Recess",
+      "type": "break",
+      "start": "2026-11-25",
+      "end": "2026-11-27",
+      "allDay": true
+    },
+    {
+      "title": "Winter Recess",
+      "type": "break",
+      "start": "2026-12-24",
+      "end": "2027-01-01",
+      "allDay": true
+    },
+    {
+      "title": "MLK Day - No School",
+      "type": "holiday",
+      "start": "2027-01-18",
+      "end": "2027-01-18",
+      "allDay": true
+    },
+    {
+      "title": "Presidents Day - No School",
+      "type": "holiday",
+      "start": "2027-02-15",
+      "end": "2027-02-15",
+      "allDay": true
+    },
+    {
+      "title": "Spring Recess",
+      "type": "break",
+      "start": "2027-04-05",
+      "end": "2027-04-09",
+      "allDay": true
+    },
+    {
+      "title": "Memorial Day - No School",
+      "type": "holiday",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": true
+    },
+    {
+      "title": "Last Day of School",
+      "type": "last-day",
+      "start": "2027-06-21",
+      "end": "2027-06-21",
+      "allDay": true
+    }
+  ]
+}

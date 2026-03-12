@@ -1,0 +1,293 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-holiday: #e74c3c;
+  --color-no-school: #e67e22;
+  --color-early-dismissal: #f39c12;
+  --color-break: #9b59b6;
+  --color-first-day: #27ae60;
+  --color-last-day: #2980b9;
+  --color-school: #7f8c8d;
+
+  --bg: #f5f7fa;
+  --card-bg: #ffffff;
+  --text: #2c3e50;
+  --text-muted: #7f8c8d;
+  --border: #e1e8ed;
+  --header-bg: #1a3a5c;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background: var(--header-bg);
+  color: white;
+  padding: 1.5rem 1rem;
+}
+
+.header-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.subtitle {
+  opacity: 0.75;
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+
+/* Main */
+main {
+  flex: 1;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-section > p {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-google  { background: #4285f4; color: white; }
+.btn-apple   { background: #1c1c1e; color: white; }
+.btn-outlook { background: #0078d4; color: white; }
+.btn-download { background: #27ae60; color: white; }
+
+.subscribe-note {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: #f0f4f8;
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+}
+
+/* Events Section */
+.events-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.events-header {
+  margin-bottom: 1.25rem;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin-top: 0.6rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot.holiday         { background: var(--color-holiday); }
+.dot.no-school       { background: var(--color-no-school); }
+.dot.early-dismissal { background: var(--color-early-dismissal); }
+.dot.break           { background: var(--color-break); }
+.dot.first-day       { background: var(--color-first-day); }
+.dot.last-day        { background: var(--color-last-day); }
+.dot.school          { background: var(--color-school); }
+
+/* Month Group */
+.month-group {
+  margin-bottom: 1.75rem;
+}
+
+.month-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+  padding: 0 0 0.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.75rem;
+}
+
+/* Event Card */
+.event-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid var(--border);
+}
+
+.event-card.holiday         { border-left-color: var(--color-holiday); }
+.event-card.no-school       { border-left-color: var(--color-no-school); }
+.event-card.early-dismissal { border-left-color: var(--color-early-dismissal); }
+.event-card.break           { border-left-color: var(--color-break); }
+.event-card.first-day       { border-left-color: var(--color-first-day); }
+.event-card.last-day        { border-left-color: var(--color-last-day); }
+.event-card.school          { border-left-color: var(--color-school); }
+
+.event-date {
+  min-width: 90px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  padding-top: 0.1rem;
+  white-space: nowrap;
+}
+
+.event-title {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.event-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+/* Loading / empty */
+.loading {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 2rem;
+}
+
+.error-msg {
+  color: var(--color-holiday);
+  background: #fff5f5;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  background: var(--card-bg);
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 1rem;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+footer a {
+  color: var(--header-bg);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer code {
+  background: #f0f4f8;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  word-break: break-all;
+}
+
+.footer-note {
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.25rem;
+  }
+  .event-card {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .event-date {
+    min-width: auto;
+  }
+}

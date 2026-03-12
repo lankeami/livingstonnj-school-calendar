@@ -1,0 +1,153 @@
+// Derive ICS URL from current page location — works locally and on GitHub Pages
+function getIcsUrl() {
+  const base = window.location.href.replace(/\/?$/, "").replace(/\/index\.html$/, "");
+  return base + "/calendars/latest.ics";
+}
+
+const ICS_URL = getIcsUrl();
+const WEBCAL_URL = ICS_URL.replace(/^https?:\/\//, "webcal://");
+
+// Wire up subscribe buttons
+document.getElementById("btn-google").addEventListener("click", () => {
+  const calUrl = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(WEBCAL_URL);
+  window.open(calUrl, "_blank");
+});
+
+document.getElementById("btn-apple").addEventListener("click", () => {
+  window.location.href = WEBCAL_URL;
+});
+
+document.getElementById("btn-outlook").addEventListener("click", () => {
+  // Outlook supports subscribing via direct HTTPS ICS URL
+  const outlookUrl = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(ICS_URL);
+  window.open(outlookUrl, "_blank");
+});
+
+document.getElementById("btn-download").addEventListener("click", () => {
+  const a = document.createElement("a");
+  a.href = ICS_URL;
+  a.download = "livingston-schools.ics";
+  a.click();
+});
+
+// Show subscribe URL in footer
+const urlDisplay = document.getElementById("subscribe-url-display");
+if (urlDisplay) {
+  urlDisplay.textContent = WEBCAL_URL;
+}
+
+// Format date string (YYYY-MM-DD) to readable format
+function formatDate(dateStr) {
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, day);
+  return date.toLocaleDateString("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+  });
+}
+
+// Format a date range for display
+function formatDateRange(start, end) {
+  if (start === end) {
+    return formatDate(start);
+  }
+  const [sy, sm, sd] = start.split("-").map(Number);
+  const [ey, em, ed] = end.split("-").map(Number);
+
+  const startDate = new Date(sy, sm - 1, sd);
+  const endDate = new Date(ey, em - 1, ed);
+
+  const startStr = startDate.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+  const endStr = endDate.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
+
+  return `${startStr} – ${endStr}`;
+}
+
+// Get month label from YYYY-MM-DD
+function getMonthKey(dateStr) {
+  const [year, month] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, 1);
+  return date.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+}
+
+// Render events grouped by month
+function renderEvents(eventsData) {
+  const container = document.getElementById("events-list");
+  container.innerHTML = "";
+
+  if (!eventsData.events || eventsData.events.length === 0) {
+    container.innerHTML = '<p class="loading">No events found.</p>';
+    return;
+  }
+
+  // Group by month
+  const groups = new Map();
+  for (const event of eventsData.events) {
+    const key = getMonthKey(event.start);
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+    groups.get(key).push(event);
+  }
+
+  for (const [monthLabel, events] of groups) {
+    const groupEl = document.createElement("div");
+    groupEl.className = "month-group";
+
+    const labelEl = document.createElement("div");
+    labelEl.className = "month-label";
+    labelEl.textContent = monthLabel;
+    groupEl.appendChild(labelEl);
+
+    for (const event of events) {
+      const card = document.createElement("div");
+      card.className = `event-card ${event.type}`;
+
+      const dateEl = document.createElement("div");
+      dateEl.className = "event-date";
+      dateEl.textContent = formatDateRange(event.start, event.end);
+
+      const infoEl = document.createElement("div");
+      infoEl.className = "event-info";
+
+      const titleEl = document.createElement("div");
+      titleEl.className = "event-title";
+      titleEl.textContent = event.title;
+      infoEl.appendChild(titleEl);
+
+      if (event.description) {
+        const descEl = document.createElement("div");
+        descEl.className = "event-desc";
+        descEl.textContent = event.description;
+        infoEl.appendChild(descEl);
+      }
+
+      card.appendChild(dateEl);
+      card.appendChild(infoEl);
+      groupEl.appendChild(card);
+    }
+
+    container.appendChild(groupEl);
+  }
+}
+
+// Load events.json
+fetch("events.json")
+  .then((res) => {
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  })
+  .then((data) => {
+    renderEvents(data);
+  })
+  .catch((err) => {
+    const container = document.getElementById("events-list");
+    container.innerHTML = `
+      <div class="error-msg">
+        <strong>Could not load events.</strong><br>
+        ${err.message}<br><br>
+        Run <code>npm run build</code> to generate <code>docs/events.json</code>.
+      </div>
+    `;
+  });

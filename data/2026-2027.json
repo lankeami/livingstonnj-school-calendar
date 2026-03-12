@@ -1,0 +1,19 @@
+{
+  "schoolYear": "2026-2027",
+  "lastUpdated": "2026-03-11",
+  "events": [
+    { "title": "Labor Day - No School", "date": "2026-09-07", "type": "holiday", "allDay": true },
+    { "title": "First Day of School", "date": "2026-09-08", "type": "first-day", "allDay": true },
+    { "title": "Yom Kippur - No School", "date": "2026-09-20", "type": "holiday", "allDay": true },
+    { "title": "Columbus Day - No School", "date": "2026-10-12", "type": "holiday", "allDay": true },
+    { "title": "Election Day - No School", "date": "2026-11-03", "type": "no-school", "allDay": true },
+    { "title": "Veterans Day - No School", "date": "2026-11-11", "type": "holiday", "allDay": true },
+    { "title": "Thanksgiving Recess", "startDate": "2026-11-25", "endDate": "2026-11-27", "type": "break", "allDay": true },
+    { "title": "Winter Recess", "startDate": "2026-12-24", "endDate": "2027-01-01", "type": "break", "allDay": true },
+    { "title": "MLK Day - No School", "date": "2027-01-18", "type": "holiday", "allDay": true },
+    { "title": "Presidents Day - No School", "date": "2027-02-15", "type": "holiday", "allDay": true },
+    { "title": "Spring Recess", "startDate": "2027-04-05", "endDate": "2027-04-09", "type": "break", "allDay": true },
+    { "title": "Memorial Day - No School", "date": "2027-05-31", "type": "holiday", "allDay": true },
+    { "title": "Last Day of School", "date": "2027-06-21", "type": "last-day", "allDay": true }
+  ]
+}
