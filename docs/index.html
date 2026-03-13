@@ -27,46 +27,55 @@
 
   <!-- Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://livingston-nj-school-calendar.com/#website",
-        "url": "https://livingston-nj-school-calendar.com/",
-        "name": "Livingston NJ School Calendar",
-        "description": "Unofficial school calendar for the Livingston, NJ School District",
-        "image": "https://livingston-nj-school-calendar.com/og-image.png",
-        "publisher": {
-          "@type": "Organization",
-          "name": "Livingston NJ School District",
-          "url": "https://www.livingston.org"
-        }
-      },
-      {
-        "@type": "Dataset",
-        "@id": "https://livingston-nj-school-calendar.com/#dataset",
-        "name": "Livingston NJ School District Calendar",
-        "description": "School calendar data for Livingston, NJ including holidays, no-school days, early dismissals, and recess periods. Available as a subscribable ICS feed.",
-        "url": "https://livingston-nj-school-calendar.com/",
-        "license": "https://creativecommons.org/licenses/by/4.0/",
-        "isAccessibleForFree": true,
-        "keywords": ["school calendar", "Livingston NJ", "New Jersey", "school holidays", "no school days", "early dismissal", "iCal", "ICS"],
-        "spatialCoverage": {
-          "@type": "Place",
-          "name": "Livingston, New Jersey, USA"
-        },
-        "distribution": [
-          {
-            "@type": "DataDownload",
-            "encodingFormat": "text/calendar",
-            "contentUrl": "https://livingston-nj-school-calendar.com/calendars/latest.ics",
-            "name": "ICS Calendar Feed"
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://livingston-nj-school-calendar.com/#website",
+      "url": "https://livingston-nj-school-calendar.com/",
+      "name": "Livingston NJ School Calendar",
+      "description": "Unofficial school calendar for the Livingston, NJ School District",
+      "image": "https://livingston-nj-school-calendar.com/og-image.png",
+      "publisher": {
+        "@type": "Person",
+        "name": "Jay Chinthrajah",
+        "url": "https://github.com/lankeami"
       }
-    ]
-  }
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://livingston-nj-school-calendar.com/#dataset",
+      "name": "Livingston NJ School District Calendar",
+      "description": "School calendar data for Livingston, NJ including holidays, no-school days, early dismissals, and recess periods. Available as a subscribable ICS feed.",
+      "url": "https://livingston-nj-school-calendar.com/",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "school calendar",
+        "Livingston NJ",
+        "New Jersey",
+        "school holidays",
+        "no school days",
+        "early dismissal",
+        "iCal",
+        "ICS"
+      ],
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "Livingston, New Jersey, USA"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/calendar",
+          "contentUrl": "https://livingston-nj-school-calendar.com/calendars/latest.ics",
+          "name": "ICS Calendar Feed"
+        }
+      ]
+    }
+  ]
+}
   </script>
 
   <link rel="stylesheet" href="style.css" />
