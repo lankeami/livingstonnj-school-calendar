@@ -2,6 +2,9 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Documentation
+***IMPORTANT*** we normally put documentation in the `docs/` directory, however that is reserved for github pages. store all documentation in the `.claude/docs` directory instead.
+
 ## Commands
 
 ```bash
