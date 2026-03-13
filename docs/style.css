@@ -321,6 +321,9 @@ footer code {
   .header-actions {
     width: 100%;
   }
+  .header-actions .btn-label {
+    display: none;
+  }
   .event-card {
     flex-direction: column;
     gap: 0.25rem;
