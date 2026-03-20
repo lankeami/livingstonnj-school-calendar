@@ -1,7 +1,7 @@
 {
   "schoolYear": "2025-2026 + 2026-2027",
-  "lastUpdated": "2026-03-12",
-  "generatedAt": "2026-03-12T22:51:54.076Z",
+  "lastUpdated": "2026-03-20",
+  "generatedAt": "2026-03-20T21:11:33.800Z",
   "events": [
     {
       "title": "Professional Development Days - No Students",
@@ -194,12 +194,20 @@
       "allDay": true
     },
     {
+      "title": "School Day - Snow Day Makeup",
+      "type": "school",
+      "start": "2026-03-30",
+      "end": "2026-03-30",
+      "allDay": true,
+      "description": "Originally part of Spring Recess; converted to school day due to additional snow day"
+    },
+    {
       "title": "Spring Recess - Schools Closed",
       "type": "break",
-      "start": "2026-03-30",
+      "start": "2026-03-31",
       "end": "2026-04-02",
       "allDay": true,
-      "description": "Inclement weather makeup days taken in this window first (Mar 30, 31, Apr 1)"
+      "description": "Inclement weather makeup days taken in this window first (Mar 31, Apr 1)"
     },
     {
       "title": "Good Friday - District Closed",

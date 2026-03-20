@@ -1,6 +1,6 @@
 {
   "schoolYear": "2025-2026",
-  "lastUpdated": "2026-03-11",
+  "lastUpdated": "2026-03-20",
   "events": [
     { "title": "Professional Development Days - No Students", "startDate": "2025-08-25", "endDate": "2025-08-26", "type": "no-school", "allDay": true },
     { "title": "First Day of School", "date": "2025-08-27", "type": "first-day", "allDay": true },
@@ -28,7 +28,8 @@
     { "title": "Parent/Teacher Conferences - Early Dismissal (Elementary)", "startDate": "2026-03-04", "endDate": "2026-03-06", "type": "early-dismissal", "allDay": true, "description": "Early dismissal for elementary students" },
     { "title": "Early Dismissal for Students", "date": "2026-03-19", "type": "early-dismissal", "allDay": true, "description": "Early dismissal students; PD staff" },
     { "title": "Eid - District Closed", "date": "2026-03-20", "type": "holiday", "allDay": true },
-    { "title": "Spring Recess - Schools Closed", "startDate": "2026-03-30", "endDate": "2026-04-02", "type": "break", "allDay": true, "description": "Inclement weather makeup days taken in this window first (Mar 30, 31, Apr 1)" },
+    { "title": "School Day - Snow Day Makeup", "date": "2026-03-30", "type": "school", "allDay": true, "description": "Originally part of Spring Recess; converted to school day due to additional snow day" },
+    { "title": "Spring Recess - Schools Closed", "startDate": "2026-03-31", "endDate": "2026-04-02", "type": "break", "allDay": true, "description": "Inclement weather makeup days taken in this window first (Mar 31, Apr 1)" },
     { "title": "Good Friday - District Closed", "date": "2026-04-03", "type": "holiday", "allDay": true },
     { "title": "Memorial Day - District Closed", "date": "2026-05-25", "type": "holiday", "allDay": true },
     { "title": "Early Dismissal for Students", "startDate": "2026-06-16", "endDate": "2026-06-18", "type": "early-dismissal", "allDay": true },
