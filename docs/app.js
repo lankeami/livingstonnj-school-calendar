@@ -11,7 +11,8 @@ const WEBCAL_URL = ICS_URL.replace(/^https?:\/\//, "webcal://");
 function wireSubscribeButtons(suffix) {
   const s = suffix ? `-${suffix}` : "";
   document.getElementById(`btn-google${s}`).addEventListener("click", () => {
-    const calUrl = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(WEBCAL_URL);
+    // Google Calendar expects the raw webcal:// URL (not percent-encoded)
+    const calUrl = "https://calendar.google.com/calendar/render?cid=" + WEBCAL_URL;
     window.open(calUrl, "_blank");
   });
   document.getElementById(`btn-apple${s}`).addEventListener("click", () => {
