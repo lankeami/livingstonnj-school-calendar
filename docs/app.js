@@ -83,13 +83,46 @@ function todayStr() {
   return `${y}-${m}-${day}`;
 }
 
+// Share an event via Web Share API or copy link to clipboard
+function shareEvent(event) {
+  const dateText = formatDateRange(event.start, event.end);
+  const baseUrl = window.location.href.replace(/#.*$/, "");
+  const shareUrl = baseUrl + "#" + event.start;
+  const shareText = event.title + " — " + dateText;
+
+  if (navigator.share) {
+    navigator.share({ title: event.title, text: shareText, url: shareUrl }).catch(() => {});
+    return;
+  }
+
+  navigator.clipboard.writeText(shareText + "\n" + shareUrl).then(() => {
+    showToast("Link copied!");
+  }).catch(() => {
+    showToast("Could not copy link");
+  });
+}
+
+// Show a brief toast notification
+function showToast(message) {
+  let toast = document.getElementById("share-toast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "share-toast";
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add("visible");
+  clearTimeout(toast._timeout);
+  toast._timeout = setTimeout(() => toast.classList.remove("visible"), 2000);
+}
+
 // Render events grouped by month
 function renderEvents(eventsData) {
   const container = document.getElementById("events-list");
   container.innerHTML = "";
 
   if (!eventsData.events || eventsData.events.length === 0) {
-    container.innerHTML = '<p class="loading">No events found.</p>';
+    container.innerHTML = '<div class="error-msg"><strong>No events yet</strong>The calendar for this school year hasn\'t been published yet. Check back soon!</div>';
     return;
   }
 
@@ -145,8 +178,20 @@ function renderEvents(eventsData) {
         infoEl.appendChild(descEl);
       }
 
+      const shareBtn = document.createElement("button");
+      shareBtn.className = "share-btn";
+      shareBtn.title = "Share this event";
+      shareBtn.setAttribute("aria-label", "Share " + event.title);
+      // Static SVG icon — no user input
+      shareBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>';
+      shareBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        shareEvent(event);
+      });
+
       card.appendChild(dateEl);
       card.appendChild(infoEl);
+      card.appendChild(shareBtn);
       groupEl.appendChild(card);
     }
 
@@ -172,13 +217,16 @@ fetch("events.json")
   .then((data) => {
     renderEvents(data);
   })
-  .catch((err) => {
+  .catch(() => {
     const container = document.getElementById("events-list");
-    container.innerHTML = `
-      <div class="error-msg">
-        <strong>Could not load events.</strong><br>
-        ${err.message}<br><br>
-        Run <code>npm run build</code> to generate <code>docs/events.json</code>.
-      </div>
-    `;
+    container.textContent = "";
+    const msg = document.createElement("div");
+    msg.className = "error-msg";
+    const strong = document.createElement("strong");
+    strong.textContent = "Couldn't load the calendar";
+    const text = document.createElement("p");
+    text.textContent = "Something went wrong loading the events. Try refreshing the page — if the problem continues, the calendar may be temporarily unavailable.";
+    msg.appendChild(strong);
+    msg.appendChild(text);
+    container.appendChild(msg);
   });
