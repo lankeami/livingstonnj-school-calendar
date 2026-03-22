@@ -263,6 +263,47 @@ main {
   margin-top: 0.2rem;
 }
 
+/* Share Button */
+.share-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  padding: 0.3rem;
+  border-radius: 4px;
+  margin-left: auto;
+  flex-shrink: 0;
+  transition: color 0.15s, background 0.15s;
+  align-self: center;
+}
+
+.share-btn:hover {
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* Toast */
+#share-toast {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(1rem);
+  background: var(--header-bg);
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 200;
+}
+
+#share-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 /* Loading / empty */
 .loading {
   color: var(--text-muted);
@@ -271,12 +312,20 @@ main {
 }
 
 .error-msg {
-  color: var(--color-holiday);
-  background: #fff5f5;
-  border: 1px solid #fecaca;
-  border-radius: 8px;
-  padding: 1rem;
+  color: var(--text);
+  background: #f8f9fa;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
   font-size: 0.9rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.error-msg strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
@@ -327,6 +376,12 @@ footer code {
   .event-card {
     flex-direction: column;
     gap: 0.25rem;
+    position: relative;
+  }
+  .share-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
   }
   .event-date {
     min-width: auto;
