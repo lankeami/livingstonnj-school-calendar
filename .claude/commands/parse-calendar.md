@@ -1,8 +1,12 @@
-Parse a school calendar screenshot, update the data file for the given year, and open a PR.
+Parse a school calendar screenshot or PDF, update the data file for the given year, and open a PR.
 
-**Arguments:** `YYYY-YYYY [/path/to/screenshot.png]`
+**Arguments:** `YYYY-YYYY [/path/to/calendar.(png|pdf)]`
 
-Example: `/parse-calendar 2027-2028 ~/Desktop/calendar.png`
+Examples:
+- `/parse-calendar 2027-2028 ~/Desktop/calendar.png`
+- `/parse-calendar 2027-2028 .calendar-cache/2027-2028_academic_calendar.pdf`
+
+To fetch the district's PDFs automatically instead of supplying one, use `/fetch-calendars`.
 
 ---
 
@@ -12,19 +16,44 @@ Example: `/parse-calendar 2027-2028 ~/Desktop/calendar.png`
 
 Parse `$ARGUMENTS`:
 - First token must match `YYYY-YYYY` where end year = start year + 1. If invalid, stop and tell the user.
-- Second token (optional) is an image path. If omitted, look for an image already in the current conversation. If neither exists, ask the user to share the screenshot.
+- Second token (optional) is a path to an image or a PDF. If omitted, look for an image already in the current conversation, then for a cached PDF at `.calendar-cache/YYYY-YYYY_academic_calendar.pdf`. If none exists, ask the user to share the screenshot or run `/fetch-calendars`.
 
 Read `config.json` to confirm the repo owner/name and current `activeYears`.
 
-### 2. Read the calendar image
+### 2. Read the calendar
 
-Use the Read tool to open the image file (or reference the image already in the conversation). Work through the calendar month by month — typically September through August for a school year, but follow whatever months appear in the image.
+**If the source is an image:** use the Read tool to open it (or reference the image already in the conversation).
+
+**If the source is a PDF** (what the district publishes), read it two ways � they catch different errors:
+
+```bash
+pdftotext -layout path/to/calendar.pdf -
+```
+
+This renders every annotation as readable text (`1 - First Day for Students`,
+`10-13 - Spring Recess, Schools Closed`) and is the reliable source for **event names and day
+numbers**.
+
+These calendars lay out two columns of months side by side, so the extracted text interleaves
+them, and attributing an annotation to the wrong month is the likeliest error. Always
+reconcile against the per-month `N Student Days` totals (noted in the checklist below) - that
+catches column confusion without needing to see the page. A visual pass with the Read tool is
+a useful second check but requires `pdftoppm` (poppler-utils); if it is not installed, say so
+rather than implying you confirmed the layout visually.
+
+Then work through the calendar month by month — typically September through August for a school year, but follow whatever months appear in the image.
 
 For each month, extract every annotated event. Pay close attention to:
 - Colored/shaded cells and their legend
 - Multi-day spans (e.g. "24-31 - Winter Recess")
 - Asterisked notes (e.g. "3-5* Early Dismissal Elem")
 - Footnotes at the bottom of the calendar
+- **Bracketed entries are informational, not closures.** `[2-3 Rosh Hashanah]`, `[27 Eid]`,
+  `[11-18 Passover, 16 Easter]` mark observances the district notes but does *not* close for.
+  Include them only if the same date also carries a real closure annotation such as
+  `District Closed` or `Schools Closed`.
+- **`N Student Days` per-month totals are a cross-check.** If your parsed events imply a
+  different count for a month, re-read that month before moving on.
 
 ### 3. Map events to JSON schema
 
@@ -128,7 +157,7 @@ Then create a PR with:
 - **Body:**
   ```
   ## Summary
-  - Source: [screenshot filename or PDF link if known]
+  - Source: [screenshot filename, or PDF URL + SHA-256 if fetched via /fetch-calendars]
   - N events across M months
   - [If updating:] X added, Y removed vs previous version
 
