@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { resolveCurrentSchoolYear } from "./school-year.js";
 import type { Config, SchoolYearData } from "./types.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -136,13 +137,46 @@ function getNJHolidays(startYear: number): SchoolYearData["events"] {
   ] as SchoolYearData["events"];
 }
 
+/**
+ * Insert `year` into `years` if absent, keeping the list in chronological
+ * order. `YYYY-YYYY` strings sort lexically the same as chronologically.
+ * Idempotent: re-running never duplicates an entry.
+ */
+function withYear(years: string[], year: string): string[] {
+  if (years.includes(year)) return years;
+  return [...years, year].sort();
+}
+
 function main(): void {
   const args = process.argv.slice(2);
-  const yearArg = args[0];
+
+  // --today YYYY-MM-DD overrides "now" so year-boundary behavior is testable
+  let todayOverride: string | undefined;
+  const positional: string[] = [];
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === "--today") {
+      todayOverride = args[++i];
+      if (!todayOverride) {
+        console.error("--today requires a YYYY-MM-DD date.");
+        process.exit(1);
+      }
+    } else if (args[i].startsWith("--today=")) {
+      todayOverride = args[i].slice("--today=".length);
+    } else {
+      positional.push(args[i]);
+    }
+  }
+
+  const yearArg = positional[0];
 
   if (!yearArg) {
-    console.error("Usage: npm run new-year -- YYYY-YYYY");
+    console.error("Usage: npm run new-year -- YYYY-YYYY [--today YYYY-MM-DD]");
     console.error("Example: npm run new-year -- 2027-2028");
+    process.exit(1);
+  }
+
+  if (todayOverride && !/^\d{4}-\d{2}-\d{2}$/.test(todayOverride)) {
+    console.error(`Invalid --today date: "${todayOverride}". Expected YYYY-MM-DD.`);
     process.exit(1);
   }
 
@@ -170,7 +204,7 @@ function main(): void {
   }
 
   // Create skeleton data file
-  const today = new Date().toISOString().slice(0, 10);
+  const today = todayOverride ?? new Date().toISOString().slice(0, 10);
   const skeleton: SchoolYearData = {
     schoolYear: yearArg,
     lastUpdated: today,
@@ -183,10 +217,37 @@ function main(): void {
   // Update config.json
   const configPath = join(root, "config.json");
   const config = readJson<Config>(configPath);
-  config.currentYear = yearArg;
-  config.calendarName = `Livingston Schools ${yearArg}`;
+
+  // activeYears is what build.ts actually iterates — without this the new
+  // year scaffolds a data file that is never built.
+  const previousActiveYears = config.activeYears ?? [config.currentYear];
+  config.activeYears = withYear(previousActiveYears, yearArg);
+  const activeYearsChanged =
+    config.activeYears.join(",") !== previousActiveYears.join(",");
+
+  // currentYear follows the calendar, not the year being scaffolded: parsing
+  // next year's calendar ahead of time must not retire the year in session.
+  // calendarName is deliberately untouched — it names the merged latest.ics
+  // feed in every subscriber's calendar app and is operator-owned.
+  const previousCurrentYear = config.currentYear;
+  config.currentYear = resolveCurrentSchoolYear(today);
+  const currentYearChanged = config.currentYear !== previousCurrentYear;
+
   writeJson(configPath, config);
-  console.log(`Updated config.json: currentYear → "${yearArg}"`);
+
+  // Report every field this script mutated — no silent config changes.
+  console.log("Updated config.json:");
+  console.log(
+    activeYearsChanged
+      ? `  activeYears  → [${config.activeYears.join(", ")}] (added "${yearArg}")`
+      : `  activeYears  unchanged ("${yearArg}" already present)`
+  );
+  console.log(
+    currentYearChanged
+      ? `  currentYear  "${previousCurrentYear}" → "${config.currentYear}" (derived from ${today})`
+      : `  currentYear  unchanged ("${config.currentYear}", derived from ${today})`
+  );
+  console.log(`  calendarName unchanged ("${config.calendarName}")`);
 
   console.log(`
 Next steps:
