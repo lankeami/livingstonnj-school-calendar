@@ -19,7 +19,9 @@ There are no tests. The build is the verification step — if `npm run build` su
 
 Three-layer pipeline:
 
-1. **`config.json`** — declares `currentYear` (e.g. `"2026-2027"`). This is the only file to change when rolling over to a new year (or use `npm run new-year`).
+1. **`config.json`** — declares `activeYears` (the years the build turns into calendars) and `currentYear` (the school year in session). **`activeYears` is what drives the build** — `src/build.ts` iterates it, so a year absent from it produces no `.ics` no matter what else is configured; `currentYear` is only its fallback when `activeYears` is missing entirely.
+
+   Do not roll a year over by hand — run `npm run new-year -- YYYY-YYYY`, which adds the year to `activeYears`, derives `currentYear` from today's date (a `YYYY-YYYY` school year starts July 1 of `YYYY`; `--today YYYY-MM-DD` overrides it for testing), and leaves `calendarName` alone. `calendarName` is operator-owned: it becomes `X-WR-CALNAME` in `latest.ics`, which is the subscription's display name in every subscriber's calendar app, and that feed merges *all* `activeYears`, so no single year's name would be correct there.
 
 2. **`data/YYYY-YYYY.json`** — hand-edited source of truth. Events use a discriminated union: single-day events have `"date"`, multi-day events have `"startDate"` + `"endDate"` (both inclusive). The TypeScript types in `src/types.ts` (`isSingleDay` / `isMultiDay` type guards) reflect this exactly.
 
@@ -39,7 +41,10 @@ UIDs are deterministic: `{title-slug}-{start-date}@livingston-schools`. This pre
 ```bash
 npm run new-year -- 2027-2028
 # → creates data/2027-2028.json with NJ state holidays pre-filled
-# → updates config.json currentYear to "2027-2028"
+# → adds "2027-2028" to config.json activeYears (in order, idempotent)
+# → sets config.json currentYear from today's date, not from the year argument
+#   (so scaffolding next year's calendar early does not retire the year in session)
+# → leaves calendarName untouched
 # Edit data/2027-2028.json with district events from the PDF
 npm run build
 git add -A && git commit -m "Add 2027-2028 school calendar"

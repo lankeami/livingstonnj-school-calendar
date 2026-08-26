@@ -135,9 +135,11 @@ If the user provides corrections, apply them to the event list first, then write
 
 ### 7. Update `config.json`
 
-- Add the year to `activeYears` if not already present (append in chronological order).
-- If this year comes after `currentYear` chronologically, update `currentYear` to this year and update `calendarName` to `"Livingston Schools YYYY-YYYY"`.
-- Otherwise leave `currentYear` unchanged.
+- Add the year to `activeYears` if not already present, keeping the list in chronological order. **This is the field that drives the build** — `build.ts` iterates `activeYears`, so a year missing from it is never turned into an `.ics`.
+- Set `currentYear` from today's date, not from the year you just parsed: a `YYYY-YYYY` school year runs from July 1 of `YYYY`, so anything from July onward is `YYYY-(YYYY+1)` and January–June is `(YYYY-1)-YYYY`. Parsing next year's calendar ahead of time must leave `currentYear` on the year actually in session. In practice `currentYear` usually stays as it is — change it only when the date-derived year differs from what's in the file.
+- Leave every other config field alone. In particular **never rewrite the calendar's display name**: it labels the merged `latest.ics` feed in every subscriber's calendar app, that feed spans several years so no single year's name would be correct, and a rename is not something the maintainer can undo on subscribers' devices.
+
+`npm run new-year -- YYYY-YYYY` applies exactly these rules (and accepts `--today YYYY-MM-DD` to override the date), so prefer it over editing `config.json` by hand.
 
 ### 8. Run the build
 
