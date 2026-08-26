@@ -1,4 +1,4 @@
-.PHONY: help local clean build serve fetch-calendars list-calendars
+.PHONY: help local clean build test serve fetch-calendars list-calendars lookahead
 
 .DEFAULT_GOAL := help
 
@@ -17,6 +17,12 @@ clean: ## Remove build artifacts
 
 build: ## Compile TypeScript and generate docs/
 	npm run build
+
+test: ## Run the lookahead date tests (node:test, no framework dependency)
+	@npm test --silent
+
+lookahead: ## Show days off in the month two months ahead (MONTH=YYYY-MM to override)
+	@npm run lookahead --silent -- $(MONTH)
 
 list-calendars: ## List academic calendar PDFs published by the district
 	@bash scripts/fetch-calendars.sh --list
