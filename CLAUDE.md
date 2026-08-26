@@ -10,10 +10,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 npm run build        # compile TypeScript + generate docs/ output files
 npm run typecheck    # type-check without emitting
+npm run test         # node:test over compiled dist/ (no test framework dependency)
 npm run new-year -- YYYY-YYYY  # scaffold a new school year
+npm run lookahead    # days off in the calendar month two months ahead
 ```
 
-There are no tests. The build is the verification step — if `npm run build` succeeds, the output is correct.
+The only tested code is `src/lookahead.ts` — pure date arithmetic, where a build cannot
+catch an off-by-one month. Everything else is verified by the build: if `npm run build`
+succeeds, the generated output is correct. Do not add a test framework dependency;
+`npm test` deliberately uses node's built-in runner.
 
 ## Architecture
 
@@ -35,6 +40,26 @@ Three-layer pipeline:
 `DTEND` for all-day events is **exclusive** per RFC 5545. `src/generate-ics.ts` adds one day to every `endDate` before writing to ICS. The `data/` JSON always stores **inclusive** dates. Do not change this behavior — calendar apps (Google, Apple, Outlook) depend on it.
 
 UIDs are deterministic: `{title-slug}-{start-date}@livingston-schools`. This prevents duplicate events on re-import.
+
+### Days-off lookahead
+
+`src/lookahead.ts` (`npm run lookahead`, surfaced as the `/days-off-lookahead` skill)
+reports the days off in the calendar month **two months ahead** — the lead time a
+time-off request or a camp booking actually needs.
+
+It reads `config.json` and `data/YYYY-YYYY.json` — the source of truth — **never
+`docs/`**, which is generated and would go stale between builds. It writes nothing.
+
+The exported functions (`resolveTargetMonth`, `yearsCoveringMonth`, `daysOffForMonth`)
+are pure and covered by `src/lookahead.test.ts`; only the CLI at the bottom of the file
+touches the filesystem. Two behaviors are load-bearing and have tests guarding them:
+weekend days inside a multi-day break are excluded from the coverage count, and a month
+covered by two `activeYears` files (August, at the school-year seam) de-duplicates
+events rather than counting them twice.
+
+`resolveCurrentSchoolYear` from `src/school-year.ts` is imported, not reimplemented —
+the July 1 rule already exists in two places (there and `scripts/fetch-calendars.sh`)
+and does not need a third.
 
 ### Annual rollover
 
