@@ -1,4 +1,4 @@
-.PHONY: help local clean build serve
+.PHONY: help local clean build serve fetch-calendars list-calendars
 
 .DEFAULT_GOAL := help
 
@@ -17,6 +17,12 @@ clean: ## Remove build artifacts
 
 build: ## Compile TypeScript and generate docs/
 	npm run build
+
+list-calendars: ## List academic calendar PDFs published by the district
+	@bash scripts/fetch-calendars.sh --list
+
+fetch-calendars: ## Download current + next year calendar PDFs into .calendar-cache/
+	@bash scripts/fetch-calendars.sh --fetch
 
 serve: ## Start a local server on the next available port
 	@port=$$(python3 -c 'import socket; s=socket.socket(); s.bind(("",0)); print(s.getsockname()[1]); s.close()'); \
