@@ -82,12 +82,30 @@ pdftotext -layout .calendar-cache/2027-2028_academic_calendar.pdf -
 
 This renders the annotations as readable text (`1 - First Day for Students`,
 `10-13 - Spring Recess, Schools Closed`) and is the reliable source for **event names and
-day numbers**. Then also open the PDF with the Read tool, which handles PDFs natively, to
-confirm the **visual grid** — shading, legend, and which month a stray annotation belongs to.
-The text layout interleaves two columns of months, so column confusion is the most likely
-parsing error; the visual check is what catches it.
+day numbers**.
 
-If `pdftotext` is not installed, fall back to the Read tool alone and say so.
+The text layout interleaves two columns of months, so attributing an annotation to the wrong
+month is the likeliest parsing error. Verify with both of these:
+
+1. **The `N Student Days` cross-check - always do this; it is the strongest check.** Every
+   closure shifts its month's count, so agreeing with all the printed per-month totals
+   confirms each closure date independently of how you read the annotation. Read each month's
+   printed total off the calendar and run:
+
+   ```bash
+   scripts/check-student-days.py data/2027-2028.json 2027-09-01 2028-06-21        2027-09=21 2027-10=18 2027-11=18 2027-12=17 2028-01=19        2028-02=16 2028-03=23 2028-04=15 2028-05=22 2028-06=14
+   ```
+
+   It exits non-zero and names the mismatched months. A single wrong date shows up as one
+   mismatched month. Also check the sum against the calendar's own "This calendar allows for:
+   N Student Days" footnote. Do not write the data file until this passes.
+2. **A visual pass, when the tooling allows it.** Opening the PDF with the Read tool requires
+   `pdftoppm` (poppler-utils); ImageMagick needs Ghostscript. If neither is installed the page
+   cannot be rendered - say so plainly and rely on the Student Days check, rather than
+   claiming a visual confirmation you did not actually make.
+
+If `pdftotext` is missing too, stop and report it. Guessing at a calendar that tells parents
+when school is closed is not an acceptable fallback.
 
 Reading notes specific to these PDFs:
 

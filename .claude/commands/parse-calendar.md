@@ -32,12 +32,14 @@ pdftotext -layout path/to/calendar.pdf -
 
 This renders every annotation as readable text (`1 - First Day for Students`,
 `10-13 - Spring Recess, Schools Closed`) and is the reliable source for **event names and day
-numbers**. Then also open the PDF with the Read tool, which handles PDFs natively, to confirm
-the **visual grid** — shading, legend, and which month each annotation belongs to. These
-calendars lay out two columns of months side by side, so the extracted text interleaves them;
-column confusion is the most likely parsing error and the visual pass is what catches it.
+numbers**.
 
-If `pdftotext` is unavailable, use the Read tool alone and note that in your summary.
+These calendars lay out two columns of months side by side, so the extracted text interleaves
+them, and attributing an annotation to the wrong month is the likeliest error. Always
+reconcile against the per-month `N Student Days` totals (noted in the checklist below) - that
+catches column confusion without needing to see the page. A visual pass with the Read tool is
+a useful second check but requires `pdftoppm` (poppler-utils); if it is not installed, say so
+rather than implying you confirmed the layout visually.
 
 Then work through the calendar month by month â€” typically September through August for a school year, but follow whatever months appear in the image.
 
