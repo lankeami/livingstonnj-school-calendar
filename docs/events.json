@@ -1,7 +1,7 @@
 {
   "schoolYear": "2025-2026 + 2026-2027 + 2027-2028",
-  "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-26T16:47:10.070Z",
+  "lastUpdated": "2026-08-28",
+  "generatedAt": "2026-08-28T02:19:40.240Z",
   "events": [
     {
       "title": "Professional Development Days - No Students",
@@ -245,6 +245,13 @@
       "allDay": true
     },
     {
+      "title": "Independence Day Observed - District Closed",
+      "type": "holiday",
+      "start": "2026-07-03",
+      "end": "2026-07-03",
+      "allDay": true
+    },
+    {
       "title": "Professional Development Days",
       "type": "no-school",
       "start": "2026-08-26",
@@ -311,8 +318,8 @@
     {
       "title": "Early Dismissal for All",
       "type": "early-dismissal",
-      "start": "2026-11-11",
-      "end": "2026-11-11",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
       "allDay": true
     },
     {
@@ -390,7 +397,7 @@
     {
       "title": "Parent/Teacher Conferences - Early Dismissal Elem",
       "type": "early-dismissal",
-      "start": "2027-03-01",
+      "start": "2027-03-03",
       "end": "2027-03-05",
       "allDay": true
     },
