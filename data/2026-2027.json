@@ -1,7 +1,8 @@
 {
   "schoolYear": "2026-2027",
-  "lastUpdated": "2026-03-12",
+  "lastUpdated": "2026-08-28",
   "events": [
+    { "title": "Independence Day Observed - District Closed", "date": "2026-07-03", "type": "holiday", "allDay": true },
     { "title": "Professional Development Days", "startDate": "2026-08-26", "endDate": "2026-08-27", "type": "no-school", "allDay": true },
     { "title": "First Day for Students", "date": "2026-08-31", "type": "first-day", "allDay": true },
     { "title": "Labor Day - Early Dismissal", "date": "2026-09-04", "type": "early-dismissal", "allDay": true },
@@ -11,7 +12,7 @@
     { "title": "Columbus Day - No School for Students", "date": "2026-10-12", "type": "no-school", "allDay": true },
     { "title": "Parent/Teacher Conferences - Early Dismissal Elem", "startDate": "2026-11-02", "endDate": "2026-11-04", "type": "early-dismissal", "allDay": true },
     { "title": "NJEA Convention - No School", "startDate": "2026-11-05", "endDate": "2026-11-06", "type": "no-school", "allDay": true },
-    { "title": "Early Dismissal for All", "date": "2026-11-11", "type": "early-dismissal", "allDay": true },
+    { "title": "Early Dismissal for All", "date": "2026-11-25", "type": "early-dismissal", "allDay": true },
     { "title": "Thanksgiving Recess - District Closed", "startDate": "2026-11-26", "endDate": "2026-11-27", "type": "break", "allDay": true },
     { "title": "Delayed Opening for Students/Staff PD", "date": "2026-11-30", "type": "school", "allDay": true, "description": "Delayed opening" },
     { "title": "Early Dismissal for All", "date": "2026-12-23", "type": "early-dismissal", "allDay": true },
@@ -22,7 +23,7 @@
     { "title": "Early Dismissal LHS Only - Semester Chg", "date": "2027-01-25", "type": "early-dismissal", "allDay": true },
     { "title": "Presidents Day - District Closed", "date": "2027-02-15", "type": "holiday", "allDay": true },
     { "title": "February Break - Schools Closed", "startDate": "2027-02-16", "endDate": "2027-02-19", "type": "break", "allDay": true },
-    { "title": "Parent/Teacher Conferences - Early Dismissal Elem", "startDate": "2027-03-01", "endDate": "2027-03-05", "type": "early-dismissal", "allDay": true },
+    { "title": "Parent/Teacher Conferences - Early Dismissal Elem", "startDate": "2027-03-03", "endDate": "2027-03-05", "type": "early-dismissal", "allDay": true },
     { "title": "Early Dismissal for Students/Staff PD", "date": "2027-03-09", "type": "early-dismissal", "allDay": true },
     { "title": "EID - District Closed", "date": "2027-03-10", "type": "holiday", "allDay": true },
     { "title": "Good Friday - District Closed", "date": "2027-03-26", "type": "holiday", "allDay": true },
