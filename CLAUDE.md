@@ -8,12 +8,30 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Commands
 
 ```bash
-npm run build        # compile TypeScript + generate docs/ output files
-npm run typecheck    # type-check without emitting
+npm run build                  # compile TypeScript + generate docs/ output files
+npm run typecheck              # type-check without emitting
 npm run new-year -- YYYY-YYYY  # scaffold a new school year
+npm test                       # run tests (src/*.test.ts compiled + executed via node:test)
+npm run fetch-school-events    # fetch per-school events → data/school-events/<year>.json (cached)
+./scripts/fetch-school-events.sh  # thin wrapper for the above
 ```
 
-There are no tests. The build is the verification step — if `npm run build` succeeds, the output is correct.
+The build is the verification step — if `npm run build` succeeds, the output is correct. Tests additionally guard the school-event pipeline and the `latest.ics` golden file.
+
+## Data sources
+
+**District calendar (closures, PD days, first/last day):** hand-edited `data/YYYY-YYYY.json` — source of truth, never overridden by school feeds.
+
+**Per-school events (concerts, Back to School Night, etc.):** district JSON API — unauthenticated, read-only.
+- Endpoint: `https://www.livingston.org/api/calendars/145838/events`
+- `start_date` and `end_date` are **required** query params (shorter `start`/`end` return HTTP 400)
+- `feed_ids[]` is accepted but **ignored** by the server — filtering must happen client-side
+- Public Google `.ics` URLs for individual feeds return **HTTP 404** — the JSON API is the only ingestion path
+- Feed 27083 (LPS District Calendar) restates the PDF and must be excluded; only the 9 school feeds in `FEED_MAP` are ingested
+- School attribution comes from `feed_id` via `FEED_MAP` in `src/school-events.ts` — never from the event title prefix
+- `data/school-events/YYYY-YYYY.json` is **generated** (run `npm run fetch-school-events`), unlike the hand-edited `data/YYYY-YYYY.json`
+- Re-running fetch is a no-op if the file exists; delete it to force a refresh
+- Per-school subscribe URLs follow the pattern: `webcal://<siteUrl>/calendars/<school-slug>-YYYY-YYYY.ics`
 
 ## Architecture
 

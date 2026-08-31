@@ -1,7 +1,7 @@
 {
   "schoolYear": "2025-2026 + 2026-2027",
-  "lastUpdated": "2026-03-22",
-  "generatedAt": "2026-03-22T19:32:56.679Z",
+  "lastUpdated": "2026-08-31",
+  "generatedAt": "2026-08-31T14:19:42.641Z",
   "events": [
     {
       "title": "Professional Development Days - No Students",
@@ -245,11 +245,268 @@
       "allDay": true
     },
     {
+      "title": "HMS-Sports registration open",
+      "type": "school",
+      "start": "2026-07-15",
+      "end": "2026-07-15",
+      "allDay": true,
+      "school": "Heritage Middle"
+    },
+    {
+      "title": "BHE's Meet and Greet with our New Principal- Mrs. Williams",
+      "type": "school",
+      "start": "2026-07-20",
+      "end": "2026-07-20",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "Popsicles with the Principal",
+      "type": "school",
+      "start": "2026-07-29",
+      "end": "2026-07-29",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "RHE:  Popsicles with the Principal",
+      "type": "school",
+      "start": "2026-07-30",
+      "end": "2026-07-30",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "HMS: Registration for Sports Closes",
+      "type": "school",
+      "start": "2026-08-13",
+      "end": "2026-08-13",
+      "allDay": true,
+      "school": "Heritage Middle"
+    },
+    {
+      "title": "HIL: PTA Apparel Sale Begins",
+      "type": "school",
+      "start": "2026-08-17",
+      "end": "2026-08-17",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "CO: Welcome New Families Tour of Collins",
+      "type": "school",
+      "start": "2026-08-17",
+      "end": "2026-08-17",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "10:00"
+    },
+    {
+      "title": "BHE's Meet and Greet with our New Principal & School Tour for New Students- Mrs. Williams",
+      "type": "school",
+      "start": "2026-08-17",
+      "end": "2026-08-17",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "Popsicles with the Principal",
+      "type": "school",
+      "start": "2026-08-18",
+      "end": "2026-08-18",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "RHE:  Popsicles with the Principal",
+      "type": "school",
+      "start": "2026-08-18",
+      "end": "2026-08-18",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "CO: Welcome New Families Tour",
+      "type": "school",
+      "start": "2026-08-19",
+      "end": "2026-08-19",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "13:00"
+    },
+    {
+      "title": "Varsity Football Game vs. Pascack Valley High School @ LHS",
+      "type": "school",
+      "start": "2026-08-21",
+      "end": "2026-08-21",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "10:00"
+    },
+    {
+      "title": "MPM 6th grade student visit - locks and schedules",
+      "type": "school",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "09:00"
+    },
+    {
+      "title": "HMS: New Student Orientation (New to LPS District Only)",
+      "type": "school",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "09:00"
+    },
+    {
+      "title": "HMS: Incoming 7th Grade Walkthrough (Group 1)",
+      "type": "school",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "13:00"
+    },
+    {
+      "title": "HMS: Incoming 7th Grade Walkthrough (Group 2)",
+      "type": "school",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "13:45"
+    },
+    {
+      "title": "HMS: Incoming 7th Grade Walkthrough (Group 3)",
+      "type": "school",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "14:30"
+    },
+    {
+      "title": "Kindergarten Social",
+      "type": "school",
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "18:00"
+    },
+    {
       "title": "Professional Development Days",
       "type": "no-school",
       "start": "2026-08-26",
       "end": "2026-08-27",
       "allDay": true
+    },
+    {
+      "title": "HMS: Medication drop off",
+      "type": "school",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "allDay": true,
+      "school": "Heritage Middle"
+    },
+    {
+      "title": "BHE-Kindergarten Meet and Greet",
+      "type": "school",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "BHE-PRIDE Meet and Greet",
+      "type": "school",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "13:00"
+    },
+    {
+      "title": "RHE:  Kindergarten Orientation",
+      "type": "school",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:00"
+    },
+    {
+      "title": "MPE: Kindergarten Classroom Visits & Ice Pop Party",
+      "type": "school",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "14:00"
+    },
+    {
+      "title": "MPE: New Families Visit",
+      "type": "school",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "HIL: Kindergarten Play Date",
+      "type": "school",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "HMS: Medication drop off",
+      "type": "school",
+      "start": "2026-08-27",
+      "end": "2026-08-27",
+      "allDay": true,
+      "school": "Heritage Middle"
+    },
+    {
+      "title": "RHE:  New Family Welcome",
+      "type": "school",
+      "start": "2026-08-27",
+      "end": "2026-08-27",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "HIL: Rain Date - Kindergarten Play Date",
+      "type": "school",
+      "start": "2026-08-27",
+      "end": "2026-08-27",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "Varsity Football Game vs. Bayonne High School @ LHS",
+      "type": "school",
+      "start": "2026-08-27",
+      "end": "2026-08-27",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
     },
     {
       "title": "First Day for Students",
@@ -259,6 +516,41 @@
       "allDay": true
     },
     {
+      "title": "Close Registration for Intramurals",
+      "type": "school",
+      "start": "2026-09-01",
+      "end": "2026-09-01",
+      "allDay": true,
+      "school": "Mt. Pleasant Middle"
+    },
+    {
+      "title": "HIL: PTA Pretzel Sale & ASE Links Open",
+      "type": "school",
+      "start": "2026-09-01",
+      "end": "2026-09-01",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "HIL: PTA Meeting",
+      "type": "school",
+      "start": "2026-09-01",
+      "end": "2026-09-01",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "New Families to LHS Parent Night",
+      "type": "school",
+      "start": "2026-09-03",
+      "end": "2026-09-03",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
       "title": "Labor Day - Early Dismissal",
       "type": "early-dismissal",
       "start": "2026-09-04",
@@ -266,11 +558,322 @@
       "allDay": true
     },
     {
+      "title": "CO: 1/2 Day for Students and Staff",
+      "type": "school",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "Varsity Football Game vs. West Orange High School @ West Orange HS Stadium",
+      "type": "school",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
       "title": "Labor Day - District Closed",
       "type": "holiday",
       "start": "2026-09-07",
       "end": "2026-09-07",
       "allDay": true
+    },
+    {
+      "title": "PTA Fall Family Picnic",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "LHS Back to School Night",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting-In person",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "BHE-Registration opens for FALL Hobby Hour, Bike Clinic and Pretzels",
+      "type": "school",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "07:00"
+    },
+    {
+      "title": "PTA Fall Family Picnic Rain Date",
+      "type": "school",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "MPM Back to School Night",
+      "type": "school",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Varsity Football Game vs. Columbia High School @ LHS",
+      "type": "school",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: PTA Pretzel Sale Link Closes",
+      "type": "school",
+      "start": "2026-09-11",
+      "end": "2026-09-11",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "RHE:  HSA Meeting (Side Blacktop)",
+      "type": "school",
+      "start": "2026-09-11",
+      "end": "2026-09-11",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "08:30"
+    },
+    {
+      "title": "F.I.R.S.T Robotics Kickoff Event",
+      "type": "school",
+      "start": "2026-09-12",
+      "end": "2026-09-12",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "06:00"
+    },
+    {
+      "title": "HIL: ASE Link Closes",
+      "type": "school",
+      "start": "2026-09-14",
+      "end": "2026-09-14",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "PTA Meeting",
+      "type": "school",
+      "start": "2026-09-14",
+      "end": "2026-09-14",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE: New Parent Meet and Greet",
+      "type": "school",
+      "start": "2026-09-14",
+      "end": "2026-09-14",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE: General PTO meeting",
+      "type": "school",
+      "start": "2026-09-14",
+      "end": "2026-09-14",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-09-15",
+      "end": "2026-09-15",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "BHE-HSA Meeting",
+      "type": "school",
+      "start": "2026-09-15",
+      "end": "2026-09-15",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "MPM Picture Day",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": true,
+      "school": "Mt. Pleasant Middle"
+    },
+    {
+      "title": "HMS: School Picture Day",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": true,
+      "school": "Heritage Middle"
+    },
+    {
+      "title": "MPE: Picture Day K-2",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "BHE:  Back-to-School Night",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Monmouth Court BTSN",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "MPE: Picture Day grades 3-5",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "RHE:  Welcome Back Picnic/Meet the Principal",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "16:30"
+    },
+    {
+      "title": "Collins PTO Meeting - Chairs and Class Parents",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HAR Back to School Night",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "18:45"
+    },
+    {
+      "title": "HIL: Back to School Night",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:45"
+    },
+    {
+      "title": "MPE:  Back-to-School Night",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: PTA Apparel Sale Ends",
+      "type": "school",
+      "start": "2026-09-18",
+      "end": "2026-09-18",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "BHE-Back to School Picnic",
+      "type": "school",
+      "start": "2026-09-18",
+      "end": "2026-09-18",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "Varsity Football Game vs. Montclair High School @ LHS",
+      "type": "school",
+      "start": "2026-09-18",
+      "end": "2026-09-18",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
     },
     {
       "title": "Yom Kippur - District Closed",
@@ -288,11 +891,644 @@
       "description": "Delayed opening"
     },
     {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPE: School Picnic",
+      "type": "school",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "LHS Post Secondary Transition for Students with Learning Disabilities via Zoom",
+      "type": "school",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HMS: Back to School Night",
+      "type": "school",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS 11th Grade Post Secondary Planning Night: The Search Process via Zoom",
+      "type": "school",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  Back to School Night (Time TBD)",
+      "type": "school",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "Collins Back to School Night",
+      "type": "school",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Varsity Football Game vs. Morristown High School @ Morristown High School Stadium",
+      "type": "school",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "RHE:  Car Wash (Riker Hill Parking Lot.  Time TBD)",
+      "type": "school",
+      "start": "2026-09-26",
+      "end": "2026-09-26",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "RHE:  Car Wash (Rain Date. Time TBD)",
+      "type": "school",
+      "start": "2026-09-27",
+      "end": "2026-09-27",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "BHE-Fall Bike Clinic",
+      "type": "school",
+      "start": "2026-09-27",
+      "end": "2026-09-27",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "10:00"
+    },
+    {
+      "title": "HIL: Fall ASE Begins",
+      "type": "school",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "MPE School Picnicnic Rain Date",
+      "type": "school",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "BHE- Hobby Hour Begins!",
+      "type": "school",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "COL: Fall Fest",
+      "type": "school",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "COL:  Fall Fest Rain Date",
+      "type": "school",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "HIL: PTA's Miss Chocolate Fundraiser Begins",
+      "type": "school",
+      "start": "2026-10-01",
+      "end": "2026-10-01",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "HIL: PTA's Outdoor Movie Night",
+      "type": "school",
+      "start": "2026-10-02",
+      "end": "2026-10-02",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "Varsity Football Game vs. East Orange Campus High School @ East Orange - Paul Robeson Stadium",
+      "type": "school",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "13:00"
+    },
+    {
+      "title": "BHE-Kinder Color War (HSA Event)",
+      "type": "school",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:30"
+    },
+    {
+      "title": "BHE-Fall Bike Clinic",
+      "type": "school",
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "10:00"
+    },
+    {
+      "title": "BHE- Picture Day!",
+      "type": "school",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "RHE:  Picture Day (Small Gym)",
+      "type": "school",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "LHS Rho Kappa Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HAR: PTA Meeting",
+      "type": "school",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HMS: Club Fair",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": true,
+      "school": "Heritage Middle"
+    },
+    {
+      "title": "MPE: Book Fair",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "MPE: Milk & Bookies",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: PTA Meeting",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE: Walk, Bike, Roll to School Day",
+      "type": "school",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "MPE: Book Fair",
+      "type": "school",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "HIL: Back to School Pep Rally",
+      "type": "school",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "RHE:  Fall Bake Sale",
+      "type": "school",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:30"
+    },
+    {
+      "title": "HIL: PTA's Outdoor Movie Night RAIN DATE",
+      "type": "school",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "Varsity Football Game vs. Barringer High School @ LHS",
+      "type": "school",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
       "title": "Columbus Day - No School for Students",
       "type": "no-school",
       "start": "2026-10-12",
       "end": "2026-10-12",
       "allDay": true
+    },
+    {
+      "title": "HIL: Picture Day",
+      "type": "school",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "COL: Nighttime Book Fair Event",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "COL:  PTO Meeting In Person",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Tri-M Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HSA Movie Night/Event",
+      "type": "school",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: PTA's Miss Chocolate Fundraiser Ends",
+      "type": "school",
+      "start": "2026-10-16",
+      "end": "2026-10-16",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "Varsity Football Game vs. Passaic County Tech Institute @ LHS",
+      "type": "school",
+      "start": "2026-10-16",
+      "end": "2026-10-16",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  HSA Meeting (via zoom)",
+      "type": "school",
+      "start": "2026-10-19",
+      "end": "2026-10-19",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "19:15"
+    },
+    {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPE: Holiday Boutique",
+      "type": "school",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "Varsity Football Game vs. Bloomfield High School @ Bloomfield Foley Field Stadium",
+      "type": "school",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HMS: A Parent's Guide to Disordered Gambling - Virtual",
+      "type": "school",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS: A Parent's Guide to Disordered Gambling - Virtual",
+      "type": "school",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE: Walkathon",
+      "type": "school",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "LHS Inner Circle Cabaret Show",
+      "type": "school",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE-Trunk Or Treat",
+      "type": "school",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "13:00"
+    },
+    {
+      "title": "MPE: Walkathon Raindate",
+      "type": "school",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "Army Jazz Ambassador Tour",
+      "type": "school",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  Fall Book Fair (Small Gym)",
+      "type": "school",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "08:45"
+    },
+    {
+      "title": "LHS Fall National Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "15:15"
+    },
+    {
+      "title": "HAR: PTA Truck or Treat",
+      "type": "school",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "RHE:  Trunk or Treat/Fall Festival (RHE Parking Lot. Time TBD)",
+      "type": "school",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "HAR: PTA Truck or Treat Rain Date",
+      "type": "school",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "RHE:  Halloween Parade/Class Parties",
+      "type": "school",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "MPE: Halloween Parade",
+      "type": "school",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "HIL: Halloween Parade",
+      "type": "school",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "13:00"
+    },
+    {
+      "title": "COL:  Halloween Parade",
+      "type": "school",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "14:00"
+    },
+    {
+      "title": "COL: Trunk or Treat",
+      "type": "school",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "16:00"
     },
     {
       "title": "Parent/Teacher Conferences - Early Dismissal Elem",
@@ -302,6 +1538,24 @@
       "allDay": true
     },
     {
+      "title": "District String Day",
+      "type": "school",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:00"
+    },
+    {
+      "title": "District String Day Snow Date",
+      "type": "school",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:00"
+    },
+    {
       "title": "NJEA Convention - No School",
       "type": "no-school",
       "start": "2026-11-05",
@@ -309,11 +1563,333 @@
       "allDay": true
     },
     {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: PTA meeting",
+      "type": "school",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
       "title": "Early Dismissal for All",
       "type": "early-dismissal",
       "start": "2026-11-11",
       "end": "2026-11-11",
       "allDay": true
+    },
+    {
+      "title": "Picture Re-Takes",
+      "type": "school",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:45"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "LHS World Languages Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting-In person",
+      "type": "school",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HMS Fall Drama",
+      "type": "school",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HMS Fall Drama",
+      "type": "school",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "14:00"
+    },
+    {
+      "title": "HMS Fall Drama",
+      "type": "school",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Picture Make-Up Day & Group Photos",
+      "type": "school",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "HAR PTA Meeting",
+      "type": "school",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HMS Picture Retakes",
+      "type": "school",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "allDay": true,
+      "school": "Heritage Middle"
+    },
+    {
+      "title": "BHE-Book Fair!",
+      "type": "school",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "LHS Senior/Sensory Fall Show",
+      "type": "school",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE-Book Fair",
+      "type": "school",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "09:00"
+    },
+    {
+      "title": "COL: PTO Meeting via Google Meet",
+      "type": "school",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Fall Show #1",
+      "type": "school",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  HSA Meeting (in person)",
+      "type": "school",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "09:15"
+    },
+    {
+      "title": "LHS Fall Show #2",
+      "type": "school",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Fall Show #3",
+      "type": "school",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "14:00"
+    },
+    {
+      "title": "LHS Fall Show #4",
+      "type": "school",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: PTA's Winter Pretzel Sale Link Opens",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "BHE: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "COL: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HAR: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPM: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HMS: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE: Grades 6-8 Math Information Night for Parents",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Author Visit (Lisa Greenwald)",
+      "type": "school",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
     },
     {
       "title": "Thanksgiving Recess - District Closed",
@@ -329,6 +1905,348 @@
       "end": "2026-11-30",
       "allDay": true,
       "description": "Delayed opening"
+    },
+    {
+      "title": "Open Registration for Intramurals - Winter",
+      "type": "school",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "allDay": true,
+      "school": "Mt. Pleasant Middle"
+    },
+    {
+      "title": "HIL: PTA Coat Drive Begins",
+      "type": "school",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "BHE-Fall Picture Day Retakes",
+      "type": "school",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "HIL: Winter ASE Link Opens",
+      "type": "school",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "MPE Grades K-2 Holiday Gift Shop",
+      "type": "school",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "LHS Band Concert",
+      "type": "school",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE PTA General Mtg-Zoom",
+      "type": "school",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "MPE Grades 3-5 Holiday Gift Shop",
+      "type": "school",
+      "start": "2026-12-03",
+      "end": "2026-12-03",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "RHE:  Holiday Boutique",
+      "type": "school",
+      "start": "2026-12-03",
+      "end": "2026-12-03",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "08:45"
+    },
+    {
+      "title": "LHS Band Concert  Snow Date",
+      "type": "school",
+      "start": "2026-12-03",
+      "end": "2026-12-03",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Winter Pretzel Sale Ends",
+      "type": "school",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "LHS Playdate",
+      "type": "school",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LHS Academic Team Tournament",
+      "type": "school",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "07:00"
+    },
+    {
+      "title": "RHE:  Spelling Bee (1st, 2nd, and 3rd Rounds. Small Gym)",
+      "type": "school",
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "HAR: PTA Meeting",
+      "type": "school",
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "COGAT Testing",
+      "type": "school",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:30"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "Heritage Chorus Concert",
+      "type": "school",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting",
+      "type": "school",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "RHE:  Spelling Bee (Snow Date)",
+      "type": "school",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "MPM Fall Drama -  7:00 PM",
+      "type": "school",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Heritage Chorus Concert  Snow Date",
+      "type": "school",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPM Fall Drama -  7:00 PM (SNOW DATE)",
+      "type": "school",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  Class Holiday Parties",
+      "type": "school",
+      "start": "2026-12-14",
+      "end": "2026-12-18",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "Heritage Orchestra Concert",
+      "type": "school",
+      "start": "2026-12-14",
+      "end": "2026-12-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: PTA Coat Drive Ends",
+      "type": "school",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "Heritage Orchestra Concert  Snow Date",
+      "type": "school",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Winter ASE Link Closes",
+      "type": "school",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPM Spelling Bee - Round 1",
+      "type": "school",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "15:30"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "LHS Chorus/Orchestra Concert",
+      "type": "school",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "COL:  PTO Meeting via Google Meet",
+      "type": "school",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Chorus/Orchestra Concert  Snow Date",
+      "type": "school",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Close Registration for Intramurals",
+      "type": "school",
+      "start": "2026-12-22",
+      "end": "2026-12-22",
+      "allDay": true,
+      "school": "Mt. Pleasant Middle"
     },
     {
       "title": "Early Dismissal for All",
@@ -352,6 +2270,222 @@
       "allDay": true
     },
     {
+      "title": "HIL: Winter ASE Begins",
+      "type": "school",
+      "start": "2027-01-04",
+      "end": "2027-01-04",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:50"
+    },
+    {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-01-05",
+      "end": "2027-01-05",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: PTA meeting",
+      "type": "school",
+      "start": "2027-01-05",
+      "end": "2027-01-05",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-01-06",
+      "end": "2027-01-06",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPM Orchestra/Chorus Concert",
+      "type": "school",
+      "start": "2027-01-06",
+      "end": "2027-01-06",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPMS Orchestra/Chorus  Concert  Snow Date",
+      "type": "school",
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "RHE:  HSA Meeting (in person)",
+      "type": "school",
+      "start": "2027-01-08",
+      "end": "2027-01-08",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "09:15"
+    },
+    {
+      "title": "HAR: PTA Game Night",
+      "type": "school",
+      "start": "2027-01-08",
+      "end": "2027-01-08",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "PTA Meeting",
+      "type": "school",
+      "start": "2027-01-11",
+      "end": "2027-01-11",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPMS Band Concert",
+      "type": "school",
+      "start": "2027-01-11",
+      "end": "2027-01-11",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "The Impact of Social Media Algorithms and Influencers on Adolescents and Families - Virtual",
+      "type": "school",
+      "start": "2027-01-11",
+      "end": "2027-01-11",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "The Impact of Social Media Algorithms and Influencers on Adolescents and Families - Virtual",
+      "type": "school",
+      "start": "2027-01-11",
+      "end": "2027-01-11",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "District Choral Day",
+      "type": "school",
+      "start": "2027-01-12",
+      "end": "2027-01-12",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:00"
+    },
+    {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-01-12",
+      "end": "2027-01-12",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2027-01-12",
+      "end": "2027-01-12",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "COL: PTO Meeting via Google Meet",
+      "type": "school",
+      "start": "2027-01-13",
+      "end": "2027-01-13",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "13:00"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2027-01-13",
+      "end": "2027-01-13",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "MPMS Band Concert  Snow Date",
+      "type": "school",
+      "start": "2027-01-13",
+      "end": "2027-01-13",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting",
+      "type": "school",
+      "start": "2027-01-13",
+      "end": "2027-01-13",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "District Choral Day  Snow Date",
+      "type": "school",
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:00"
+    },
+    {
+      "title": "HIL: PTA's Skate Night",
+      "type": "school",
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Class of 2031 8th Grade Transition Night Presentation",
+      "type": "school",
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Class of 2031 LHS Parent Orientation Program",
+      "type": "school",
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
       "title": "MLK Jr. Day - District Closed",
       "type": "holiday",
       "start": "2027-01-18",
@@ -367,11 +2501,460 @@
       "description": "Delayed opening"
     },
     {
+      "title": "MPM Spelling Bee - Round 2",
+      "type": "school",
+      "start": "2027-01-20",
+      "end": "2027-01-20",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "15:30"
+    },
+    {
+      "title": "LHS Science Pathways Night",
+      "type": "school",
+      "start": "2027-01-20",
+      "end": "2027-01-20",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "Heritage Band Concert",
+      "type": "school",
+      "start": "2027-01-20",
+      "end": "2027-01-20",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2027-01-21",
+      "end": "2027-01-21",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "RHE:  Spelling Bee Final Round (Small Gym)",
+      "type": "school",
+      "start": "2027-01-21",
+      "end": "2027-01-21",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "COL: Family Fun Night",
+      "type": "school",
+      "start": "2027-01-21",
+      "end": "2027-01-21",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Heritage Middle School Band Concert-Snow Date",
+      "type": "school",
+      "start": "2027-01-21",
+      "end": "2027-01-21",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  Spelling Bee Final Round (Snow Date)",
+      "type": "school",
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "HIL: PTA's Science Night",
+      "type": "school",
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "17:00"
+    },
+    {
       "title": "Early Dismissal LHS Only - Semester Chg",
       "type": "early-dismissal",
       "start": "2027-01-25",
       "end": "2027-01-25",
       "allDay": true
+    },
+    {
+      "title": "Burnet Hill Concert",
+      "type": "school",
+      "start": "2027-01-25",
+      "end": "2027-01-25",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Riker Hill Concert",
+      "type": "school",
+      "start": "2027-01-25",
+      "end": "2027-01-25",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Burnet Hill Concert  Snow Date",
+      "type": "school",
+      "start": "2027-01-27",
+      "end": "2027-01-27",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "COL: Winter Concert",
+      "type": "school",
+      "start": "2027-01-27",
+      "end": "2027-01-27",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Riker Hill Concert",
+      "type": "school",
+      "start": "2027-01-27",
+      "end": "2027-01-27",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Choral Field Trip to HMS",
+      "type": "school",
+      "start": "2027-01-28",
+      "end": "2027-01-28",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "09:00"
+    },
+    {
+      "title": "Harrison Concert",
+      "type": "school",
+      "start": "2027-01-28",
+      "end": "2027-01-28",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Hillside Concert",
+      "type": "school",
+      "start": "2027-01-28",
+      "end": "2027-01-28",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Winter Improv Show",
+      "type": "school",
+      "start": "2027-01-29",
+      "end": "2027-01-29",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Harrison Concert Snow Date",
+      "type": "school",
+      "start": "2027-02-01",
+      "end": "2027-02-01",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Hillside Concert-Snow Date",
+      "type": "school",
+      "start": "2027-02-01",
+      "end": "2027-02-01",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Choral Field Trip to HMS  Snow Date",
+      "type": "school",
+      "start": "2027-02-02",
+      "end": "2027-02-02",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "09:00"
+    },
+    {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-02-02",
+      "end": "2027-02-02",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "Managing Expectations of the Junior Year via Zoom",
+      "type": "school",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "COL: Winter Concert",
+      "type": "school",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE Concert",
+      "type": "school",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "10th Grade Post Secondary Planning Night via Zoom",
+      "type": "school",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "Collins Concert Snow Date",
+      "type": "school",
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Mount Pleasant Elementary Concert Snow Date",
+      "type": "school",
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE Bingo Night",
+      "type": "school",
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  Bake Sale",
+      "type": "school",
+      "start": "2027-02-05",
+      "end": "2027-02-05",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:30"
+    },
+    {
+      "title": "Harrison Talent Show Rehearsal at MPMS, 5-8:30",
+      "type": "school",
+      "start": "2027-02-05",
+      "end": "2027-02-05",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "Harrison Talent Show 12-4 at MPMS",
+      "type": "school",
+      "start": "2027-02-07",
+      "end": "2027-02-07",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "PTA Meeting",
+      "type": "school",
+      "start": "2027-02-08",
+      "end": "2027-02-08",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Helping Your Teen Feel at Home in Their Body: What Parents Need to Know about Body Image, Diet Culture and Eating Disorders - Virtual",
+      "type": "school",
+      "start": "2027-02-08",
+      "end": "2027-02-08",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Helping Your Teen Feel at Home in Their Body: What Parents Need to Know about Body Image, Diet Culture and Eating Disorders - Virtual",
+      "type": "school",
+      "start": "2027-02-08",
+      "end": "2027-02-08",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-02-09",
+      "end": "2027-02-09",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "LHS Valentine's Day Cabaret",
+      "type": "school",
+      "start": "2027-02-09",
+      "end": "2027-02-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "COL:  PTO Meeting via Google Meet",
+      "type": "school",
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting",
+      "type": "school",
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "COL:  PTO Dance Grades K-2",
+      "type": "school",
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "16:15"
+    },
+    {
+      "title": "HIL: PTA's Valentine's Day Dance",
+      "type": "school",
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "Collins PTO Dance Grades 3-5",
+      "type": "school",
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "17:45"
+    },
+    {
+      "title": "BHE-Sweetheart Dance",
+      "type": "school",
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "RHE:  Winter Ball (Large Gym)",
+      "type": "school",
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "RHE:  Class Parties/Candy Delivery",
+      "type": "school",
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "LHS ROBOTICS Competition",
+      "type": "school",
+      "start": "2027-02-13",
+      "end": "2027-02-13",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "06:00"
     },
     {
       "title": "Presidents Day - District Closed",
@@ -388,11 +2971,176 @@
       "allDay": true
     },
     {
+      "title": "HIL: Spring Pretzel Sale Link Opens",
+      "type": "school",
+      "start": "2027-02-22",
+      "end": "2027-02-22",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "HIL: PTA's Read-A-Thon Registration Opens",
+      "type": "school",
+      "start": "2027-02-22",
+      "end": "2027-02-22",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "RHE:  HSA Meeting (via zoom)",
+      "type": "school",
+      "start": "2027-02-22",
+      "end": "2027-02-22",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "19:15"
+    },
+    {
+      "title": "HIL: PTA's Scholastic Book Fair",
+      "type": "school",
+      "start": "2027-02-24",
+      "end": "2027-02-24",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2027-02-24",
+      "end": "2027-02-24",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "HIL: PTA's Scholastic Book Fair",
+      "type": "school",
+      "start": "2027-02-25",
+      "end": "2027-02-25",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "Post Secondary Planning 101 (A First Timer’s Guide to the Post-Secondary Process)",
+      "type": "school",
+      "start": "2027-02-25",
+      "end": "2027-02-25",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
       "title": "Parent/Teacher Conferences - Early Dismissal Elem",
       "type": "early-dismissal",
       "start": "2027-03-01",
       "end": "2027-03-05",
       "allDay": true
+    },
+    {
+      "title": "Open Registration for Intramurals - Spring",
+      "type": "school",
+      "start": "2027-03-01",
+      "end": "2027-03-01",
+      "allDay": true,
+      "school": "Mt. Pleasant Middle"
+    },
+    {
+      "title": "RHE:  Read Across America Week/Read-A-Thon",
+      "type": "school",
+      "start": "2027-03-01",
+      "end": "2027-03-05",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "HIL: PTA meeting",
+      "type": "school",
+      "start": "2027-03-02",
+      "end": "2027-03-02",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "District Band Day",
+      "type": "school",
+      "start": "2027-03-03",
+      "end": "2027-03-03",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "08:00"
+    },
+    {
+      "title": "RHE:  Bingo Night (Large Gym)",
+      "type": "school",
+      "start": "2027-03-03",
+      "end": "2027-03-03",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Band Day  Snow Date",
+      "type": "school",
+      "start": "2027-03-04",
+      "end": "2027-03-04",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "08:00"
+    },
+    {
+      "title": "HIL: PTA's Read-A-Thon Ends",
+      "type": "school",
+      "start": "2027-03-05",
+      "end": "2027-03-05",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "HIL: Spring Pretzel Sale Ends",
+      "type": "school",
+      "start": "2027-03-05",
+      "end": "2027-03-05",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "LHS Senior Games",
+      "type": "school",
+      "start": "2027-03-05",
+      "end": "2027-03-05",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Jazz Band Dinner Dance",
+      "type": "school",
+      "start": "2027-03-06",
+      "end": "2027-03-06",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "17:00"
+    },
+    {
+      "title": "LHS Senior Games (Snow Date Only)",
+      "type": "school",
+      "start": "2027-03-07",
+      "end": "2027-03-07",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "12:00"
+    },
+    {
+      "title": "PTA Meeting",
+      "type": "school",
+      "start": "2027-03-08",
+      "end": "2027-03-08",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
     },
     {
       "title": "Early Dismissal for Students/Staff PD",
@@ -402,11 +3150,325 @@
       "allDay": true
     },
     {
+      "title": "BHE-Read-a-Thon",
+      "type": "school",
+      "start": "2027-03-09",
+      "end": "2027-03-09",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "09:00"
+    },
+    {
+      "title": "LHS Senior/Sensory Spring Musical",
+      "type": "school",
+      "start": "2027-03-09",
+      "end": "2027-03-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
       "title": "EID - District Closed",
       "type": "holiday",
       "start": "2027-03-10",
       "end": "2027-03-10",
       "allDay": true
+    },
+    {
+      "title": "Unsung Hero’s Presentation",
+      "type": "school",
+      "start": "2027-03-11",
+      "end": "2027-03-11",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Spring Musical #1",
+      "type": "school",
+      "start": "2027-03-11",
+      "end": "2027-03-11",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting",
+      "type": "school",
+      "start": "2027-03-11",
+      "end": "2027-03-11",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "LHS Spring Musical #2",
+      "type": "school",
+      "start": "2027-03-12",
+      "end": "2027-03-12",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Spring Musical #3",
+      "type": "school",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "14:00"
+    },
+    {
+      "title": "LHS Spring Musical #4",
+      "type": "school",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS ACL/AP Art Show Reception",
+      "type": "school",
+      "start": "2027-03-15",
+      "end": "2027-03-15",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-03-16",
+      "end": "2027-03-16",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "Collins PTO Meeting via Google Meet",
+      "type": "school",
+      "start": "2027-03-16",
+      "end": "2027-03-16",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-03-17",
+      "end": "2027-03-17",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "BHE- TREP$ Marketplace",
+      "type": "school",
+      "start": "2027-03-17",
+      "end": "2027-03-17",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2027-03-17",
+      "end": "2027-03-17",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "RHE:  Math Kangaroo (Time TBD)",
+      "type": "school",
+      "start": "2027-03-18",
+      "end": "2027-03-18",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2027-03-18",
+      "end": "2027-03-18",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-03-18",
+      "end": "2027-03-18",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "11th Grade Post Secondary Planning Night: The Application Process via Zoom",
+      "type": "school",
+      "start": "2027-03-18",
+      "end": "2027-03-18",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Academic Team Tournament",
+      "type": "school",
+      "start": "2027-03-20",
+      "end": "2027-03-20",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "07:00"
+    },
+    {
+      "title": "LHS Jazz Competition",
+      "type": "school",
+      "start": "2027-03-20",
+      "end": "2027-03-20",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "15:00"
+    },
+    {
+      "title": "LHS College Admissions Workshop via Zoom",
+      "type": "school",
+      "start": "2027-03-22",
+      "end": "2027-03-22",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: TREP$ Workshop #1",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "BHE: Science Fun Night @ MPM",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "CES: Science Fun Night @ MPM",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HAR: Science Fun Night @ MPM",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: Science Fun Night @ MPM",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "MPM: Science Fun Night",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "RHE: Science Fun Night @ MPM",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "MPE: Science Fun Night @ MPM",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Orleans Hanna Testing",
+      "type": "school",
+      "start": "2027-03-24",
+      "end": "2027-03-24",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:30"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2027-03-24",
+      "end": "2027-03-24",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "All Township Concert",
+      "type": "school",
+      "start": "2027-03-24",
+      "end": "2027-03-24",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "RHE:  Talent Show (HMS)",
+      "type": "school",
+      "start": "2027-03-25",
+      "end": "2027-03-25",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "All Township Concert",
+      "type": "school",
+      "start": "2027-03-25",
+      "end": "2027-03-25",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "18:30"
     },
     {
       "title": "Good Friday - District Closed",
@@ -416,6 +3478,389 @@
       "allDay": true
     },
     {
+      "title": "Close Registration for Intramurals",
+      "type": "school",
+      "start": "2027-03-29",
+      "end": "2027-03-29",
+      "allDay": true,
+      "school": "Mt. Pleasant Middle"
+    },
+    {
+      "title": "HIL: TREP$ Workshop #2",
+      "type": "school",
+      "start": "2027-03-30",
+      "end": "2027-03-30",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "RHE:  Spring ASE Begins",
+      "type": "school",
+      "start": "2027-03-30",
+      "end": "2027-03-30",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "RHE:  HSA Meeting (in person)",
+      "type": "school",
+      "start": "2027-03-31",
+      "end": "2027-03-31",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "09:15"
+    },
+    {
+      "title": "All Township Concert  Snow Date",
+      "type": "school",
+      "start": "2027-03-31",
+      "end": "2027-03-31",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "RHE:  HSA Bake Sale",
+      "type": "school",
+      "start": "2027-04-02",
+      "end": "2027-04-02",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:30"
+    },
+    {
+      "title": "LHS Junior Prom",
+      "type": "school",
+      "start": "2027-04-02",
+      "end": "2027-04-02",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HMS: Spring Musical",
+      "type": "school",
+      "start": "2027-04-02",
+      "end": "2027-04-02",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HMS: Spring Musical",
+      "type": "school",
+      "start": "2027-04-03",
+      "end": "2027-04-03",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "14:00"
+    },
+    {
+      "title": "HMS: Spring Musical",
+      "type": "school",
+      "start": "2027-04-03",
+      "end": "2027-04-03",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Spring ASE Link Opens",
+      "type": "school",
+      "start": "2027-04-05",
+      "end": "2027-04-05",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "LHS Multicultural Night",
+      "type": "school",
+      "start": "2027-04-05",
+      "end": "2027-04-05",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "17:00"
+    },
+    {
+      "title": "HIL: TREP$ Workshop #3",
+      "type": "school",
+      "start": "2027-04-06",
+      "end": "2027-04-06",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 3rd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-04-06",
+      "end": "2027-04-06",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-04-07",
+      "end": "2027-04-07",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "COL:  Book Fair Evening Event",
+      "type": "school",
+      "start": "2027-04-07",
+      "end": "2027-04-07",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Jazz Concert",
+      "type": "school",
+      "start": "2027-04-07",
+      "end": "2027-04-07",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "HIL: 5th Grade Young Leaders",
+      "type": "school",
+      "start": "2027-04-08",
+      "end": "2027-04-08",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "Intergenerational Dance",
+      "type": "school",
+      "start": "2027-04-08",
+      "end": "2027-04-08",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "17:00"
+    },
+    {
+      "title": "Long Island Quiz Bowl Alliance @ LHS",
+      "type": "school",
+      "start": "2027-04-10",
+      "end": "2027-04-10",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "07:00"
+    },
+    {
+      "title": "LHS Chorus Concert",
+      "type": "school",
+      "start": "2027-04-12",
+      "end": "2027-04-12",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 2nd Grade Young Leaders",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: TREP$ Workshop #$",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "GT Art Show  Reception  4-8",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "GT Art Show Reception Grades 4-8",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "GT Art Show Reception Grades 4-8",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "GT Art Show Reception Grades 4-8",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "GT Art Show Reception Grades 4-8",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "17:30"
+    },
+    {
+      "title": "GT Art Show Reception",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "17:30"
+    },
+    {
+      "title": "GT Art Show Reception Grades 4-8",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "GT Art Show Reception  Grades 4-8",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "LHS Orchestra Concert",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "COL: PTO Meeting via Google Meet",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "13:00"
+    },
+    {
+      "title": "HIL: 1st Grade Young Leaders",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: PTA's Multicultural Night",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Business Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Science National Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting-In Person",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "MPE Number Drummer Assembly",
+      "type": "school",
+      "start": "2027-04-15",
+      "end": "2027-04-15",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2027-04-15",
+      "end": "2027-04-15",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "LHS College & Career Fair",
+      "type": "school",
+      "start": "2027-04-15",
+      "end": "2027-04-15",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Spring ASE Link Closes",
+      "type": "school",
+      "start": "2027-04-16",
+      "end": "2027-04-16",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "NAHS Ice Cream Social",
+      "type": "school",
+      "start": "2027-04-16",
+      "end": "2027-04-16",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "14:45"
+    },
+    {
       "title": "Spring Recess - Schools Closed",
       "type": "break",
       "start": "2027-04-19",
@@ -423,11 +3868,1256 @@
       "allDay": true
     },
     {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2027-04-21",
+      "end": "2027-04-21",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "HIL: Spring ASE Begins",
+      "type": "school",
+      "start": "2027-04-26",
+      "end": "2027-04-26",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "Key Club Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-04-26",
+      "end": "2027-04-26",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  Spring Book Fair (Small Gym)",
+      "type": "school",
+      "start": "2027-04-27",
+      "end": "2027-04-27",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "08:45"
+    },
+    {
+      "title": "HIL: TREP$ Workshop #5",
+      "type": "school",
+      "start": "2027-04-27",
+      "end": "2027-04-27",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "LHS National Technical Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-04-27",
+      "end": "2027-04-27",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "17:45"
+    },
+    {
+      "title": "LHS Math National Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-04-27",
+      "end": "2027-04-27",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: TREP$ Marketplace",
+      "type": "school",
+      "start": "2027-04-28",
+      "end": "2027-04-28",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HMS: Multicultural Night",
+      "type": "school",
+      "start": "2027-04-28",
+      "end": "2027-04-28",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "The College Essay Program with Randy Levin via Zoom",
+      "type": "school",
+      "start": "2027-04-28",
+      "end": "2027-04-28",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "RHE:  HSA Meeting (via zoom)",
+      "type": "school",
+      "start": "2027-04-28",
+      "end": "2027-04-28",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "19:15"
+    },
+    {
+      "title": "LHS Band Concert",
+      "type": "school",
+      "start": "2027-04-29",
+      "end": "2027-04-29",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "NJSLA Testing",
+      "type": "school",
+      "start": "2027-05-03",
+      "end": "2027-05-03",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:30"
+    },
+    {
+      "title": "MPM:  5th Grade Parent Night",
+      "type": "school",
+      "start": "2027-05-03",
+      "end": "2027-05-03",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "NJSLA Testing",
+      "type": "school",
+      "start": "2027-05-04",
+      "end": "2027-05-04",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:30"
+    },
+    {
+      "title": "HIL: TREP$ Workshop #6 (Last Class)",
+      "type": "school",
+      "start": "2027-05-04",
+      "end": "2027-05-04",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: PTA meeting",
+      "type": "school",
+      "start": "2027-05-04",
+      "end": "2027-05-04",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "NJSLA Testing",
+      "type": "school",
+      "start": "2027-05-05",
+      "end": "2027-05-05",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "08:30"
+    },
+    {
+      "title": "MPMS Orchestra/Chorus Concert",
+      "type": "school",
+      "start": "2027-05-05",
+      "end": "2027-05-05",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "RHE:  Spring Plant Sale (Small Gym)",
+      "type": "school",
+      "start": "2027-05-06",
+      "end": "2027-05-06",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "09:30"
+    },
+    {
+      "title": "Heritage Spring Orchestra Concert",
+      "type": "school",
+      "start": "2027-05-06",
+      "end": "2027-05-06",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE-Spring Plant Sale",
+      "type": "school",
+      "start": "2027-05-07",
+      "end": "2027-05-07",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "Visual Performing Arts Signing Day",
+      "type": "school",
+      "start": "2027-05-07",
+      "end": "2027-05-07",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "15:00"
+    },
+    {
+      "title": "RHE:  Multi-Cultural Night Dress Rehearsal",
+      "type": "school",
+      "start": "2027-05-10",
+      "end": "2027-05-10",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "Heritage Spring Chorus Concert",
+      "type": "school",
+      "start": "2027-05-10",
+      "end": "2027-05-10",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  TREP$ Marketplace",
+      "type": "school",
+      "start": "2027-05-11",
+      "end": "2027-05-11",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "COL: Multicultural Night Rain Date",
+      "type": "school",
+      "start": "2027-05-12",
+      "end": "2027-05-12",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "MPMS Band Concert",
+      "type": "school",
+      "start": "2027-05-12",
+      "end": "2027-05-12",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting-Voting Meeting",
+      "type": "school",
+      "start": "2027-05-12",
+      "end": "2027-05-12",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "BHE- Spring Book Fair!",
+      "type": "school",
+      "start": "2027-05-13",
+      "end": "2027-05-13",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:30"
+    },
+    {
+      "title": "COL: Multicultural Night",
+      "type": "school",
+      "start": "2027-05-13",
+      "end": "2027-05-13",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: PTA's Spring Fundraiser",
+      "type": "school",
+      "start": "2027-05-13",
+      "end": "2027-05-13",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "Heritage Band Concert",
+      "type": "school",
+      "start": "2027-05-13",
+      "end": "2027-05-13",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE: PTO General Mtg-Zoom",
+      "type": "school",
+      "start": "2027-05-13",
+      "end": "2027-05-13",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "LHS Playdate",
+      "type": "school",
+      "start": "2027-05-14",
+      "end": "2027-05-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "16:00"
+    },
+    {
+      "title": "Spring Musical - Little Mermaid 7:00 PM",
+      "type": "school",
+      "start": "2027-05-14",
+      "end": "2027-05-14",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Spring Musical - Little Mermaid 2:00 PM",
+      "type": "school",
+      "start": "2027-05-15",
+      "end": "2027-05-15",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "14:00"
+    },
+    {
+      "title": "RHE:  Multi-Cultural Night",
+      "type": "school",
+      "start": "2027-05-17",
+      "end": "2027-05-17",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "BHE-Multicultural Night",
+      "type": "school",
+      "start": "2027-05-17",
+      "end": "2027-05-17",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "Inside College Admissions: Lessons Learned from 250+ Conversations with Decision Makers with John Durante",
+      "type": "school",
+      "start": "2027-05-17",
+      "end": "2027-05-17",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "LHS Chorus/Orchestra Awards Dinner (off-site location)",
+      "type": "school",
+      "start": "2027-05-18",
+      "end": "2027-05-18",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "MPE: Multicultural Night",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "District Art Show",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "MPM HSA Meeting",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "COL: Field Day - Rain Date",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "COL:  5th Grade Sports Day Parent Invited - Rain Date",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "12:30"
+    },
+    {
+      "title": "BHE-Bake Sale",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "HIL: PTA's Spring Carnival",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "15:00"
+    },
+    {
+      "title": "Multicultural Night",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "17:00"
+    },
+    {
+      "title": "MPE Rain Date Multicultural Night",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "17:30"
+    },
+    {
+      "title": "Riker Hill GT Music Showcase",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "COL:  PTO Meeting via Google Meet",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Inner Circle Show #1",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "COL:  Field Day",
+      "type": "school",
+      "start": "2027-05-21",
+      "end": "2027-05-21",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "COL:  5th Grade Sports Day Parent Invited",
+      "type": "school",
+      "start": "2027-05-21",
+      "end": "2027-05-21",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "12:30"
+    },
+    {
+      "title": "HMS: School Dance",
+      "type": "school",
+      "start": "2027-05-21",
+      "end": "2027-05-21",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "18:00"
+    },
+    {
+      "title": "LHS Inner Circle Show #2",
+      "type": "school",
+      "start": "2027-05-21",
+      "end": "2027-05-21",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Burnet Hill Concert",
+      "type": "school",
+      "start": "2027-05-24",
+      "end": "2027-05-24",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Riker Hill Concert",
+      "type": "school",
+      "start": "2027-05-24",
+      "end": "2027-05-24",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Collins Spring Fair - Rain Date",
+      "type": "school",
+      "start": "2027-05-25",
+      "end": "2027-05-25",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "RHE:  HSA Meeting (in person)",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "09:15"
+    },
+    {
+      "title": "LHS Annual Science Research Symposium",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "Collins Concert",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE Concert",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE-5th Grade Class Trip!",
+      "type": "school",
+      "start": "2027-05-27",
+      "end": "2027-05-27",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
+    },
+    {
+      "title": "BHE-Spring Fair!",
+      "type": "school",
+      "start": "2027-05-27",
+      "end": "2027-05-27",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "Collins Spring Fair",
+      "type": "school",
+      "start": "2027-05-27",
+      "end": "2027-05-27",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "Harrison Concert",
+      "type": "school",
+      "start": "2027-05-27",
+      "end": "2027-05-27",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "Hillside Concert",
+      "type": "school",
+      "start": "2027-05-27",
+      "end": "2027-05-27",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "RHE:  Champions Day/Volleyball Game",
+      "type": "school",
+      "start": "2027-05-28",
+      "end": "2027-05-28",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
       "title": "Memorial Day - District Closed",
       "type": "holiday",
       "start": "2027-05-31",
       "end": "2027-05-31",
       "allDay": true
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "GT Art and Music Testing",
+      "type": "school",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "MPE: GT ART and MUSIC Testing",
+      "type": "school",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "07:15"
+    },
+    {
+      "title": "LHS Band Senior Awards Dinner",
+      "type": "school",
+      "start": "2027-06-01",
+      "end": "2027-06-01",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: PTA meeting",
+      "type": "school",
+      "start": "2027-06-01",
+      "end": "2027-06-01",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: 5th Grade Boat Trip",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "COL: Instrumental Demos ( Coll-RH)",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "09:30"
+    },
+    {
+      "title": "Instrumental Demos ( Coll-RH)",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "09:30"
+    },
+    {
+      "title": "MPE: Gr 5 MPM Visit at MPM",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "13:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "MPE Fair",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "LEA Retirement Dinner",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "16:00"
+    },
+    {
+      "title": "Instrumental Demos ( BH-Harr)",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "09:30"
+    },
+    {
+      "title": "Instrumental Demos ( BH-HARR)",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": false,
+      "school": "Harrison Elementary",
+      "startTime": "09:30"
+    },
+    {
+      "title": "MPE: Fair Rain date",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "16:00"
+    },
+    {
+      "title": "MPM (HSA) BASH 6:30 - 8:00 PM",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "HIL: 5th Grade Musical",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "19:00"
+    },
+    {
+      "title": "LHS Senior Scholarship Night",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE & Hillside: Instrumental Demos",
+      "type": "school",
+      "start": "2027-06-04",
+      "end": "2027-06-04",
+      "allDay": true,
+      "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "Instrumental Demos ( MPE-HILL)",
+      "type": "school",
+      "start": "2027-06-04",
+      "end": "2027-06-04",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "09:30"
+    },
+    {
+      "title": "LHS Spring Impvo Show",
+      "type": "school",
+      "start": "2027-06-04",
+      "end": "2027-06-04",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "MPE: Incoming K Classroom Visit",
+      "type": "school",
+      "start": "2027-06-07",
+      "end": "2027-06-07",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "09:00"
+    },
+    {
+      "title": "LHS English National Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-06-07",
+      "end": "2027-06-07",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "17:00"
+    },
+    {
+      "title": "MPE: K Parent Orientation",
+      "type": "school",
+      "start": "2027-06-07",
+      "end": "2027-06-07",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "LHS Thespian Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-06-07",
+      "end": "2027-06-07",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Incoming Kindergarten Parent Orientation",
+      "type": "school",
+      "start": "2027-06-08",
+      "end": "2027-06-08",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "18:30"
+    },
+    {
+      "title": "LHS Spring National Honor Society Induction Ceremony",
+      "type": "school",
+      "start": "2027-06-08",
+      "end": "2027-06-08",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "HIL: Incoming Kindergarten Screening",
+      "type": "school",
+      "start": "2027-06-09",
+      "end": "2027-06-09",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "RHE:  HSA Thank You Tea (Small Gym)",
+      "type": "school",
+      "start": "2027-06-09",
+      "end": "2027-06-09",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "11:00"
+    },
+    {
+      "title": "CO: Trep$ Marketplace",
+      "type": "school",
+      "start": "2027-06-09",
+      "end": "2027-06-09",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "LHS National Art Honor Society & Art Auction",
+      "type": "school",
+      "start": "2027-06-09",
+      "end": "2027-06-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "LHS Annual Sports Awards",
+      "type": "school",
+      "start": "2027-06-10",
+      "end": "2027-06-10",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
+    },
+    {
+      "title": "BHE- HSA Community Meeting-Installment (In person)",
+      "type": "school",
+      "start": "2027-06-10",
+      "end": "2027-06-10",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "19:30"
+    },
+    {
+      "title": "HIL: Vocabulary Parade",
+      "type": "school",
+      "start": "2027-06-11",
+      "end": "2027-06-11",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:30"
+    },
+    {
+      "title": "RHE:  HSA Bake Sale",
+      "type": "school",
+      "start": "2027-06-11",
+      "end": "2027-06-11",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:30"
+    },
+    {
+      "title": "LHS Senior Prom",
+      "type": "school",
+      "start": "2027-06-11",
+      "end": "2027-06-11",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "HIL: Kindergarten Celebration",
+      "type": "school",
+      "start": "2027-06-14",
+      "end": "2027-06-14",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:30"
+    },
+    {
+      "title": "5th Grade Tour with Jr. Lancer Leaders",
+      "type": "school",
+      "start": "2027-06-15",
+      "end": "2027-06-15",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "16:30"
+    },
+    {
+      "title": "COL: 5th Grade Moving up Ceremony and Clap out",
+      "type": "school",
+      "start": "2027-06-16",
+      "end": "2027-06-16",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "08:45"
+    },
+    {
+      "title": "RHE:  5th Grade Graduation (Large Gym)",
+      "type": "school",
+      "start": "2027-06-16",
+      "end": "2027-06-16",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "09:00"
+    },
+    {
+      "title": "Songs on the Green",
+      "type": "school",
+      "start": "2027-06-16",
+      "end": "2027-06-16",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "17:30"
+    },
+    {
+      "title": "MPM & HMS HSA Joint Meeting",
+      "type": "school",
+      "start": "2027-06-16",
+      "end": "2027-06-16",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "HIL: 5th Grade Moving Up Ceremony",
+      "type": "school",
+      "start": "2027-06-17",
+      "end": "2027-06-17",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "08:30"
+    },
+    {
+      "title": "RHE:  Kindergarten Graduation (Large Gym)",
+      "type": "school",
+      "start": "2027-06-17",
+      "end": "2027-06-17",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "13:30"
     },
     {
       "title": "Juneteenth - District Closed",
@@ -444,11 +5134,82 @@
       "allDay": true
     },
     {
+      "title": "HIL: 5th Grade Talent Show",
+      "type": "school",
+      "start": "2027-06-21",
+      "end": "2027-06-21",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "HMS - 8th Grade Moving Up Ceremony - Teams 81 & 82",
+      "type": "school",
+      "start": "2027-06-21",
+      "end": "2027-06-21",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "10:00"
+    },
+    {
+      "title": "COL:  End of Year Kindergarten Show",
+      "type": "school",
+      "start": "2027-06-21",
+      "end": "2027-06-21",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "10:30"
+    },
+    {
+      "title": "HMS - 8th Grade Moving Up Ceremony - Teams 83 & 84",
+      "type": "school",
+      "start": "2027-06-21",
+      "end": "2027-06-21",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "14:00"
+    },
+    {
       "title": "Last Day of School/Graduation",
       "type": "last-day",
       "start": "2027-06-22",
       "end": "2027-06-22",
       "allDay": true
+    },
+    {
+      "title": "MPE  5th grade Clap Out!",
+      "type": "school",
+      "start": "2027-06-22",
+      "end": "2027-06-22",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "11:45"
+    },
+    {
+      "title": "RHE:  5th Grade Clap Out",
+      "type": "school",
+      "start": "2027-06-22",
+      "end": "2027-06-22",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "11:55"
+    },
+    {
+      "title": "BHE-Clap Out",
+      "type": "school",
+      "start": "2027-06-22",
+      "end": "2027-06-22",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "12:00"
+    },
+    {
+      "title": "HIL: 5th Grade Clap Out",
+      "type": "school",
+      "start": "2027-06-22",
+      "end": "2027-06-22",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "12:00"
     }
   ]
 }

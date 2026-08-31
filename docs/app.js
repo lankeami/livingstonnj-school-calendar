@@ -116,19 +116,74 @@ function showToast(message) {
   toast._timeout = setTimeout(() => toast.classList.remove("visible"), 2000);
 }
 
+let allEventsData = null;
+let activeSchoolFilter = null; // null = district only
+
+function getSchoolIcsUrl(school) {
+  const base = window.location.href.replace(/\/?$/, "").replace(/\/index\.html$/, "");
+  const slug = school.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  // Derive year from the school year stored in the data (e.g. "2026-2027")
+  const year = allEventsData ? allEventsData.schoolYear.split(" + ").at(-1) : null;
+  if (!year) return null;
+  return base + `/calendars/${slug}-${year}.ics`;
+}
+
+function renderSchoolFilter(schools) {
+  const existing = document.getElementById("school-filter");
+  if (existing) existing.remove();
+
+  const wrapper = document.createElement("div");
+  wrapper.id = "school-filter";
+  wrapper.style.cssText = "margin-bottom:1rem;display:flex;flex-wrap:wrap;gap:0.5rem;align-items:center;";
+
+  const label = document.createElement("span");
+  label.textContent = "Filter by school:";
+  label.style.cssText = "font-size:0.875rem;font-weight:500;color:var(--color-muted,#666);";
+  wrapper.appendChild(label);
+
+  const makeBtn = (text, value) => {
+    const btn = document.createElement("button");
+    btn.textContent = text;
+    btn.dataset.school = value ?? "";
+    btn.style.cssText = "padding:0.25rem 0.75rem;border-radius:9999px;border:1px solid #ccc;cursor:pointer;font-size:0.8125rem;background:transparent;";
+    if (value === activeSchoolFilter) btn.style.background = "#1a56db";
+    if (value === activeSchoolFilter) btn.style.color = "#fff";
+    if (value === activeSchoolFilter) btn.style.borderColor = "#1a56db";
+    btn.addEventListener("click", () => {
+      activeSchoolFilter = value;
+      renderSchoolFilter(schools);
+      renderEvents(allEventsData);
+    });
+    return btn;
+  };
+
+  wrapper.appendChild(makeBtn("District", null));
+  for (const school of schools) {
+    wrapper.appendChild(makeBtn(school, school));
+  }
+
+  const container = document.getElementById("events-list");
+  container.parentNode.insertBefore(wrapper, container);
+}
+
 // Render events grouped by month
 function renderEvents(eventsData) {
   const container = document.getElementById("events-list");
   container.innerHTML = "";
 
-  if (!eventsData.events || eventsData.events.length === 0) {
+  const events = (eventsData.events ?? []).filter(e => {
+    if (activeSchoolFilter === null) return !e.school; // district only
+    return !e.school || e.school === activeSchoolFilter; // district + chosen school
+  });
+
+  if (events.length === 0) {
     container.innerHTML = '<div class="error-msg"><strong>No events yet</strong>The calendar for this school year hasn\'t been published yet. Check back soon!</div>';
     return;
   }
 
   // Group by month
   const groups = new Map();
-  for (const event of eventsData.events) {
+  for (const event of events) {
     const key = getMonthKey(event.start);
     if (!groups.has(key)) {
       groups.set(key, []);
@@ -215,6 +270,9 @@ fetch("events.json")
     return res.json();
   })
   .then((data) => {
+    allEventsData = data;
+    const schools = [...new Set(data.events.filter(e => e.school).map(e => e.school))].sort();
+    if (schools.length > 0) renderSchoolFilter(schools);
     renderEvents(data);
   })
   .catch(() => {
