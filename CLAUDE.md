@@ -11,12 +11,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 npm run build                  # compile TypeScript + generate docs/ output files
 npm run typecheck              # type-check without emitting
 npm run new-year -- YYYY-YYYY  # scaffold a new school year
-npm test                       # run tests (src/*.test.ts compiled + executed via node:test)
+npm test                       # node:test over compiled dist/ (no test framework dependency)
+npm run lookahead              # days off in the calendar month two months ahead
 npm run fetch-school-events    # fetch per-school events → data/school-events/<year>.json (cached)
-./scripts/fetch-school-events.sh  # thin wrapper for the above
+npm run refresh-school-events  # re-fetch school events (--force) + rebuild
 ```
 
-The build is the verification step — if `npm run build` succeeds, the output is correct. Tests additionally guard the school-event pipeline and the `latest.ics` golden file.
+The build is the verification step — if `npm run build` succeeds, the output is correct. Tests additionally guard the school-event pipeline, the `latest.ics` golden file, and lookahead date arithmetic. Do not add a test framework dependency; `npm test` deliberately uses node's built-in runner.
 
 ## Data sources
 
@@ -30,14 +31,16 @@ The build is the verification step — if `npm run build` succeeds, the output i
 - Feed 27083 (LPS District Calendar) restates the PDF and must be excluded; only the 9 school feeds in `FEED_MAP` are ingested
 - School attribution comes from `feed_id` via `FEED_MAP` in `src/school-events.ts` — never from the event title prefix
 - `data/school-events/YYYY-YYYY.json` is **generated** (run `npm run fetch-school-events`), unlike the hand-edited `data/YYYY-YYYY.json`
-- Re-running fetch is a no-op if the file exists; delete it to force a refresh
+- Re-running fetch is a no-op if the file exists; use `npm run refresh-school-events` to force a refresh
 - Per-school subscribe URLs follow the pattern: `webcal://<siteUrl>/calendars/<school-slug>-YYYY-YYYY.ics`
 
 ## Architecture
 
 Three-layer pipeline:
 
-1. **`config.json`** — declares `currentYear` (e.g. `"2026-2027"`). This is the only file to change when rolling over to a new year (or use `npm run new-year`).
+1. **`config.json`** — declares `activeYears` (the years the build turns into calendars) and `currentYear` (the school year in session). **`activeYears` is what drives the build** — `src/build.ts` iterates it, so a year absent from it produces no `.ics` no matter what else is configured; `currentYear` is only its fallback when `activeYears` is missing entirely.
+
+   Do not roll a year over by hand — run `npm run new-year -- YYYY-YYYY`, which adds the year to `activeYears`, derives `currentYear` from today's date (a `YYYY-YYYY` school year starts July 1 of `YYYY`; `--today YYYY-MM-DD` overrides it for testing), and leaves `calendarName` alone. `calendarName` is operator-owned: it becomes `X-WR-CALNAME` in `latest.ics`, which is the subscription's display name in every subscriber's calendar app, and that feed merges *all* `activeYears`, so no single year's name would be correct there.
 
 2. **`data/YYYY-YYYY.json`** — hand-edited source of truth. Events use a discriminated union: single-day events have `"date"`, multi-day events have `"startDate"` + `"endDate"` (both inclusive). The TypeScript types in `src/types.ts` (`isSingleDay` / `isMultiDay` type guards) reflect this exactly.
 
@@ -52,12 +55,35 @@ Three-layer pipeline:
 
 UIDs are deterministic: `{title-slug}-{start-date}@livingston-schools`. This prevents duplicate events on re-import.
 
+### Days-off lookahead
+
+`src/lookahead.ts` (`npm run lookahead`, surfaced as the `/days-off-lookahead` skill)
+reports the days off in the calendar month **two months ahead** — the lead time a
+time-off request or a camp booking actually needs.
+
+It reads `config.json` and `data/YYYY-YYYY.json` — the source of truth — **never
+`docs/`**, which is generated and would go stale between builds. It writes nothing.
+
+The exported functions (`resolveTargetMonth`, `yearsCoveringMonth`, `daysOffForMonth`)
+are pure and covered by `src/lookahead.test.ts`; only the CLI at the bottom of the file
+touches the filesystem. Two behaviors are load-bearing and have tests guarding them:
+weekend days inside a multi-day break are excluded from the coverage count, and a month
+covered by two `activeYears` files (August, at the school-year seam) de-duplicates
+events rather than counting them twice.
+
+`resolveCurrentSchoolYear` from `src/school-year.ts` is imported, not reimplemented —
+the July 1 rule already exists in two places (there and `scripts/fetch-calendars.sh`)
+and does not need a third.
+
 ### Annual rollover
 
 ```bash
 npm run new-year -- 2027-2028
 # → creates data/2027-2028.json with NJ state holidays pre-filled
-# → updates config.json currentYear to "2027-2028"
+# → adds "2027-2028" to config.json activeYears (in order, idempotent)
+# → sets config.json currentYear from today's date, not from the year argument
+#   (so scaffolding next year's calendar early does not retire the year in session)
+# → leaves calendarName untouched
 # Edit data/2027-2028.json with district events from the PDF
 npm run build
 git add -A && git commit -m "Add 2027-2028 school calendar"
