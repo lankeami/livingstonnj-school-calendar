@@ -2,6 +2,8 @@
 
 ## 2026-09-01
 
+- [a5dd7ad](https://github.com/lankeami/livingstonnj-school-calendar/commit/a5dd7adbfe5f9aa7460aa3727f66423307e5a165) Add refresh-school-events skill and --force flag for re-fetching
+  - npm run refresh-school-events: one-liner to re-fetch + rebuild - .claude/skills/refresh-school-events: automated refresh + ship workflow - fetch-school-events.ts accepts --force to skip cache check
 - [ca88cf8](https://github.com/lankeami/livingstonnj-school-calendar/commit/ca88cf8b8ddef09356a53d6e250556401a72d6dc) Add school picker UI, dynamic subscribe URLs, and Vercel API endpoint
   - Unified school picker with checkboxes + View Calendar button that commits selection and scrolls to todays events - All subscribe buttons (header, main, footer) dynamically reflect school selection via /api/calendar?schools=... endpoint - Vercel serverless function merges district + selected school events into a single ICS feed - URL params (?schools=LHS,HAR) for bookmarkable school selections - Select schools link in header for quick access to school picker - Checkbox changes update subscribe panel without scrolling; Go button triggers scroll and URL update
 - [7052803](https://github.com/lankeami/livingstonnj-school-calendar/commit/7052803e8aed3693e92cd1c17e1f5cc7483737e6) Prefix school event titles with [ABBR] and strip redundant school prefixes
