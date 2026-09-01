@@ -1,0 +1,8 @@
+{
+  "outputDirectory": "docs",
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "data/**,config.json"
+    }
+  }
+}
