@@ -7,6 +7,7 @@
     "typecheck": "tsc --noEmit",
     "new-year": "tsc && node dist/new-year.js",
     "fetch-school-events": "tsc && node dist/fetch-school-events.js",
+    "refresh-school-events": "tsc && node dist/fetch-school-events.js --force && npm run build",
     "test": "tsc && node --test dist/school-events.test.js"
   },
   "dependencies": {

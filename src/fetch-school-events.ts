@@ -19,10 +19,12 @@ async function main(): Promise<void> {
   const outDir = join(root, "data", "school-events");
   const outPath = join(outDir, `${year}.json`);
 
-  if (existsSync(outPath)) {
+  const force = process.argv.includes("--force");
+
+  if (!force && existsSync(outPath)) {
     const cached = JSON.parse(readFileSync(outPath, "utf-8")) as SchoolEventsFile;
     console.log(`Cache hit: data/school-events/${year}.json (${cached.events.length} events, fetched ${cached.fetchedAt})`);
-    console.log("Delete the file to re-fetch.");
+    console.log("Run with --force to re-fetch.");
     return;
   }
 
