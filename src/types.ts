@@ -57,6 +57,8 @@ export interface PublishedEvent {
   end: string; // YYYY-MM-DD (inclusive, same as start for single-day)
   allDay: boolean;
   description?: string;
+  school?: string;     // present only for per-school events; absent for district events
+  startTime?: string;  // HH:MM for timed school events
 }
 
 export interface PublishedEventsFile {

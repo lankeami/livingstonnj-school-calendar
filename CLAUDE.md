@@ -8,17 +8,31 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Commands
 
 ```bash
-npm run build        # compile TypeScript + generate docs/ output files
-npm run typecheck    # type-check without emitting
-npm run test         # node:test over compiled dist/ (no test framework dependency)
+npm run build                  # compile TypeScript + generate docs/ output files
+npm run typecheck              # type-check without emitting
 npm run new-year -- YYYY-YYYY  # scaffold a new school year
-npm run lookahead    # days off in the calendar month two months ahead
+npm test                       # node:test over compiled dist/ (no test framework dependency)
+npm run lookahead              # days off in the calendar month two months ahead
+npm run fetch-school-events    # fetch per-school events → data/school-events/<year>.json (cached)
+npm run refresh-school-events  # re-fetch school events (--force) + rebuild
 ```
 
-The only tested code is `src/lookahead.ts` — pure date arithmetic, where a build cannot
-catch an off-by-one month. Everything else is verified by the build: if `npm run build`
-succeeds, the generated output is correct. Do not add a test framework dependency;
-`npm test` deliberately uses node's built-in runner.
+The build is the verification step — if `npm run build` succeeds, the output is correct. Tests additionally guard the school-event pipeline, the `latest.ics` golden file, and lookahead date arithmetic. Do not add a test framework dependency; `npm test` deliberately uses node's built-in runner.
+
+## Data sources
+
+**District calendar (closures, PD days, first/last day):** hand-edited `data/YYYY-YYYY.json` — source of truth, never overridden by school feeds.
+
+**Per-school events (concerts, Back to School Night, etc.):** district JSON API — unauthenticated, read-only.
+- Endpoint: `https://www.livingston.org/api/calendars/145838/events`
+- `start_date` and `end_date` are **required** query params (shorter `start`/`end` return HTTP 400)
+- `feed_ids[]` is accepted but **ignored** by the server — filtering must happen client-side
+- Public Google `.ics` URLs for individual feeds return **HTTP 404** — the JSON API is the only ingestion path
+- Feed 27083 (LPS District Calendar) restates the PDF and must be excluded; only the 9 school feeds in `FEED_MAP` are ingested
+- School attribution comes from `feed_id` via `FEED_MAP` in `src/school-events.ts` — never from the event title prefix
+- `data/school-events/YYYY-YYYY.json` is **generated** (run `npm run fetch-school-events`), unlike the hand-edited `data/YYYY-YYYY.json`
+- Re-running fetch is a no-op if the file exists; use `npm run refresh-school-events` to force a refresh
+- Per-school subscribe URLs follow the pattern: `webcal://<siteUrl>/calendars/<school-slug>-YYYY-YYYY.ics`
 
 ## Architecture
 

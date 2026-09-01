@@ -8,7 +8,7 @@ X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:independence-day-observed-district-closed-2027-07-05@livingston-schools
 SUMMARY:Independence Day Observed - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20270705
 DTEND;VALUE=DATE:20270706
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-07-05
@@ -18,7 +18,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:professional-development-days-2027-08-30@livingston-schools
 SUMMARY:Professional Development Days
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20270830
 DTEND;VALUE=DATE:20270901
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-08-30
@@ -28,7 +28,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:first-day-for-students-2027-09-01@livingston-schools
 SUMMARY:First Day for Students
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-09-01
@@ -38,7 +38,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-all-2027-09-03@livingston-schools
 SUMMARY:Early Dismissal for All
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270904
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-09-03
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:labor-day-district-closed-2027-09-06@livingston-schools
 SUMMARY:Labor Day - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20270906
 DTEND;VALUE=DATE:20270907
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-09-06
@@ -58,7 +58,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:yom-kippur-district-closed-2027-10-11@livingston-schools
 SUMMARY:Yom Kippur - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271011
 DTEND;VALUE=DATE:20271012
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-10-11
@@ -68,7 +68,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:no-school-for-students-staff-pd-day-2027-10-12@livingston-schools
 SUMMARY:No School for Students/Staff PD Day
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271012
 DTEND;VALUE=DATE:20271013
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-10-12
@@ -78,7 +78,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:diwali-district-closed-2027-10-29@livingston-schools
 SUMMARY:Diwali - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271030
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-10-29
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 UID:parent-teacher-conferences-early-dismissal-elem-2027-11-01@livingston-s
 	chools
 SUMMARY:Parent/Teacher Conferences - Early Dismissal Elem
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20271104
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-11-01
@@ -99,7 +99,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:njea-convention-district-closed-2027-11-04@livingston-schools
 SUMMARY:NJEA Convention - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271104
 DTEND;VALUE=DATE:20271106
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-11-04
@@ -109,7 +109,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-all-2027-11-24@livingston-schools
 SUMMARY:Early Dismissal for All
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271124
 DTEND;VALUE=DATE:20271125
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-11-24
@@ -119,7 +119,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:thanksgiving-recess-district-closed-2027-11-25@livingston-schools
 SUMMARY:Thanksgiving Recess - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271125
 DTEND;VALUE=DATE:20271127
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-11-25
@@ -129,7 +129,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:delayed-opening-for-students-staff-pd-2027-11-29@livingston-schools
 SUMMARY:Delayed Opening for Students/Staff PD
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271129
 DTEND;VALUE=DATE:20271130
 DESCRIPTION:Delayed opening\n\nhttps://livingston-nj-school-calendar.com/#2
@@ -140,7 +140,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-all-2027-12-23@livingston-schools
 SUMMARY:Early Dismissal for All
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271223
 DTEND;VALUE=DATE:20271224
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-12-23
@@ -150,7 +150,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:winter-recess-district-closed-2027-12-24@livingston-schools
 SUMMARY:Winter Recess - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20271224
 DTEND;VALUE=DATE:20280101
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2027-12-24
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-students-staff-pd-2028-01-14@livingston-schools
 SUMMARY:Early Dismissal for Students/Staff PD
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280114
 DTEND;VALUE=DATE:20280115
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-01-14
@@ -170,7 +170,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:mlk-jr-day-district-closed-2028-01-17@livingston-schools
 SUMMARY:MLK Jr. Day - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280117
 DTEND;VALUE=DATE:20280118
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-01-17
@@ -180,7 +180,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lunar-new-year-district-closed-2028-01-26@livingston-schools
 SUMMARY:Lunar New Year - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280126
 DTEND;VALUE=DATE:20280127
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-01-26
@@ -190,7 +190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-lhs-only-semester-chg-2028-01-31@livingston-schools
 SUMMARY:Early Dismissal LHS Only - Semester Chg
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280131
 DTEND;VALUE=DATE:20280201
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-01-31
@@ -200,7 +200,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:presidents-day-district-closed-2028-02-21@livingston-schools
 SUMMARY:Presidents Day - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280221
 DTEND;VALUE=DATE:20280222
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-02-21
@@ -210,7 +210,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:february-break-schools-closed-2028-02-22@livingston-schools
 SUMMARY:February Break - Schools Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280222
 DTEND;VALUE=DATE:20280226
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-02-22
@@ -221,7 +221,7 @@ BEGIN:VEVENT
 UID:parent-teacher-conferences-early-dismissal-elem-2028-03-01@livingston-s
 	chools
 SUMMARY:Parent/Teacher Conferences - Early Dismissal Elem
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280301
 DTEND;VALUE=DATE:20280304
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-03-01
@@ -231,7 +231,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-students-staff-pd-2028-03-13@livingston-schools
 SUMMARY:Early Dismissal for Students/Staff PD
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280313
 DTEND;VALUE=DATE:20280314
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-03-13
@@ -241,7 +241,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-students-staff-pd-2028-04-07@livingston-schools
 SUMMARY:Early Dismissal for Students/Staff PD
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280407
 DTEND;VALUE=DATE:20280408
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-04-07
@@ -251,7 +251,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spring-recess-schools-closed-2028-04-10@livingston-schools
 SUMMARY:Spring Recess - Schools Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280410
 DTEND;VALUE=DATE:20280414
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-04-10
@@ -261,7 +261,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:good-friday-district-closed-2028-04-14@livingston-schools
 SUMMARY:Good Friday - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280414
 DTEND;VALUE=DATE:20280415
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-04-14
@@ -271,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:memorial-day-district-closed-2028-05-29@livingston-schools
 SUMMARY:Memorial Day - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280529
 DTEND;VALUE=DATE:20280530
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-05-29
@@ -281,7 +281,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:juneteenth-district-closed-2028-06-16@livingston-schools
 SUMMARY:Juneteenth - District Closed
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280616
 DTEND;VALUE=DATE:20280617
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-06-16
@@ -291,7 +291,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:early-dismissal-for-students-2028-06-20@livingston-schools
 SUMMARY:Early Dismissal for Students
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280620
 DTEND;VALUE=DATE:20280622
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-06-20
@@ -301,7 +301,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:last-day-of-school-graduation-2028-06-21@livingston-schools
 SUMMARY:Last Day of School/Graduation
-DTSTAMP:20260826T164710Z
+DTSTAMP:20260901T214458Z
 DTSTART;VALUE=DATE:20280621
 DTEND;VALUE=DATE:20280622
 DESCRIPTION:https://livingston-nj-school-calendar.com/#2028-06-21

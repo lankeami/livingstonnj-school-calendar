@@ -159,6 +159,90 @@ main {
 .btn-apple   { background: #1c1c1e; color: white; }
 .btn-outlook { background: #0078d4; color: white; }
 .btn-download { background: #27ae60; color: white; }
+.header-school-link {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  width: 100%;
+  text-align: right;
+}
+.header-school-link:hover {
+  color: white;
+}
+
+/* School Picker */
+.school-subscribe-section {
+  scroll-margin-top: 80px;
+}
+
+.school-subscribe-section p {
+  margin-bottom: 1rem;
+}
+
+.school-checkbox-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.school-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.school-checkbox:hover {
+  background: var(--bg);
+}
+
+.school-checkbox:has(input:checked) {
+  border-color: #1a56db;
+  background: #eff3ff;
+}
+
+.school-checkbox input[type="checkbox"] {
+  accent-color: #1a56db;
+  width: 1rem;
+  height: 1rem;
+}
+
+.btn-go {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.5rem;
+  background: var(--header-bg);
+  color: white;
+  font-size: 0.9rem;
+}
+
+.school-subscribe-panel {
+  background: #f0f4f8;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+
+.subscribe-panel-info {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.subscribe-url-note {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  word-break: break-all;
+}
 
 /* Events Section */
 .events-section h2 {

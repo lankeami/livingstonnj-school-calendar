@@ -6,6 +6,8 @@
     "build": "tsc && node dist/build.js",
     "typecheck": "tsc --noEmit",
     "new-year": "tsc && node dist/new-year.js",
+    "fetch-school-events": "tsc && node dist/fetch-school-events.js",
+    "refresh-school-events": "tsc && node dist/fetch-school-events.js --force && npm run build",
     "test": "tsc && node --test \"dist/**/*.test.js\"",
     "lookahead": "tsc && node dist/lookahead.js"
   },
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "@vercel/node": "^11.0.0",
     "typescript": "^5.7.0"
   }
 }

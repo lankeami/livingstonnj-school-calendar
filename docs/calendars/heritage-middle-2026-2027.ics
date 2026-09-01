@@ -1,0 +1,376 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:adamgibbons/ics
+METHOD:PUBLISH
+X-WR-CALNAME:Heritage Middle — Livingston NJ Schools
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:6i6dkmakm0v833k7tgv1jahv1k@livingston-schools
+SUMMARY:[HMS] Sports registration open
+DTSTAMP:20260901T214458Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:6phd7hfb36rss08mkpto3nc4ka@livingston-schools
+SUMMARY:[HMS] Registration for Sports Closes
+DTSTAMP:20260901T214458Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:3j6gmqmehh9elhv2488qn2v3gr@livingston-schools
+SUMMARY:[HMS] New Student Orientation (New to LPS District Only)
+DTSTAMP:20260901T214458Z
+DTSTART:20260825T090000
+DTEND:20260825T110000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:30uiogaqrbs0s402c0fssavrvg@livingston-schools
+SUMMARY:[HMS] Incoming 7th Grade Walkthrough (Group 1)
+DTSTAMP:20260901T214458Z
+DTSTART:20260825T130000
+DTEND:20260825T133000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:64k2hh7g8nj6peff29aguhn363@livingston-schools
+SUMMARY:[HMS] Incoming 7th Grade Walkthrough (Group 2)
+DTSTAMP:20260901T214458Z
+DTSTART:20260825T134500
+DTEND:20260825T141500
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:0vbl4ern125su687sf086vm3dp@livingston-schools
+SUMMARY:[HMS] Incoming 7th Grade Walkthrough (Group 3)
+DTSTAMP:20260901T214458Z
+DTSTART:20260825T143000
+DTEND:20260825T150000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:508qijtirrfarv0brftaskggem@livingston-schools
+SUMMARY:[HMS] Medication drop off
+DTSTAMP:20260901T214458Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:3k3qbots29fg81h8723um66sg4@livingston-schools
+SUMMARY:[HMS] Medication drop off
+DTSTAMP:20260901T214458Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:0u8c8rk4jnfl7tfbo59v770ctl@livingston-schools
+SUMMARY:[HMS] School Picture Day
+DTSTAMP:20260901T214458Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:5t5n8e8k3leg9366c1eag9pk65@livingston-schools
+SUMMARY:[HMS] Back to School Night
+DTSTAMP:20260901T214458Z
+DTSTART:20260923T190000
+DTEND:20260923T200000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:2t19620ej0nhvh3j74lnjd0djl@livingston-schools
+SUMMARY:[HMS] Club Fair
+DTSTAMP:20260901T214458Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:16imghk9jb3qucj8k8v2ukga0a@livingston-schools
+SUMMARY:[HMS] A Parent's Guide to Disordered Gambling - Virtual
+DTSTAMP:20260901T214458Z
+DTSTART:20261022T190000
+DTEND:20261022T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:7bgg1hrhej62vohd6ltk70qido@livingston-schools
+SUMMARY:[HMS] Fall Drama
+DTSTAMP:20260901T214458Z
+DTSTART:20261113T190000
+DTEND:20261113T203000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:6rdgrpnn9qm3v7qolenr3btf1d@livingston-schools
+SUMMARY:[HMS] Fall Drama
+DTSTAMP:20260901T214458Z
+DTSTART:20261114T140000
+DTEND:20261114T153000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:00rdug62ojoipqpvqkosqp681e@livingston-schools
+SUMMARY:[HMS] Fall Drama
+DTSTAMP:20260901T214458Z
+DTSTART:20261114T190000
+DTEND:20261114T203000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:04iphs6skfu1jnt1mnl9ivutlf@livingston-schools
+SUMMARY:[HMS] Picture Retakes
+DTSTAMP:20260901T214458Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:3uiiqr84l61qooj6j5v0r58umh@livingston-schools
+SUMMARY:[HMS] Grades 6-8 Math Information Night for Parents
+DTSTAMP:20260901T214458Z
+DTSTART:20261123T190000
+DTEND:20261123T200000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:Zoom
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:3n03frabmrg63ph0j3tg3erkgl@livingston-schools
+SUMMARY:[HMS] The Impact of Social Media Algorithms and Influencers on Adol
+	escents and Families - Virtual
+DTSTAMP:20260901T214458Z
+DTSTART:20270111T190000
+DTEND:20270111T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:0ebqlej2vd1l4uemv0ivtlimgc@livingston-schools
+SUMMARY:[HMS] Heritage Band Concert
+DTSTAMP:20260901T214458Z
+DTSTART:20270120T190000
+DTEND:20270120T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:HMS Auditorium
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:2ofs4gpural86gv2oi66j5mene@livingston-schools
+SUMMARY:[HMS] Heritage Middle School Band Concert-Snow Date
+DTSTAMP:20260901T214458Z
+DTSTART:20270121T190000
+DTEND:20270121T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:HMS Auditorium
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:3ooeafroosi0kcg53c926fe2fa@livingston-schools
+SUMMARY:[HMS] LHS Choral Field Trip to HMS
+DTSTAMP:20260901T214458Z
+DTSTART:20270128T090000
+DTEND:20270128T133000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:HMS
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:11los39l4vqa0sv7t39jfchvpd@livingston-schools
+SUMMARY:[HMS] LHS Choral Field Trip to HMS  Snow Date
+DTSTAMP:20260901T214458Z
+DTSTART:20270202T090000
+DTEND:20270202T133000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:HMS
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:39ck56heh2o9gtr58v5dbg91f3@livingston-schools
+SUMMARY:[HMS] Helping Your Teen Feel at Home in Their Body: What Parents Ne
+	ed to Know about Body Image\, Diet Culture and Eating Disorders - Virtual
+DTSTAMP:20260901T214458Z
+DTSTART:20270208T190000
+DTEND:20270208T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:49cmk4c5t9kca8u4qub8nq81k2@livingston-schools
+SUMMARY:[HMS] District Band Day
+DTSTAMP:20260901T214458Z
+DTSTART:20270303T080000
+DTEND:20270303T110000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:HMS
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:3f55jniif6tj3pg6eugg3lf2mb@livingston-schools
+SUMMARY:[HMS] District Band Day  Snow Date
+DTSTAMP:20260901T214458Z
+DTSTART:20270304T080000
+DTEND:20270304T110000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:HMS
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:7lfqqkirlc0mue3t6uipq69ot4@livingston-schools
+SUMMARY:[HMS] All Township Concert
+DTSTAMP:20260901T214458Z
+DTSTART:20270325T183000
+DTEND:20270325T203000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:Fitness Wellness Center  LHS
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:512ksa566qgg60rfjbv7ol6bic@livingston-schools
+SUMMARY:[HMS] Spring Musical
+DTSTAMP:20260901T214458Z
+DTSTART:20270402T190000
+DTEND:20270402T203000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:7mfna9ngv9gfpn4oar21hc2qmt@livingston-schools
+SUMMARY:[HMS] Spring Musical
+DTSTAMP:20260901T214458Z
+DTSTART:20270403T140000
+DTEND:20270403T153000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:4t4e6k3ul5j33b58pd0pjogsti@livingston-schools
+SUMMARY:[HMS] Spring Musical
+DTSTAMP:20260901T214458Z
+DTSTART:20270403T190000
+DTEND:20270403T203000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:178hmvvd4nenkko6s6litai5d5@livingston-schools
+SUMMARY:[HMS] GT Art Show Reception
+DTSTAMP:20260901T214458Z
+DTSTART:20270413T173000
+DTEND:20270413T190000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:Livingston Public Library\, 10 Robert H Harp Dr\, Livingston\, NJ 
+	07039\, USA
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:0hi9uub6d9aqb5u184ubdv0ro9@livingston-schools
+SUMMARY:[HMS] Multicultural Night
+DTSTAMP:20260901T214458Z
+DTSTART:20270428T180000
+DTEND:20270428T193000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:45626f7v6te4n2ivso19o1nia0@livingston-schools
+SUMMARY:[HMS] Heritage Spring Orchestra Concert
+DTSTAMP:20260901T214458Z
+DTSTART:20270506T190000
+DTEND:20270506T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:Heritage Auditorium
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:63lpdgari4np5fqk6p7ldlgnqn@livingston-schools
+SUMMARY:[HMS] Heritage Spring Chorus Concert
+DTSTAMP:20260901T214458Z
+DTSTART:20270510T190000
+DTEND:20270510T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:LHS Auditorium
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:0uk5gcgj734vu0bo0n5v1n4b73@livingston-schools
+SUMMARY:[HMS] Heritage Band Concert
+DTSTAMP:20260901T214458Z
+DTSTART:20270513T190000
+DTEND:20270513T210000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:Auditorium
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:53j75sbc9ok1uep4ijb7kuk6jh@livingston-schools
+SUMMARY:[HMS] District Art Show
+DTSTAMP:20260901T214458Z
+DTSTART:20270519T180000
+DTEND:20270519T193000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:Fitness and Wellness Center LHS
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:5dfdm37tvavv7rotd4i0igsf5c@livingston-schools
+SUMMARY:[HMS] School Dance
+DTSTAMP:20260901T214458Z
+DTSTART:20270521T180000
+DTEND:20270521T193000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:2m1vq807cg6tu7q8khk62ps50h@livingston-schools
+SUMMARY:[HMS] LEA Retirement Dinner
+DTSTAMP:20260901T214458Z
+DTSTART:20270602T160000
+DTEND:20270602T200000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+LOCATION:TBD
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:5cs4p8p0advbrmlck8tm97vrsc@livingston-schools
+SUMMARY:[HMS] 8th Grade Moving Up Ceremony - Teams 81 & 82
+DTSTAMP:20260901T214458Z
+DTSTART:20270621T100000
+DTEND:20270621T113000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+BEGIN:VEVENT
+UID:2gt1ufjgga5pn5qa62q402cksu@livingston-schools
+SUMMARY:[HMS] 8th Grade Moving Up Ceremony - Teams 83 & 84
+DTSTAMP:20260901T214458Z
+DTSTART:20270621T140000
+DTEND:20270621T153000
+DESCRIPTION:https://livingston-nj-school-calendar.com/
+CATEGORIES:school
+END:VEVENT
+END:VCALENDAR

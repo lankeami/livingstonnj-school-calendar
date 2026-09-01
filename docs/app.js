@@ -1,30 +1,36 @@
 // Derive ICS URL from current page location — works locally and on GitHub Pages
-function getIcsUrl() {
-  const base = window.location.href.replace(/\/?$/, "").replace(/\/index\.html$/, "");
-  return base + "/calendars/latest.ics";
+function getBaseUrl() {
+  return window.location.href.replace(/\/?$/, "").replace(/\/index\.html$/, "");
 }
 
-const ICS_URL = getIcsUrl();
-const WEBCAL_URL = ICS_URL.replace(/^https?:\/\//, "webcal://");
+// Returns the active ICS URL — district-only or district+schools via /api/calendar
+function getActiveIcsUrl() {
+  if (selectedSchools.size > 0) {
+    return getCalendarApiUrl([...selectedSchools].sort());
+  }
+  return getBaseUrl() + "/calendars/latest.ics";
+}
+
+function getActiveWebcalUrl() {
+  return getActiveIcsUrl().replace(/^https?:\/\//, "webcal://");
+}
 
 // Wire up subscribe buttons (header + main section)
 function wireSubscribeButtons(suffix) {
   const s = suffix ? `-${suffix}` : "";
   document.getElementById(`btn-google${s}`).addEventListener("click", () => {
-    // Google Calendar expects the raw webcal:// URL (not percent-encoded)
-    const calUrl = "https://calendar.google.com/calendar/render?cid=" + WEBCAL_URL;
+    const calUrl = "https://calendar.google.com/calendar/render?cid=" + getActiveWebcalUrl();
     window.open(calUrl, "_blank");
   });
   document.getElementById(`btn-apple${s}`).addEventListener("click", () => {
-    window.location.href = WEBCAL_URL;
+    window.location.href = getActiveWebcalUrl();
   });
   document.getElementById(`btn-outlook${s}`).addEventListener("click", () => {
-    const outlookUrl = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(ICS_URL);
-    window.open(outlookUrl, "_blank");
+    window.open("https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(getActiveIcsUrl()), "_blank");
   });
   document.getElementById(`btn-download${s}`).addEventListener("click", () => {
     const a = document.createElement("a");
-    a.href = ICS_URL;
+    a.href = getActiveIcsUrl();
     a.download = "livingston-schools.ics";
     a.click();
   });
@@ -33,11 +39,16 @@ function wireSubscribeButtons(suffix) {
 wireSubscribeButtons();       // header buttons (btn-google, etc.)
 wireSubscribeButtons("main"); // section buttons (btn-google-main, etc.)
 
-// Show subscribe URL in footer
-const urlDisplay = document.getElementById("subscribe-url-display");
-if (urlDisplay) {
-  urlDisplay.textContent = WEBCAL_URL;
+function updateFooterUrl() {
+  const urlDisplay = document.getElementById("subscribe-url-display");
+  if (urlDisplay) urlDisplay.textContent = getActiveWebcalUrl();
 }
+
+// Set default footer URL (no schools selected yet)
+(function() {
+  const urlDisplay = document.getElementById("subscribe-url-display");
+  if (urlDisplay) urlDisplay.textContent = (getBaseUrl() + "/calendars/latest.ics").replace(/^https?:\/\//, "webcal://");
+})();
 
 // Format date string (YYYY-MM-DD) to readable format
 function formatDate(dateStr) {
@@ -116,19 +127,195 @@ function showToast(message) {
   toast._timeout = setTimeout(() => toast.classList.remove("visible"), 2000);
 }
 
-// Render events grouped by month
-function renderEvents(eventsData) {
+let allEventsData = null;
+const selectedSchools = new Set(); // abbreviations: "LHS", "HIL", etc.
+
+const SCHOOL_TO_ABBR = {
+  "Burnet Hill Elementary": "BHE",
+  "Collins Elementary": "COL",
+  "Harrison Elementary": "HAR",
+  "Hillside Elementary": "HIL",
+  "Mt. Pleasant Middle": "MPM",
+  "Heritage Middle": "HMS",
+  "Riker Hill Elementary": "RHE",
+  "Mt. Pleasant Elementary": "MPE",
+  "Livingston High School": "LHS",
+};
+
+const ABBR_TO_SCHOOL = Object.fromEntries(
+  Object.entries(SCHOOL_TO_ABBR).map(([k, v]) => [v, k])
+);
+
+function getCalendarApiUrl(abbrs) {
+  const base = window.location.origin;
+  const param = abbrs.length > 0 ? "?schools=" + abbrs.join(",") : "";
+  return base + "/api/calendar" + param;
+}
+
+function getSelectedSchoolNames() {
+  return [...selectedSchools].map(a => ABBR_TO_SCHOOL[a]).filter(Boolean);
+}
+
+// Called when a checkbox changes — only updates subscribe panel, no scroll
+function onSchoolSelectionChanged() {
+  updateSubscribePanel();
+  updateFooterUrl();
+}
+
+// Called by "View Calendar" button — commits selection, scrolls to events
+function applySchoolSelection() {
+  const url = new URL(window.location);
+  if (selectedSchools.size > 0) {
+    url.searchParams.set("schools", [...selectedSchools].sort().join(","));
+  } else {
+    url.searchParams.delete("schools");
+  }
+  history.replaceState(null, "", url);
+
+  renderEvents(allEventsData, false);
+  const anchor = document.querySelector(".today-anchor");
+  (anchor || document.getElementById("events-list")).scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+// Restore selections from URL on load
+function restoreFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const raw = params.get("schools") || "";
+  for (const abbr of raw.split(",").map(s => s.trim().toUpperCase()).filter(s => s in ABBR_TO_SCHOOL)) {
+    selectedSchools.add(abbr);
+  }
+}
+
+function syncCheckboxes() {
+  document.querySelectorAll("#school-picker input[type=checkbox]").forEach(cb => {
+    cb.checked = selectedSchools.has(cb.value);
+  });
+}
+
+function updateSubscribePanel() {
+  const panel = document.getElementById("school-subscribe-panel");
+  if (!panel) return;
+  const abbrs = [...selectedSchools].sort();
+  panel.textContent = "";
+
+  if (abbrs.length === 0) {
+    panel.style.display = "none";
+    return;
+  }
+  panel.style.display = "";
+
+  const icsUrl = getCalendarApiUrl(abbrs);
+  const webcalUrl = icsUrl.replace(/^https?:\/\//, "webcal://");
+
+  const info = document.createElement("p");
+  info.className = "subscribe-panel-info";
+  info.textContent = "Subscribe to district + " + abbrs.join(", ") + ":";
+  panel.appendChild(info);
+
+  const buttons = document.createElement("div");
+  buttons.className = "button-group";
+
+  const googleBtn = document.createElement("button");
+  googleBtn.className = "btn btn-google";
+  googleBtn.textContent = "Add to Google Calendar";
+  googleBtn.addEventListener("click", () => {
+    window.open("https://calendar.google.com/calendar/render?cid=" + webcalUrl, "_blank");
+  });
+
+  const appleBtn = document.createElement("button");
+  appleBtn.className = "btn btn-apple";
+  appleBtn.textContent = "Add to Apple Calendar";
+  appleBtn.addEventListener("click", () => {
+    window.location.href = webcalUrl;
+  });
+
+  const outlookBtn = document.createElement("button");
+  outlookBtn.className = "btn btn-outlook";
+  outlookBtn.textContent = "Add to Outlook";
+  outlookBtn.addEventListener("click", () => {
+    window.open("https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(icsUrl), "_blank");
+  });
+
+  buttons.appendChild(googleBtn);
+  buttons.appendChild(appleBtn);
+  buttons.appendChild(outlookBtn);
+  panel.appendChild(buttons);
+
+  const urlNote = document.createElement("code");
+  urlNote.className = "subscribe-url-note";
+  urlNote.textContent = webcalUrl;
+  panel.appendChild(urlNote);
+}
+
+// School picker — checkboxes that filter events AND build subscribe URL
+function renderSchoolPicker(schools) {
+  const picker = document.getElementById("school-picker");
+  if (!picker) return;
+  picker.textContent = "";
+
+  const checkboxList = document.createElement("div");
+  checkboxList.className = "school-checkbox-list";
+
+  for (const school of schools) {
+    const abbr = SCHOOL_TO_ABBR[school];
+    if (!abbr) continue;
+
+    const label = document.createElement("label");
+    label.className = "school-checkbox";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = abbr;
+    checkbox.checked = selectedSchools.has(abbr);
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) selectedSchools.add(abbr);
+      else selectedSchools.delete(abbr);
+      onSchoolSelectionChanged();
+    });
+
+    const text = document.createElement("span");
+    text.textContent = school;
+
+    label.appendChild(checkbox);
+    label.appendChild(text);
+    checkboxList.appendChild(label);
+  }
+
+  picker.appendChild(checkboxList);
+
+  const goBtn = document.createElement("button");
+  goBtn.className = "btn btn-go";
+  goBtn.textContent = "View Calendar";
+  goBtn.addEventListener("click", applySchoolSelection);
+  picker.appendChild(goBtn);
+
+  const panel = document.createElement("div");
+  panel.id = "school-subscribe-panel";
+  panel.className = "school-subscribe-panel";
+  picker.appendChild(panel);
+  updateSubscribePanel();
+}
+
+// Render events grouped by month. Pass autoScroll=false to suppress scroll.
+function renderEvents(eventsData, autoScroll) {
+  if (autoScroll === undefined) autoScroll = true;
   const container = document.getElementById("events-list");
   container.innerHTML = "";
 
-  if (!eventsData.events || eventsData.events.length === 0) {
+  const activeSchoolNames = getSelectedSchoolNames();
+  const events = (eventsData.events ?? []).filter(e => {
+    if (!e.school) return true; // always show district events
+    return activeSchoolNames.includes(e.school); // show selected schools only
+  });
+
+  if (events.length === 0) {
     container.innerHTML = '<div class="error-msg"><strong>No events yet</strong>The calendar for this school year hasn\'t been published yet. Check back soon!</div>';
     return;
   }
 
   // Group by month
   const groups = new Map();
-  for (const event of eventsData.events) {
+  for (const event of events) {
     const key = getMonthKey(event.start);
     if (!groups.has(key)) {
       groups.set(key, []);
@@ -198,13 +385,15 @@ function renderEvents(eventsData) {
     container.appendChild(groupEl);
   }
 
-  const hash = window.location.hash.slice(1); // strip leading "#"
-  const hashTarget = hash ? document.querySelector(`[data-date="${hash}"]`) : null;
+  if (autoScroll) {
+    const hash = window.location.hash.slice(1);
+    const hashTarget = hash ? document.querySelector(`[data-date="${hash}"]`) : null;
 
-  if (hashTarget) {
-    hashTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-  } else if (scrollTarget) {
-    scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (hashTarget) {
+      hashTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else if (scrollTarget) {
+      scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 }
 
@@ -215,6 +404,11 @@ fetch("events.json")
     return res.json();
   })
   .then((data) => {
+    allEventsData = data;
+    restoreFromUrl();
+    updateFooterUrl();
+    const schools = [...new Set(data.events.filter(e => e.school).map(e => e.school))].sort();
+    if (schools.length > 0) renderSchoolPicker(schools);
     renderEvents(data);
   })
   .catch(() => {
