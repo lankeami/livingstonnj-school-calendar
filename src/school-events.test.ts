@@ -5,6 +5,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   filterSchoolEvents,
+  formatSchoolTitle,
   groupingKey,
   groupEvents,
   buildFetchUrl,
@@ -90,6 +91,29 @@ test("filterSchoolEvents produces exactly 9 unique feed_ids when all school feed
   assert.ok(!feedIds.has(145838));
 });
 
+// ── formatSchoolTitle ─────────────────────────────────────────────────────────
+
+test("formatSchoolTitle strips known prefix and prepends [ABBR]", () => {
+  assert.equal(formatSchoolTitle(27088, "HAR Back to School Night"), "[HAR] Back to School Night");
+  assert.equal(formatSchoolTitle(27089, "HIL: Back to School Night"), "[HIL] Back to School Night");
+  assert.equal(formatSchoolTitle(27094, "RHE:  Popsicles with the Principal"), "[RHE] Popsicles with the Principal");
+  assert.equal(formatSchoolTitle(27085, "BHE-Fall Bike Clinic"), "[BHE] Fall Bike Clinic");
+  assert.equal(formatSchoolTitle(27092, "HMS-Sports registration open"), "[HMS] Sports registration open");
+  assert.equal(formatSchoolTitle(27085, "BHE- HSA Community Meeting-In person"), "[BHE] HSA Community Meeting-In person");
+});
+
+test("formatSchoolTitle handles Collins alt prefixes (CO:, CES:)", () => {
+  assert.equal(formatSchoolTitle(27087, "CO: Welcome New Families Tour"), "[COL] Welcome New Families Tour");
+  assert.equal(formatSchoolTitle(27087, "CES: Science Fun Night @ MPM"), "[COL] Science Fun Night @ MPM");
+  assert.equal(formatSchoolTitle(27087, "COL: Fall Fest"), "[COL] Fall Fest");
+});
+
+test("formatSchoolTitle adds [ABBR] to unprefixed titles", () => {
+  assert.equal(formatSchoolTitle(27096, "SAT Registration"), "[LHS] SAT Registration");
+  assert.equal(formatSchoolTitle(27089, "Popsicles with the Principal"), "[HIL] Popsicles with the Principal");
+  assert.equal(formatSchoolTitle(27087, "Nighttime Book Fair Event"), "[COL] Nighttime Book Fair Event");
+});
+
 // ── Step 3: school attribution ────────────────────────────────────────────────
 
 test("school is always resolved from feed_id, not title prefix", () => {
@@ -116,37 +140,37 @@ test("all 9 school feeds map to distinct school names", () => {
 
 // ── Step 5: grouping key ──────────────────────────────────────────────────────
 
-test("groupingKey keeps Sep 17 Back to School Nights separate (prefixed titles differ)", () => {
-  // Both at 18:45 but prefixed differently
-  const harrison = makeSchoolEvent("1", 27088, "Harrison Elementary", "HAR Back to School Night", "2026-09-17", "18:45:00", false);
-  const hillside = makeSchoolEvent("2", 27089, "Hillside Elementary", "HIL: Back to School Night", "2026-09-17", "18:45:00", false);
+test("groupingKey keeps Sep 17 Back to School Nights separate after formatSchoolTitle", () => {
+  // After title formatting: [HAR] Back to School Night vs [HIL] Back to School Night
+  const harrison = makeSchoolEvent("1", 27088, "Harrison Elementary", "[HAR] Back to School Night", "2026-09-17", "18:45:00", false);
+  const hillside = makeSchoolEvent("2", 27089, "Hillside Elementary", "[HIL] Back to School Night", "2026-09-17", "18:45:00", false);
 
   assert.notEqual(groupingKey(harrison), groupingKey(hillside));
 });
 
-test("groupEvents groups District Art Show into one entry with 9 schools", () => {
+test("groupEvents: District Art Show with [ABBR] prefixes stays separate per school", () => {
   const artShowEvents: SchoolApiEvent[] = Object.entries(FEED_MAP).map(([fid, school], i) =>
-    makeSchoolEvent(String(i), Number(fid), school, "District Art Show", "2027-05-19", "18:00:00", false),
+    makeSchoolEvent(String(i), Number(fid), school, formatSchoolTitle(Number(fid), "District Art Show"), "2027-05-19", "18:00:00", false),
   );
 
   const groups = groupEvents(artShowEvents);
-  assert.equal(groups.length, 1);
-  assert.equal(groups[0].schools.length, 9);
-  assert.equal(groups[0].title, "District Art Show");
+  // Each school gets its own [ABBR] prefix → 9 separate groups
+  assert.equal(groups.length, 9);
+  // All original events preserved
+  assert.equal(groups.flatMap(g => g.events).length, 9);
 });
 
-test("Popsicles with the Principal: both records survive (no false-collapse due to prefix)", () => {
-  // Hillside: no prefix; Riker Hill: "RHE:  " prefix → different raw titles → different keys
+test("Popsicles with the Principal: both records survive after formatSchoolTitle", () => {
+  // After formatting: [HIL] vs [RHE] → different keys → both survive
   const hillside = makeSchoolEvent("1", 27089, "Hillside Elementary",
-    "Popsicles with the Principal", "2026-08-18", "15:00:00", false);
+    formatSchoolTitle(27089, "Popsicles with the Principal"), "2026-08-18", "15:00:00", false);
   const rikerHill = makeSchoolEvent("2", 27094, "Riker Hill Elementary",
-    "RHE:  Popsicles with the Principal", "2026-08-18", "15:00:00", false);
+    formatSchoolTitle(27094, "RHE:  Popsicles with the Principal"), "2026-08-18", "15:00:00", false);
 
   assert.notEqual(groupingKey(hillside), groupingKey(rikerHill));
 
   const groups = groupEvents([hillside, rikerHill]);
   assert.equal(groups.length, 2);
-  // Both original events preserved in stored data
   const allEvents = groups.flatMap(g => g.events);
   assert.equal(allEvents.length, 2);
   assert.ok(allEvents.some(e => e.school === "Hillside Elementary"));

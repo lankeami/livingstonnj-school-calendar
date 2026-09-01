@@ -54,7 +54,50 @@ export const FEED_MAP: Record<number, string> = {
 // feed 27083 = LPS District Calendar (restates the PDF — exclude)
 // feed 145838 = self-referential "Calendar: District Calendar" row — excluded implicitly
 // (only feeds in FEED_MAP are kept)
+export const FEED_ABBR: Record<number, string> = {
+  27085: "BHE",
+  27087: "COL",
+  27088: "HAR",
+  27089: "HIL",
+  27091: "MPM",
+  27092: "HMS",
+  27094: "RHE",
+  27095: "MPE",
+  27096: "LHS",
+};
+
+// All known prefixes per school (including alt abbreviations like CO:, CES: for Collins)
+const PREFIX_PATTERNS: Record<number, string[]> = {
+  27085: ["BHE"],
+  27087: ["COL", "CO", "CES"],
+  27088: ["HAR"],
+  27089: ["HIL"],
+  27091: ["MPM"],
+  27092: ["HMS"],
+  27094: ["RHE"],
+  27095: ["MPE"],
+  27096: ["LHS"],
+};
+
 export const SCHOOL_FEED_IDS = new Set(Object.keys(FEED_MAP).map(Number));
+
+// Strip any known school prefix from a title, then prepend [ABBR].
+// Only strips when the abbreviation is followed by a clear separator (: - space),
+// never when it's the start of a longer word (e.g. "Collins" starts with "Col").
+export function formatSchoolTitle(feedId: number, rawTitle: string): string {
+  const abbr = FEED_ABBR[feedId];
+  const patterns = PREFIX_PATTERNS[feedId] ?? [];
+  let title = rawTitle;
+  for (const pat of patterns) {
+    // Require a word boundary after the abbreviation, then optional separator chars
+    const re = new RegExp(`^${pat}(?=[:\\-\\s])\\s*[:;\\-]?\\s*`, "i");
+    if (re.test(title)) {
+      title = title.replace(re, "");
+      break;
+    }
+  }
+  return `[${abbr}] ${title}`;
+}
 
 // Keep only the 9 school feeds; attribute each event's school via feed_id, never title prefix.
 export function filterSchoolEvents(events: ApiEvent[]): SchoolApiEvent[] {
@@ -64,7 +107,7 @@ export function filterSchoolEvents(events: ApiEvent[]): SchoolApiEvent[] {
       id: e.id,
       feed_id: e.feed_id,
       school: FEED_MAP[e.feed_id],
-      title: e.title,
+      title: formatSchoolTitle(e.feed_id, e.title),
       start_date: e.start_date,
       end_date: e.end_date,
       start_time: e.start_time,
