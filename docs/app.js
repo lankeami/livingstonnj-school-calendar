@@ -44,6 +44,15 @@ function updateFooterUrl() {
   if (urlDisplay) urlDisplay.textContent = getActiveWebcalUrl();
 }
 
+function formatTime(hhmm) {
+  if (!hhmm) return "";
+  const [h, m] = hhmm.split(":").map(Number);
+  if (h === 0 && m === 0) return "";
+  const suffix = h >= 12 ? "PM" : "AM";
+  const hour = h % 12 || 12;
+  return m === 0 ? `${hour} ${suffix}` : `${hour}:${String(m).padStart(2, "0")} ${suffix}`;
+}
+
 // Set default footer URL (no schools selected yet)
 (function() {
   const urlDisplay = document.getElementById("subscribe-url-display");
@@ -349,6 +358,13 @@ function renderEvents(eventsData, autoScroll) {
       const dateEl = document.createElement("div");
       dateEl.className = "event-date";
       dateEl.textContent = formatDateRange(event.start, event.end);
+      const time = formatTime(event.startTime);
+      if (time) {
+        const timeEl = document.createElement("div");
+        timeEl.className = "event-time";
+        timeEl.textContent = time;
+        dateEl.appendChild(timeEl);
+      }
 
       const infoEl = document.createElement("div");
       infoEl.className = "event-info";
