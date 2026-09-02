@@ -2,6 +2,8 @@
 
 ## 2026-09-02
 
+- [f4a8ce9](https://github.com/lankeami/livingstonnj-school-calendar/commit/f4a8ce9988000109223748101505ad8fd3d85b8f) Fix timezone: add VTIMEZONE block and TZID to timed events
+  X-WR-TIMEZONE alone is not honored by Google Calendar. Add a proper VTIMEZONE component for America/New_York and TZID parameter on every timed DTSTART/DTEND so all calendar apps interpret times correctly.
 - [6d2abae](https://github.com/lankeami/livingstonnj-school-calendar/commit/6d2abaeb3d0af7c6cacb55df61489664303270a3) Fix school event times showing 4 hours early in calendar apps
   ICS files lacked a timezone declaration, so calendar apps interpreted local times as UTC. Added X-WR-TIMEZONE:America/New_York to per-school ICS files and the Vercel API endpoint.
 

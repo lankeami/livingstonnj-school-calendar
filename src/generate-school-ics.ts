@@ -1,6 +1,7 @@
 import { createEvents, type EventAttributes } from "ics";
 import type { SchoolApiEvent } from "./school-events.js";
 import type { Config } from "./types.js";
+import { applyEasternTimezone } from "./ics-timezone.js";
 
 function parseDate(s: string): [number, number, number] {
   const [y, m, d] = s.split("-").map(Number);
@@ -64,9 +65,5 @@ export function generateSchoolIcs(events: SchoolApiEvent[], school: string, conf
 
   if (error || !value) throw new Error(`ICS generation failed for ${school}: ${error}`);
 
-  // Inject X-WR-TIMEZONE so calendar apps interpret local times as Eastern
-  return value.replace(
-    "X-PUBLISHED-TTL:PT1H",
-    "X-PUBLISHED-TTL:PT1H\r\nX-WR-TIMEZONE:America/New_York"
-  );
+  return applyEasternTimezone(value);
 }
