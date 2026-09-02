@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-02
+
+- [6d2abae](https://github.com/lankeami/livingstonnj-school-calendar/commit/6d2abaeb3d0af7c6cacb55df61489664303270a3) Fix school event times showing 4 hours early in calendar apps
+  ICS files lacked a timezone declaration, so calendar apps interpreted local times as UTC. Added X-WR-TIMEZONE:America/New_York to per-school ICS files and the Vercel API endpoint.
+
 ## 2026-09-01
 
 - [a5dd7ad](https://github.com/lankeami/livingstonnj-school-calendar/commit/a5dd7adbfe5f9aa7460aa3727f66423307e5a165) Add refresh-school-events skill and --force flag for re-fetching

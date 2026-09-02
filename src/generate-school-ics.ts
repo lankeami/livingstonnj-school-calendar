@@ -63,5 +63,10 @@ export function generateSchoolIcs(events: SchoolApiEvent[], school: string, conf
   });
 
   if (error || !value) throw new Error(`ICS generation failed for ${school}: ${error}`);
-  return value;
+
+  // Inject X-WR-TIMEZONE so calendar apps interpret local times as Eastern
+  return value.replace(
+    "X-PUBLISHED-TTL:PT1H",
+    "X-PUBLISHED-TTL:PT1H\r\nX-WR-TIMEZONE:America/New_York"
+  );
 }
