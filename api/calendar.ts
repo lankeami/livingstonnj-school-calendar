@@ -204,8 +204,13 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     return;
   }
 
+  const ics = value.replace(
+    "X-PUBLISHED-TTL:PT1H",
+    "X-PUBLISHED-TTL:PT1H\r\nX-WR-TIMEZONE:America/New_York"
+  );
+
   res.setHeader("Content-Type", "text/calendar; charset=utf-8");
   res.setHeader("Content-Disposition", "inline; filename=livingston-schools.ics");
   res.setHeader("Cache-Control", "public, max-age=3600");
-  res.status(200).send(value);
+  res.status(200).send(ics);
 }
