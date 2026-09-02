@@ -2,6 +2,8 @@
 
 ## 2026-09-02
 
+- [a49f7dc](https://github.com/lankeami/livingstonnj-school-calendar/commit/a49f7dc59bf893b57f2504d85671599586678398) Show event times on the website under the date
+  School events with times now display the start time (e.g. "6:45 PM") beneath the date in event cards. District events remain date-only.
 - [f4a8ce9](https://github.com/lankeami/livingstonnj-school-calendar/commit/f4a8ce9988000109223748101505ad8fd3d85b8f) Fix timezone: add VTIMEZONE block and TZID to timed events
   X-WR-TIMEZONE alone is not honored by Google Calendar. Add a proper VTIMEZONE component for America/New_York and TZID parameter on every timed DTSTART/DTEND so all calendar apps interpret times correctly.
 - [6d2abae](https://github.com/lankeami/livingstonnj-school-calendar/commit/6d2abaeb3d0af7c6cacb55df61489664303270a3) Fix school event times showing 4 hours early in calendar apps
