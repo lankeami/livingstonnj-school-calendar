@@ -1,6 +1,6 @@
 {
   "schoolYear": "2026-2027",
-  "fetchedAt": "2026-09-01",
+  "fetchedAt": "2026-09-03",
   "events": [
     {
       "id": "6i6dkmakm0v833k7tgv1jahv1k",
@@ -380,6 +380,19 @@
       "address": ""
     },
     {
+      "id": "3dm2k9tsj68jpgau701qgarfvu",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] All Classes Meet",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-01",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7mnjtb869ch1v42665lq5iud0f",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -393,15 +406,15 @@
       "address": ""
     },
     {
-      "id": "63v4kefv7sjmosm80j8ieagtmg",
-      "feed_id": 27089,
-      "school": "Hillside Elementary",
-      "title": "[HIL] PTA Pretzel Sale & ASE Links Open",
+      "id": "0onl06t48boogfsu9qtpkbusgv_20260827",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
       "start_date": "2026-09-01",
-      "end_date": "2026-09-01",
-      "start_time": "08:00:00",
-      "end_time": "08:30:00",
-      "all_day": false,
+      "end_date": "2026-09-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -419,6 +432,32 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20260902",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20260903",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1b8fk5d82q3jocag1ff3ku8e1n",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -428,6 +467,32 @@
       "start_time": "18:30:00",
       "end_time": "20:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20260904",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "5p2bpas0846m29dqi98m9mtrl5",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Half Day",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -458,6 +523,32 @@
       "address": ""
     },
     {
+      "id": "4iktcck78hfih543l642bn7b46",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Labor Day",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20260903",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6fork8s7kuiabbtbmlbvdbhftk",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -467,6 +558,19 @@
       "start_time": "07:50:00",
       "end_time": "15:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20260909",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -510,6 +614,19 @@
       "address": ""
     },
     {
+      "id": "54namlhe61v4d4nokpvj89ef1u",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] BTSN",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-09",
+      "start_time": "22:00:00",
+      "end_time": "22:30:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6oo2nvkf0tdl7v2c21rfiu372b",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -519,6 +636,19 @@
       "start_time": "19:30:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20260910",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -575,15 +705,15 @@
       "address": ""
     },
     {
-      "id": "4gsej5tdbn2qo25ktr0fop7uim",
-      "feed_id": 27089,
-      "school": "Hillside Elementary",
-      "title": "[HIL] PTA Pretzel Sale Link Closes",
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20260911",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
       "start_date": "2026-09-11",
-      "end_date": "2026-09-11",
-      "start_time": "08:00:00",
-      "end_time": "08:30:00",
-      "all_day": false,
+      "end_date": "2026-09-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -614,15 +744,15 @@
       "address": ""
     },
     {
-      "id": "0v0bmfvcf2in173cvi5lacqv5a",
-      "feed_id": 27089,
-      "school": "Hillside Elementary",
-      "title": "[HIL] ASE Link Closes",
+      "id": "0onl06t48boogfsu9qtpkbusgv_20260910",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
       "start_date": "2026-09-14",
-      "end_date": "2026-09-14",
-      "start_time": "08:00:00",
-      "end_time": "08:30:00",
-      "all_day": false,
+      "end_date": "2026-09-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -664,6 +794,19 @@
       "all_day": false,
       "description": "",
       "address": "Media Center"
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20260916",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-09-15",
+      "end_date": "2026-09-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "156sbpt3l5ddipedka2luft6go_20260915T184500Z",
@@ -731,6 +874,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20260917",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2pg295ifoq8t8jtt4dm6r8emt0_20260916T184500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -774,6 +930,19 @@
       "feed_id": 27095,
       "school": "Mt. Pleasant Elementary",
       "title": "[MPE] Picture Day grades 3-5",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20260918",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
       "start_date": "2026-09-17",
       "end_date": "2026-09-18",
       "start_time": "00:00:00",
@@ -874,6 +1043,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20260917",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3ucge5bia0nmtfia71rujvghhd",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -909,6 +1091,45 @@
       "start_time": "19:00:00",
       "end_time": "21:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7r3u0mv95n1bhom0kpirurto7n",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Yom Kippur",
+      "start_date": "2026-09-21",
+      "end_date": "2026-09-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20260923",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6sflmh22ej9ed8ss1cbajpbd16",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Morning PD - Delay for Stdnts",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -952,6 +1173,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20260924",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-09-23",
+      "end_date": "2026-09-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "11a5f0t6sf5s6c5mla5lqui7fq_20260923T184500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -965,36 +1199,10 @@
       "address": ""
     },
     {
-      "id": "11vnrhiuerdsd0jh4ghcj3c6vm",
-      "feed_id": 27096,
-      "school": "Livingston High School",
-      "title": "[LHS] Post Secondary Transition for Students with Learning Disabilities via Zoom",
-      "start_date": "2026-09-23",
-      "end_date": "2026-09-23",
-      "start_time": "18:00:00",
-      "end_time": "19:00:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
       "id": "5t5n8e8k3leg9366c1eag9pk65",
       "feed_id": 27092,
       "school": "Heritage Middle",
       "title": "[HMS] Back to School Night",
-      "start_date": "2026-09-23",
-      "end_date": "2026-09-23",
-      "start_time": "19:00:00",
-      "end_time": "20:00:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
-      "id": "5nhlec7lqqaqfifup2undj3vlm",
-      "feed_id": 27096,
-      "school": "Livingston High School",
-      "title": "[LHS] 11th Grade Post Secondary Planning Night: The Search Process via Zoom",
       "start_date": "2026-09-23",
       "end_date": "2026-09-23",
       "start_time": "19:00:00",
@@ -1017,6 +1225,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20260925",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-09-24",
+      "end_date": "2026-09-25",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2hl9al0jb46b6v5211olee6jv8",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -1026,6 +1247,19 @@
       "start_time": "19:00:00",
       "end_time": "20:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20260924",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1069,6 +1303,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20260930",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-09-28",
+      "end_date": "2026-09-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "50f3ekl8ji1o1e15klikq4ma1s",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -1091,6 +1338,19 @@
       "start_time": "17:00:00",
       "end_time": "19:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261001",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-09-29",
+      "end_date": "2026-09-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1121,6 +1381,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261002",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-01",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0vub5km21r28l9hfsmob8rcfem",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -1134,6 +1407,45 @@
       "address": ""
     },
     {
+      "id": "11vnrhiuerdsd0jh4ghcj3c6vm",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Post Secondary Transition for Students with Learning Disabilities via Zoom",
+      "start_date": "2026-09-30",
+      "end_date": "2026-09-30",
+      "start_time": "18:00:00",
+      "end_time": "18:30:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "5nhlec7lqqaqfifup2undj3vlm",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] 11th Grade Post Secondary Planning Night: The Search Process via Zoom",
+      "start_date": "2026-09-30",
+      "end_date": "2026-09-30",
+      "start_time": "18:30:00",
+      "end_time": "19:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261001",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "45jablrf57ard23nagi3lqa9fr",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -1143,6 +1455,19 @@
       "start_time": "08:00:00",
       "end_time": "08:15:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261007",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1196,6 +1521,19 @@
       "end_time": "13:00:00",
       "all_day": false,
       "description": "There will be 2 session- 10am-11:30am and 11:30am - 1pm.  Please visit the HSA website for details.",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261008",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -1277,6 +1615,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261009",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4s0assaknnq9snas50ea4fborn",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -1329,6 +1680,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261008",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3aa7p6f4iubd0h7a74kb5p24dq",
       "feed_id": 27095,
       "school": "Mt. Pleasant Elementary",
@@ -1342,10 +1706,36 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261014",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7j8tu368fis4r4nhdom2og66ql",
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] Back to School Pep Rally",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261015",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
       "start_date": "2026-10-09",
       "end_date": "2026-10-10",
       "start_time": "00:00:00",
@@ -1394,10 +1784,36 @@
       "address": ""
     },
     {
+      "id": "57r99sgb57tuh7tov9al580kg3",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] PD Day - No School for Stdnts (Indigenous People's Day)",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6i54j472863ruhoj82bdhbfoc4",
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] Picture Day",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-14",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261016",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
       "start_date": "2026-10-13",
       "end_date": "2026-10-14",
       "start_time": "00:00:00",
@@ -1416,6 +1832,19 @@
       "start_time": "14:45:00",
       "end_time": "15:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261015",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1485,6 +1914,19 @@
       "address": ""
     },
     {
+      "id": "5d9hqinrt0s9ov0j0ge4msm1pa",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1quqg9eego98u22i7pb251pucq",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -1524,6 +1966,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261029",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5dkltv1s76p9qsvdtervhounjq",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -1550,6 +2005,19 @@
       "address": ""
     },
     {
+      "id": "1ooc084vushvm6agp997kqavhj",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5p6j1cam7kfvu4ki6j5h7qi7od",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -1559,6 +2027,19 @@
       "start_time": "19:15:00",
       "end_time": "20:15:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261022",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-21",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1580,6 +2061,32 @@
       "feed_id": 27095,
       "school": "Mt. Pleasant Elementary",
       "title": "[MPE] Holiday Boutique",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0g8v0amdj9o6amaplenl7ecp50",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Half Day - PSAT",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261021",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
       "start_date": "2026-10-21",
       "end_date": "2026-10-22",
       "start_time": "00:00:00",
@@ -1611,6 +2118,19 @@
       "start_time": "18:30:00",
       "end_time": "19:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261022",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1667,6 +2187,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261023",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5m5qrbm6saiq787hpc1l251tlf",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1706,6 +2239,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261029",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-27",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1euhs094oa7rqeqlljc6us9is5",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1719,6 +2265,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261028",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-28",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1ucp04dnfjlcn4lv932se8gvr6",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -1728,6 +2287,19 @@
       "start_time": "08:45:00",
       "end_time": "15:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3gn5f95pb1pg5n8ebndmgp9pr3",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1762,6 +2334,19 @@
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
       "title": "[RHE] Trunk or Treat/Fall Festival (RHE Parking Lot. Time TBD)",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261030",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
       "start_date": "2026-10-29",
       "end_date": "2026-10-30",
       "start_time": "00:00:00",
@@ -1810,6 +2395,19 @@
       "address": ""
     },
     {
+      "id": "0ov31c6fhl47uvg4a9a7ch524v",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-10-30",
+      "end_date": "2026-10-31",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7opa4vip6jrtdn2mckfa234j73",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -1849,6 +2447,32 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261104",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261105",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3o3npks8420fjm39o6s73k9jf9",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -1862,6 +2486,19 @@
       "address": "MPMS"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261106",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0kadcnk44jk1ijooh5ckjnmc1q",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -1873,6 +2510,45 @@
       "all_day": false,
       "description": "",
       "address": "MPMS"
+    },
+    {
+      "id": "0cut3184slel3h6p7a4lrn2rl8",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - NJEA Convention",
+      "start_date": "2026-11-05",
+      "end_date": "2026-11-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261105",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261111",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "156sbpt3l5ddipedka2luft6go_20261117T194500Z",
@@ -1897,6 +2573,19 @@
       "start_time": "19:00:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261112",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1953,6 +2642,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261113",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "39fp0q3ovc9l7n3brh4j4as90k",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -1975,6 +2677,19 @@
       "start_time": "14:45:00",
       "end_time": "15:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261112",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-14",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2031,6 +2746,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261118",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6jbt59uprrnahcm8l1pog3cc9h",
       "feed_id": 27088,
       "school": "Harrison Elementary",
@@ -2041,6 +2769,19 @@
       "end_time": "20:00:00",
       "all_day": false,
       "description": "Old gym - Use door 4",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261119",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -2061,6 +2802,19 @@
       "feed_id": 27092,
       "school": "Heritage Middle",
       "title": "[HMS] Picture Retakes",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261120",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
       "start_date": "2026-11-18",
       "end_date": "2026-11-19",
       "start_time": "00:00:00",
@@ -2135,6 +2889,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261119",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1iim650l9ih1ef8lm6c9u1n6um",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -2171,6 +2938,19 @@
       "end_time": "22:00:00",
       "all_day": false,
       "description": "Auditorium",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261202",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-21",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -2223,6 +3003,19 @@
       "end_time": "22:00:00",
       "all_day": false,
       "description": "Auditorium",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261126",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -2343,6 +3136,19 @@
       "address": "Zoom"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261127",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-25",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1tbhmqiedoqi5guib0k5kkba5h",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -2352,6 +3158,58 @@
       "start_time": "08:00:00",
       "end_time": "08:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261126",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1dr95od37jt31are52s58npob5",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Half Day",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1jd8er7os5g0vrpj1qh656ml3f",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Weekend Off",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7ta6kt9gv5rnsnk2dsrj1tel00",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Thanksgiving",
+      "start_date": "2026-11-26",
+      "end_date": "2026-11-28",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2369,10 +3227,49 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261125",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-11-30",
+      "end_date": "2026-12-01",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "79dipohud3tr6ac35t692p9h4n",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Morning PD - Delay for Stdnts",
+      "start_date": "2026-11-30",
+      "end_date": "2026-12-01",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4vrdrvoeooc90msu11ufvlgjuh",
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] PTA Coat Drive Begins",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261203",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
       "start_date": "2026-12-01",
       "end_date": "2026-12-02",
       "start_time": "00:00:00",
@@ -2421,6 +3318,19 @@
       "address": "Small Gym"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261204",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "767nkpt3de1a9h9onq7m497pi3",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2460,6 +3370,19 @@
       "address": "Small Gym"
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261203",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2jlmunrba5h4dta797mik7huic",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -2484,6 +3407,19 @@
       "all_day": false,
       "description": "",
       "address": "Auditorium"
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261230",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "5ickihto77hc9hquloqekuc5h6",
@@ -2525,6 +3461,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261210",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0u7rdq6kfbfo0o6p8385qg8i81",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -2551,6 +3500,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261211",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-12-08",
+      "end_date": "2026-12-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "156sbpt3l5ddipedka2luft6go_20261215T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -2560,6 +3522,19 @@
       "start_time": "14:45:00",
       "end_time": "15:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261210",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2616,6 +3591,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261209",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-12-10",
+      "end_date": "2026-12-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4pee16l8jjpv1qaiv8ac6j58uh_20261217T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -2668,6 +3656,19 @@
       "address": "LHS Auditorium"
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261224",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0il6558psct4e5mphtvfs1nj39",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -2694,6 +3695,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261225",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-12-14",
+      "end_date": "2026-12-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4l6ssn21lap4fvbc4kn392dq7k",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2711,6 +3725,19 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] PTA Coat Drive Ends",
+      "start_date": "2026-12-15",
+      "end_date": "2026-12-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261217",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
       "start_date": "2026-12-15",
       "end_date": "2026-12-16",
       "start_time": "00:00:00",
@@ -2750,6 +3777,19 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] Winter ASE Link Closes",
+      "start_date": "2026-12-16",
+      "end_date": "2026-12-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261216",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
       "start_date": "2026-12-16",
       "end_date": "2026-12-17",
       "start_time": "00:00:00",
@@ -2811,6 +3851,19 @@
       "address": "LHS Auditorium"
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261217",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2lpfpo6pbrc80rrvkb5i3ndnd4",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -2850,12 +3903,129 @@
       "address": "LHS Auditorium"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20261218",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2026-12-18",
+      "end_date": "2026-12-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261224",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2026-12-21",
+      "end_date": "2026-12-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0388uj170soejj9eeooalaun47",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
       "title": "[MPM] Close Registration for Intramurals",
       "start_date": "2026-12-22",
       "end_date": "2026-12-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20261223",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2026-12-22",
+      "end_date": "2026-12-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261231",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3ibfqhgncg2fm0l4jdd49ft1lr",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Half Day",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7k75td295n8veeldm5d89ugvbp",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Weekend Off",
+      "start_date": "2026-12-23",
+      "end_date": "2026-12-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "347ihcmlknvj0ciuljmubhier6",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Winter Break",
+      "start_date": "2026-12-24",
+      "end_date": "2026-12-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "2vl043ls2kmccgts1l13p1o00p",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Winter Break",
+      "start_date": "2026-12-28",
+      "end_date": "2027-01-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270101",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-01-04",
+      "end_date": "2027-01-05",
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
@@ -2872,6 +4042,19 @@
       "start_time": "14:50:00",
       "end_time": "15:50:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20261231",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-01-05",
+      "end_date": "2027-01-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2902,6 +4085,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270106",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-01-06",
+      "end_date": "2027-01-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2pg295ifoq8t8jtt4dm6r8emt0_20270120T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -2926,6 +4122,19 @@
       "all_day": false,
       "description": "6:00pm is Orchestra\n7:15 pm is Chorus",
       "address": "MPMS Auditorium"
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270107",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-01-07",
+      "end_date": "2027-01-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "4pee16l8jjpv1qaiv8ac6j58uh_20270121T194500Z",
@@ -2954,6 +4163,19 @@
       "address": "MPMS Auditorium"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270108",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-01-08",
+      "end_date": "2027-01-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7helr6cash7f4iahs5m5n29d12",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -2976,6 +4198,19 @@
       "start_time": "18:00:00",
       "end_time": "19:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270107",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-01-11",
+      "end_date": "2027-01-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3032,6 +4267,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270113",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-01-12",
+      "end_date": "2027-01-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6f7quv6emiq8ie44ed91mqvf46",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -3067,6 +4315,19 @@
       "start_time": "18:30:00",
       "end_time": "19:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270114",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-01-13",
+      "end_date": "2027-01-14",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3123,6 +4384,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270115",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "05pbqvdma6p6bpv8vnm0uod7ck",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -3175,6 +4449,71 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270114",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-01-15",
+      "end_date": "2027-01-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "2300gltj2ek6qrsnv845viig4g",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - MLK Day",
+      "start_date": "2027-01-18",
+      "end_date": "2027-01-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1o8qs7i6nu7vhu4jdtjceieqir",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Morning PD - Delay for Stdnts",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270120",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-01-19",
+      "end_date": "2027-01-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270121",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-01-20",
+      "end_date": "2027-01-21",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "34dapd68hse5e4dbdbgtbbvndk",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -3212,6 +4551,19 @@
       "all_day": false,
       "description": "",
       "address": "HMS Auditorium"
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270122",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-01-21",
+      "end_date": "2027-01-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "4h12s7vpeqkfk20keve727dtm8",
@@ -3266,6 +4618,19 @@
       "address": "HMS Auditorium"
     },
     {
+      "id": "5leiv7i4ulc5ba53mfrttbpidr",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] All Classes Meet",
+      "start_date": "2027-01-22",
+      "end_date": "2027-01-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4epmrlmq4cfj3s6cdju4f5avui",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -3288,6 +4653,32 @@
       "start_time": "17:00:00",
       "end_time": "18:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270121",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-01-25",
+      "end_date": "2027-01-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "78thfr5dghg2rlclvgqjt1820r",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Half Day - Semester 2 Start",
+      "start_date": "2027-01-25",
+      "end_date": "2027-01-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3316,6 +4707,32 @@
       "all_day": false,
       "description": "",
       "address": "MPMS"
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270127",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-01-26",
+      "end_date": "2027-01-27",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270128",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-01-27",
+      "end_date": "2027-01-28",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "4tav5nmtded73ljdrrt2n04667",
@@ -3357,6 +4774,19 @@
       "address": "MPMS"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270129",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-01-28",
+      "end_date": "2027-01-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3ooeafroosi0kcg53c926fe2fa",
       "feed_id": 27092,
       "school": "Heritage Middle",
@@ -3396,6 +4826,19 @@
       "address": "HMS"
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270128",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-01-29",
+      "end_date": "2027-01-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6pubv10c8oodkoknqf5qqg0277",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -3406,6 +4849,19 @@
       "end_time": "20:30:00",
       "all_day": false,
       "description": "Cafe ABCD",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270203",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-02-01",
+      "end_date": "2027-02-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -3435,6 +4891,19 @@
       "address": "HMS Auditorium"
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270204",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-02-02",
+      "end_date": "2027-02-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "11los39l4vqa0sv7t39jfchvpd",
       "feed_id": 27092,
       "school": "Heritage Middle",
@@ -3457,6 +4926,19 @@
       "start_time": "14:45:00",
       "end_time": "15:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270205",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-02-03",
+      "end_date": "2027-02-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3526,6 +5008,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270204",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-02-04",
+      "end_date": "2027-02-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4pee16l8jjpv1qaiv8ac6j58uh_20270218T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -3578,6 +5073,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270217",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-02-05",
+      "end_date": "2027-02-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "07oc06sasc24fqndnlvovm1arb",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -3613,6 +5121,19 @@
       "start_time": "12:00:00",
       "end_time": "12:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270211",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-02-08",
+      "end_date": "2027-02-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3656,6 +5177,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270212",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-02-09",
+      "end_date": "2027-02-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0tdfbinafqdb5drb7fp3mvqm75_20270223T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -3678,6 +5212,19 @@
       "start_time": "19:00:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270211",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-02-10",
+      "end_date": "2027-02-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3717,6 +5264,19 @@
       "start_time": "19:30:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270210",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-02-11",
+      "end_date": "2027-02-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3799,6 +5359,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270218",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-02-12",
+      "end_date": "2027-02-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1ssl81ioa36qmrdc6mls27adtt",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -3821,6 +5394,19 @@
       "start_time": "06:00:00",
       "end_time": "16:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7tnbvv61fpjprlhclekjc516p2",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - February Break",
+      "start_date": "2027-02-15",
+      "end_date": "2027-02-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3851,6 +5437,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270219",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-02-22",
+      "end_date": "2027-02-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6j5uoci6ihckla3u4rhs5n70c2",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -3860,6 +5459,32 @@
       "start_time": "19:15:00",
       "end_time": "20:15:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270218",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-02-23",
+      "end_date": "2027-02-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270224",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-25",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3890,6 +5515,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270225",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-02-25",
+      "end_date": "2027-02-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0mgnrb71ocgon0jmj7co2h68j5",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -3913,6 +5551,19 @@
       "end_time": "20:30:00",
       "all_day": false,
       "description": "Auditorium",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270226",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-02-26",
+      "end_date": "2027-02-27",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -3942,6 +5593,32 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270304",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-03-01",
+      "end_date": "2027-03-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270303",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-03-02",
+      "end_date": "2027-03-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "522ft3brl3hf3h51kkihrd8o93",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -3951,6 +5628,19 @@
       "start_time": "19:00:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270304",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-03-03",
+      "end_date": "2027-03-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -3977,6 +5667,19 @@
       "start_time": "18:00:00",
       "end_time": "19:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270305",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-03-04",
+      "end_date": "2027-03-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -4011,6 +5714,19 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] Spring Pretzel Sale Ends",
+      "start_date": "2027-03-05",
+      "end_date": "2027-03-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270311",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
       "start_date": "2027-03-05",
       "end_date": "2027-03-06",
       "start_time": "00:00:00",
@@ -4059,6 +5775,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270310",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-03-08",
+      "end_date": "2027-03-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2thi40svgrpsoac4p24mqmfbn1",
       "feed_id": 27088,
       "school": "Harrison Elementary",
@@ -4069,6 +5798,32 @@
       "end_time": "20:00:00",
       "all_day": false,
       "description": "Old gym - Use door 4",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270311",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6il2ospshd1oab0ib7blfs4s02",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Afternoon PD - Half Day",
+      "start_date": "2027-03-09",
+      "end_date": "2027-03-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -4095,6 +5850,45 @@
       "end_time": "22:00:00",
       "all_day": false,
       "description": "Auditorium",
+      "address": ""
+    },
+    {
+      "id": "6mhcm8b6ftv90l9ar8edh1n6uh",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Eid",
+      "start_date": "2027-03-10",
+      "end_date": "2027-03-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270312",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-03-11",
+      "end_date": "2027-03-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "5v05qlltqvme3qlk8adohn6qgo",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJGPA Testing",
+      "start_date": "2027-03-11",
+      "end_date": "2027-03-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -4133,6 +5927,32 @@
       "start_time": "19:30:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270318",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-03-12",
+      "end_date": "2027-03-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "5n23v2m8d4m0q66tq2o1bparao",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJGPA Testing",
+      "start_date": "2027-03-12",
+      "end_date": "2027-03-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -4176,6 +5996,32 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270317",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "5l1saqt81r5dkjmtuu7a6ugie3",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJGPA Testing",
+      "start_date": "2027-03-15",
+      "end_date": "2027-03-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1gu5r83m8u4f35leu9di4ot73h",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -4187,6 +6033,32 @@
       "all_day": false,
       "description": "",
       "address": "LHS Town Hall"
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270318",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7dnvn6nekn9gnvnq1aubh97sj7",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJGPA Testing",
+      "start_date": "2027-03-16",
+      "end_date": "2027-03-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "156sbpt3l5ddipedka2luft6go_20270316T184500Z",
@@ -4211,6 +6083,19 @@
       "start_time": "19:00:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270319",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -4267,6 +6152,19 @@
       "address": "Riker Hill Elementary, 31 Blackstone Dr, Livingston, NJ 07039, USA"
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270325",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-03-18",
+      "end_date": "2027-03-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "45j7kn34500jlhbhlh7k89j91a",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -4306,6 +6204,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270324",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-03-19",
+      "end_date": "2027-03-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "163263kq2s1ebp1kvt4rftf93m",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -4332,6 +6243,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270325",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-03-22",
+      "end_date": "2027-03-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0n11h3jb2rvslir407fknmvemg",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -4341,6 +6265,19 @@
       "start_time": "18:30:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270326",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-03-23",
+      "end_date": "2027-03-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -4462,6 +6399,19 @@
       "address": "MPM"
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270401",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-03-24",
+      "end_date": "2027-03-25",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3n3j9j3q032f1u0dmsbrnd0hor",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -4501,6 +6451,32 @@
       "address": "Fitness Wellness Center  LHS"
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270331",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-03-25",
+      "end_date": "2027-03-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6rih3ae06ondn32v3v1etv4ffs",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Weekend Off",
+      "start_date": "2027-03-25",
+      "end_date": "2027-03-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5cqq4dkmjg3p0oc43r301hadvn",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -4527,12 +6503,51 @@
       "address": "Fitness Wellness Center  LHS"
     },
     {
+      "id": "3jjk9tu2mlfdjp6vbks18n0l4e",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Good Friday",
+      "start_date": "2027-03-26",
+      "end_date": "2027-03-27",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2ckais8sj2bsig86c0onk18ttt",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
       "title": "[MPM] Close Registration for Intramurals",
       "start_date": "2027-03-29",
       "end_date": "2027-03-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270401",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-03-29",
+      "end_date": "2027-03-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270402",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-03-30",
+      "end_date": "2027-03-31",
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
@@ -4566,6 +6581,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270408",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-03-31",
+      "end_date": "2027-04-01",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0km7ft4lv9qddm5aa6e29g7pmp",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -4590,6 +6618,32 @@
       "all_day": false,
       "description": "",
       "address": "Fitness and Wellness Center"
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270421",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-04-01",
+      "end_date": "2027-04-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270422",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-04-02",
+      "end_date": "2027-04-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "4laldbmah0po5fqb1n09i56sd2",
@@ -4670,6 +6724,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270423",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-04-05",
+      "end_date": "2027-04-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "03gd02htpffrr68ab5membba9b",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -4680,6 +6747,19 @@
       "end_time": "19:00:00",
       "all_day": false,
       "description": "Cafeteria ABCD",
+      "address": ""
+    },
+    {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270422",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-04-06",
+      "end_date": "2027-04-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -4705,6 +6785,19 @@
       "start_time": "14:45:00",
       "end_time": "15:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270407",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -4748,6 +6841,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270408",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-04-08",
+      "end_date": "2027-04-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4jsm28akfm727nvoi3vndevkol",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -4774,6 +6880,32 @@
       "address": ""
     },
     {
+      "id": "5ss0k0n1jq7p2h40e8o1n70va7",
+      "feed_id": 27092,
+      "school": "Heritage Middle",
+      "title": "[HMS] 6th-7th Grade Transition -  Parent Presentation",
+      "start_date": "2027-04-08",
+      "end_date": "2027-04-08",
+      "start_time": "19:00:00",
+      "end_time": "20:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270409",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-04-09",
+      "end_date": "2027-04-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6kk8baojq13onppvbr91skocnm",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -4787,6 +6919,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270415",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-04-12",
+      "end_date": "2027-04-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7tog0t2jlbehjsrdcffudukl54",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -4796,6 +6941,19 @@
       "start_time": "19:00:00",
       "end_time": "21:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270414",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-04-13",
+      "end_date": "2027-04-14",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -4943,6 +7101,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270415",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-04-14",
+      "end_date": "2027-04-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6lnp3rmgh23m8kji7esvq0ouqo",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -5034,6 +7205,19 @@
       "address": "MPE Cafe/Big Gym"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270416",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-04-15",
+      "end_date": "2027-04-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3lbnq3fgtcpv72j7trva9gkpod",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -5073,6 +7257,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270429",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-04-16",
+      "end_date": "2027-04-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "003bbq2pi4pud1gbpfdenrca1i",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -5082,6 +7279,19 @@
       "start_time": "14:45:00",
       "end_time": "16:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7237uucjvthtpsekvvl8r1dnp2",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Spring Break",
+      "start_date": "2027-04-19",
+      "end_date": "2027-04-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5112,6 +7322,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270428",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-04-26",
+      "end_date": "2027-04-27",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2u17n60p4561ct6bkvvikstsom",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -5122,6 +7345,19 @@
       "end_time": "20:30:00",
       "all_day": false,
       "description": "Auditorium/Cafe ABCD",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270429",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-04-27",
+      "end_date": "2027-04-28",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -5177,6 +7413,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270430",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-04-28",
+      "end_date": "2027-04-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "72j8cbdre19infekfpc336hsds",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -5229,6 +7478,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270506",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-04-29",
+      "end_date": "2027-04-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6o4su3mnq65rm6iapn3u7q3685",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -5238,6 +7500,32 @@
       "start_time": "19:00:00",
       "end_time": "21:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270505",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-04-30",
+      "end_date": "2027-05-01",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6ljpf019dmmvm253pfvf1acglt",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-05-03",
+      "end_date": "2027-05-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5264,6 +7552,19 @@
       "start_time": "18:30:00",
       "end_time": "19:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270507",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-05-04",
+      "end_date": "2027-05-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5307,6 +7608,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270513",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-05-05",
+      "end_date": "2027-05-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "33rqvbiv2nkv4cq7s4s7m23k7g",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -5331,6 +7645,19 @@
       "all_day": false,
       "description": "6:00 Orchestra\n7:15  Chorus",
       "address": "MPMS"
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270512",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-05-06",
+      "end_date": "2027-05-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
     },
     {
       "id": "3fqr8c14rd6cnvfjlp6sldum22",
@@ -5359,6 +7686,19 @@
       "address": "Heritage Auditorium"
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270506",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-05-07",
+      "end_date": "2027-05-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0jhguc59okposfnfq582pnvnrh",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -5381,6 +7721,19 @@
       "start_time": "15:00:00",
       "end_time": "15:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "15c35ltoot0mmfv4esf9acennj",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-05-10",
+      "end_date": "2027-05-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5411,6 +7764,19 @@
       "address": "LHS Auditorium"
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270520",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-05-11",
+      "end_date": "2027-05-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6fcbhpb3ht77g9176rv11a5rkh",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -5420,6 +7786,19 @@
       "start_time": "18:00:00",
       "end_time": "19:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270519",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-05-12",
+      "end_date": "2027-05-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5459,6 +7838,19 @@
       "start_time": "19:30:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270513",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-05-13",
+      "end_date": "2027-05-14",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5528,6 +7920,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270514",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-05-14",
+      "end_date": "2027-05-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3pn61eajj5inifnnlvlijsfs84",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -5563,6 +7968,32 @@
       "start_time": "14:00:00",
       "end_time": "15:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6fdssui49fptrkevekq2qq0v70",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] All Classes Meet",
+      "start_date": "2027-05-17",
+      "end_date": "2027-05-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6htqiaka87i62ugf2ovakvaar8",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJSLA Testing",
+      "start_date": "2027-05-17",
+      "end_date": "2027-05-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5606,6 +8037,45 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270527",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-05-18",
+      "end_date": "2027-05-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1g3uee6ejbq8n1g3gir5bcm65r",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJSLA Testing",
+      "start_date": "2027-05-18",
+      "end_date": "2027-05-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1llgrsq4lro75m98pda6idimkq",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Senior Internship Starts",
+      "start_date": "2027-05-18",
+      "end_date": "2027-05-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "45q3jskl55j8nsjp4428igcncd",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -5615,6 +8085,32 @@
       "start_time": "18:00:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "30epj7df1ui1g1ftd3bva4tj22",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJSLA Testing",
+      "start_date": "2027-05-19",
+      "end_date": "2027-05-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270526",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-05-19",
+      "end_date": "2027-05-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -5762,6 +8258,32 @@
       "address": ""
     },
     {
+      "id": "06r7bhp4g244uua6kdpbgd2knn",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NJSLA Testing",
+      "start_date": "2027-05-20",
+      "end_date": "2027-05-21",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270520",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-05-20",
+      "end_date": "2027-05-21",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5ho8q7dqtvl6i1okohroo7v9fc",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -5879,6 +8401,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270521",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-05-21",
+      "end_date": "2027-05-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0jq13qmhpjbrivk2kboijr3f0q",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -5931,6 +8466,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270603",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-05-24",
+      "end_date": "2027-05-25",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1a82ds7fnuqpftncnbjpth6748",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -5957,6 +8505,19 @@
       "address": "MPMS"
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270602",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-05-25",
+      "end_date": "2027-05-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "14hcofnjf4ccslsm81r89mp2l2",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -5966,6 +8527,19 @@
       "start_time": "16:00:00",
       "end_time": "18:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270527",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-05-26",
+      "end_date": "2027-05-27",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -6126,6 +8700,19 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270528",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-05-27",
+      "end_date": "2027-05-28",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5admta3uslhrjb2hrhr1u8574u",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -6184,6 +8771,45 @@
       "title": "[RHE] Champions Day/Volleyball Game",
       "start_date": "2027-05-28",
       "end_date": "2027-05-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "2bdvatpub3uqihpne7oprh4sa7",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-05-28",
+      "end_date": "2027-05-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4kjj3fmjb0di6rc90cica3pg66",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Weekend Off",
+      "start_date": "2027-05-28",
+      "end_date": "2027-06-01",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4s5ahqkke3a4t8okr9t5449i2r",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Memorial Day",
+      "start_date": "2027-05-31",
+      "end_date": "2027-06-01",
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
@@ -6269,6 +8895,19 @@
       "address": ""
     },
     {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270616",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-06-01",
+      "end_date": "2027-06-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "148bl91k4kt0ham5mh5kao7osa",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -6299,6 +8938,19 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 5th Grade Boat Trip",
+      "start_date": "2027-06-02",
+      "end_date": "2027-06-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270603",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
       "start_date": "2027-06-02",
       "end_date": "2027-06-03",
       "start_time": "00:00:00",
@@ -6477,6 +9129,19 @@
       "address": "TBD"
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270604",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-06-03",
+      "end_date": "2027-06-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5urnh9b1a379p4474ha642dtgv",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -6568,6 +9233,19 @@
       "address": "MPE and HIllside"
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270617",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-06-04",
+      "end_date": "2027-06-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5rtocj2jrqafvilumqem3ic7qq",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -6584,13 +9262,26 @@
       "id": "0mavnr4a2b2hf9h7dv614u2kb5",
       "feed_id": 27096,
       "school": "Livingston High School",
-      "title": "[LHS] Spring Impvo Show",
+      "title": "[LHS] Spring Impov Show",
       "start_date": "2027-06-04",
       "end_date": "2027-06-04",
       "start_time": "19:00:00",
       "end_time": "20:30:00",
       "all_day": false,
       "description": "Cafe ABCD",
+      "address": ""
+    },
+    {
+      "id": "57dbs6gk9pcclmj6d1is9vlina_20270609",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] B Day",
+      "start_date": "2027-06-07",
+      "end_date": "2027-06-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -6646,6 +9337,19 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270610",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-06-08",
+      "end_date": "2027-06-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "11ipqdpll2b72459ah5vqd0o3v",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -6676,6 +9380,19 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] Incoming Kindergarten Screening",
+      "start_date": "2027-06-09",
+      "end_date": "2027-06-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270611",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
       "start_date": "2027-06-09",
       "end_date": "2027-06-10",
       "start_time": "00:00:00",
@@ -6724,6 +9441,19 @@
       "address": ""
     },
     {
+      "id": "0onl06t48boogfsu9qtpkbusgv_20270610",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] A Day",
+      "start_date": "2027-06-10",
+      "end_date": "2027-06-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0obi2jgmiph4q79uohul9nhv49",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -6746,6 +9476,19 @@
       "start_time": "19:30:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7mhp7njtu30ofvshptjigu35dv",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] All Classes Meet",
+      "start_date": "2027-06-11",
+      "end_date": "2027-06-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -6789,6 +9532,19 @@
       "address": ""
     },
     {
+      "id": "20r5erio61dm26qo9g5ahraibk",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Per 1 &",
+      "start_date": "2027-06-14",
+      "end_date": "2027-06-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "22ga7u4gsnhml1ou77ts89sa6o",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -6802,6 +9558,19 @@
       "address": ""
     },
     {
+      "id": "7ieujenbd10bsadt8gbt7pbans",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Per 3 & 4",
+      "start_date": "2027-06-15",
+      "end_date": "2027-06-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3suijtkgsc6gbh54uvndebljet",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -6811,6 +9580,19 @@
       "start_time": "16:30:00",
       "end_time": "18:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6mqfl8v1q2rl9a9dtahkib9pkb",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Per 5 & 6",
+      "start_date": "2027-06-16",
+      "end_date": "2027-06-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -6867,6 +9649,32 @@
       "address": ""
     },
     {
+      "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270617",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] C Day",
+      "start_date": "2027-06-17",
+      "end_date": "2027-06-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "21ltjeeggsdcc52nc1iv2ghsar",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Per 7 & 8",
+      "start_date": "2027-06-17",
+      "end_date": "2027-06-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1k98i9ilib0jb2u3s5dlbhqjdv",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -6893,10 +9701,49 @@
       "address": ""
     },
     {
+      "id": "4m5oe1l64g26cd06r4q6jaf3le_20270618",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] D Day",
+      "start_date": "2027-06-18",
+      "end_date": "2027-06-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7df8lbj6r7j2r11nshg18ggl95",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] No School - Juneteenth",
+      "start_date": "2027-06-18",
+      "end_date": "2027-06-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5oh436m0fhm3gsniroumk8rb7m",
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 5th Grade Talent Show",
+      "start_date": "2027-06-21",
+      "end_date": "2027-06-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4q52ca8k1896vehotuscpo188u",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Half Day - All Classes Meet",
       "start_date": "2027-06-21",
       "end_date": "2027-06-22",
       "start_time": "00:00:00",
@@ -6941,6 +9788,19 @@
       "start_time": "14:00:00",
       "end_time": "15:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "27b9n6h06eklahjje2sg05khud",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Graduation",
+      "start_date": "2027-06-22",
+      "end_date": "2027-06-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },

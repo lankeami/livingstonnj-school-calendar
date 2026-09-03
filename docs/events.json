@@ -1,7 +1,7 @@
 {
   "schoolYear": "2025-2026 + 2026-2027 + 2027-2028",
-  "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-02T19:57:24.148Z",
+  "lastUpdated": "2026-09-03",
+  "generatedAt": "2026-09-03T18:44:26.455Z",
   "events": [
     {
       "title": "Professional Development Days - No Students",
@@ -516,6 +516,14 @@
       "allDay": true
     },
     {
+      "title": "[LHS] All Classes Meet",
+      "type": "school",
+      "start": "2026-08-31",
+      "end": "2026-08-31",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] Close Registration for Intramurals",
       "type": "school",
       "start": "2026-09-01",
@@ -524,13 +532,12 @@
       "school": "Mt. Pleasant Middle"
     },
     {
-      "title": "[HIL] PTA Pretzel Sale & ASE Links Open",
+      "title": "[LHS] A Day",
       "type": "school",
       "start": "2026-09-01",
       "end": "2026-09-01",
-      "allDay": false,
-      "school": "Hillside Elementary",
-      "startTime": "08:00"
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] PTA Meeting",
@@ -540,6 +547,22 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-09-02",
+      "end": "2026-09-02",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-09-03",
+      "end": "2026-09-03",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[LHS] New Families to LHS Parent Night",
@@ -556,6 +579,22 @@
       "start": "2026-09-04",
       "end": "2026-09-04",
       "allDay": true
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Half Day",
+      "type": "school",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] 1/2 Day for Students and Staff",
@@ -583,6 +622,22 @@
       "allDay": true
     },
     {
+      "title": "[LHS] No School - Labor Day",
+      "type": "school",
+      "start": "2026-09-07",
+      "end": "2026-09-07",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-09-08",
+      "end": "2026-09-08",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Underclassman Picture Day - 9/8 & 9/9 during P.E.",
       "type": "school",
       "start": "2026-09-08",
@@ -590,6 +645,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "07:50"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[LHS] Underclassman Picture Day - 9/8 & 9/9 during P.E.",
@@ -619,6 +682,15 @@
       "startTime": "18:00"
     },
     {
+      "title": "[LHS] BTSN",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "22:00"
+    },
+    {
       "title": "[BHE] HSA Community Meeting-In person",
       "type": "school",
       "start": "2026-09-09",
@@ -626,6 +698,14 @@
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "19:30"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Registration opens for FALL Hobby Hour, Bike Clinic and Pretzels",
@@ -664,13 +744,12 @@
       "startTime": "19:00"
     },
     {
-      "title": "[HIL] PTA Pretzel Sale Link Closes",
+      "title": "[LHS] D Day",
       "type": "school",
       "start": "2026-09-11",
       "end": "2026-09-11",
-      "allDay": false,
-      "school": "Hillside Elementary",
-      "startTime": "08:00"
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] HSA Meeting (Side Blacktop)",
@@ -691,13 +770,12 @@
       "startTime": "06:00"
     },
     {
-      "title": "[HIL] ASE Link Closes",
+      "title": "[LHS] A Day",
       "type": "school",
       "start": "2026-09-14",
       "end": "2026-09-14",
-      "allDay": false,
-      "school": "Hillside Elementary",
-      "startTime": "08:00"
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HAR] PTA Meeting",
@@ -725,6 +803,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Elementary",
       "startTime": "19:30"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-09-15",
+      "end": "2026-09-15",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 3rd Grade Young Leaders",
@@ -769,6 +855,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 4th Grade Young Leaders",
       "type": "school",
       "start": "2026-09-16",
@@ -802,6 +896,14 @@
       "end": "2026-09-17",
       "allDay": true,
       "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Bake Sale",
@@ -867,6 +969,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-09-18",
+      "end": "2026-09-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] PTA Apparel Sale Ends",
       "type": "school",
       "start": "2026-09-18",
@@ -901,12 +1011,36 @@
       "allDay": true
     },
     {
+      "title": "[LHS] No School - Yom Kippur",
+      "type": "school",
+      "start": "2026-09-21",
+      "end": "2026-09-21",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "Delayed Opening for Students/Staff PD",
       "type": "school",
       "start": "2026-09-22",
       "end": "2026-09-22",
       "allDay": true,
       "description": "Delayed opening"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Morning PD - Delay for Stdnts",
+      "type": "school",
+      "start": "2026-09-22",
+      "end": "2026-09-22",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 2nd Grade Young Leaders",
@@ -936,6 +1070,14 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-09-23",
+      "end": "2026-09-23",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 1st Grade Young Leaders",
       "type": "school",
       "start": "2026-09-23",
@@ -943,15 +1085,6 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
-    },
-    {
-      "title": "[LHS] Post Secondary Transition for Students with Learning Disabilities via Zoom",
-      "type": "school",
-      "start": "2026-09-23",
-      "end": "2026-09-23",
-      "allDay": false,
-      "school": "Livingston High School",
-      "startTime": "18:00"
     },
     {
       "title": "[HMS] Back to School Night",
@@ -963,21 +1096,20 @@
       "startTime": "19:00"
     },
     {
-      "title": "[LHS] 11th Grade Post Secondary Planning Night: The Search Process via Zoom",
-      "type": "school",
-      "start": "2026-09-23",
-      "end": "2026-09-23",
-      "allDay": false,
-      "school": "Livingston High School",
-      "startTime": "19:00"
-    },
-    {
       "title": "[RHE] Back to School Night (Time TBD)",
       "type": "school",
       "start": "2026-09-24",
       "end": "2026-09-24",
       "allDay": true,
       "school": "Riker Hill Elementary"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-09-24",
+      "end": "2026-09-24",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] Collins Back to School Night",
@@ -987,6 +1119,14 @@
       "allDay": false,
       "school": "Collins Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[LHS] Varsity Football Game vs. Morristown High School @ Morristown High School Stadium",
@@ -1014,6 +1154,14 @@
       "school": "Riker Hill Elementary"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-09-28",
+      "end": "2026-09-28",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Fall ASE Begins",
       "type": "school",
       "start": "2026-09-28",
@@ -1030,6 +1178,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Elementary",
       "startTime": "17:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Hobby Hour Begins!",
@@ -1050,6 +1206,14 @@
       "startTime": "17:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[COL] Fall Fest Rain Date",
       "type": "school",
       "start": "2026-09-30",
@@ -1059,6 +1223,32 @@
       "startTime": "17:00"
     },
     {
+      "title": "[LHS] Post Secondary Transition for Students with Learning Disabilities via Zoom",
+      "type": "school",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] 11th Grade Post Secondary Planning Night: The Search Process via Zoom",
+      "type": "school",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:30"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-10-01",
+      "end": "2026-10-01",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] PTA's Miss Chocolate Fundraiser Begins",
       "type": "school",
       "start": "2026-10-01",
@@ -1066,6 +1256,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "08:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-10-02",
+      "end": "2026-10-02",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] PTA's Outdoor Movie Night",
@@ -1102,6 +1300,14 @@
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "10:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Picture Day!",
@@ -1156,6 +1362,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[COL] Collins: Picture Day",
       "type": "school",
       "start": "2026-10-06",
@@ -1191,6 +1405,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPE] Book Fair",
       "type": "school",
       "start": "2026-10-08",
@@ -1199,12 +1421,28 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Back to School Pep Rally",
       "type": "school",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] Fall Bake Sale",
@@ -1241,12 +1479,28 @@
       "allDay": true
     },
     {
+      "title": "[LHS] PD Day - No School for Stdnts (Indigenous People's Day)",
+      "type": "school",
+      "start": "2026-10-12",
+      "end": "2026-10-12",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Picture Day",
       "type": "school",
       "start": "2026-10-13",
       "end": "2026-10-13",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 3rd Grade Young Leaders",
@@ -1256,6 +1510,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 4th Grade Young Leaders",
@@ -1303,6 +1565,14 @@
       "startTime": "19:30"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Bake Sale",
       "type": "school",
       "start": "2026-10-15",
@@ -1330,6 +1600,14 @@
       "startTime": "18:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-10-16",
+      "end": "2026-10-16",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] PTA's Miss Chocolate Fundraiser Ends",
       "type": "school",
       "start": "2026-10-16",
@@ -1348,6 +1626,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-10-19",
+      "end": "2026-10-19",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] HSA Meeting (via zoom)",
       "type": "school",
       "start": "2026-10-19",
@@ -1355,6 +1641,14 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "19:15"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 2nd Grade Young Leaders",
@@ -1374,6 +1668,22 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] Half Day - PSAT",
+      "type": "school",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 1st Grade Young Leaders",
       "type": "school",
       "start": "2026-10-21",
@@ -1390,6 +1700,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "18:30"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[LHS] Varsity Football Game vs. Bloomfield High School @ Bloomfield Foley Field Stadium",
@@ -1427,6 +1745,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Inner Circle Cabaret Show",
       "type": "school",
       "start": "2026-10-23",
@@ -1453,6 +1779,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Army Jazz Ambassador Tour",
       "type": "school",
       "start": "2026-10-26",
@@ -1462,6 +1796,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] Fall Book Fair (Small Gym)",
       "type": "school",
       "start": "2026-10-27",
@@ -1469,6 +1811,14 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "08:45"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[LHS] Fall National Honor Society Induction Ceremony",
@@ -1497,6 +1847,14 @@
       "school": "Riker Hill Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HAR] PTA Truck or Treat Rain Date",
       "type": "school",
       "start": "2026-10-29",
@@ -1520,6 +1878,14 @@
       "end": "2026-10-30",
       "allDay": true,
       "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] Halloween Parade",
@@ -1556,6 +1922,22 @@
       "allDay": true
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-11-02",
+      "end": "2026-11-02",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] District String Day",
       "type": "school",
       "start": "2026-11-03",
@@ -1563,6 +1945,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "08:00"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] District String Day Snow Date",
@@ -1579,6 +1969,30 @@
       "start": "2026-11-05",
       "end": "2026-11-06",
       "allDay": true
+    },
+    {
+      "title": "[LHS] No School - NJEA Convention",
+      "type": "school",
+      "start": "2026-11-05",
+      "end": "2026-11-06",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-11-09",
+      "end": "2026-11-09",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 3rd Grade Young Leaders",
@@ -1604,6 +2018,14 @@
       "start": "2026-11-11",
       "end": "2026-11-11",
       "allDay": true
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] Picture Re-Takes",
@@ -1642,6 +2064,14 @@
       "startTime": "19:30"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Bake Sale",
       "type": "school",
       "start": "2026-11-12",
@@ -1658,6 +2088,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HMS] Fall Drama",
@@ -1695,6 +2133,14 @@
       "school": "Hillside Elementary"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HAR] PTA Meeting",
       "type": "school",
       "start": "2026-11-16",
@@ -1702,6 +2148,14 @@
       "allDay": false,
       "school": "Harrison Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 2nd Grade Young Leaders",
@@ -1719,6 +2173,14 @@
       "end": "2026-11-18",
       "allDay": true,
       "school": "Heritage Middle"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] Collins: Picture Retake Day",
@@ -1766,6 +2228,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Book Fair",
       "type": "school",
       "start": "2026-11-19",
@@ -1791,6 +2261,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] HSA Meeting (in person)",
@@ -1827,6 +2305,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] PTA's Winter Pretzel Sale Link Opens",
@@ -1910,6 +2396,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Author Visit (Lisa Greenwald)",
       "type": "school",
       "start": "2026-11-24",
@@ -1919,11 +2413,43 @@
       "startTime": "08:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Half Day",
+      "type": "school",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Weekend Off",
+      "type": "school",
+      "start": "2026-11-25",
+      "end": "2026-11-29",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "Thanksgiving Recess - District Closed",
       "type": "break",
       "start": "2026-11-26",
       "end": "2026-11-27",
       "allDay": true
+    },
+    {
+      "title": "[LHS] No School - Thanksgiving",
+      "type": "school",
+      "start": "2026-11-26",
+      "end": "2026-11-27",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "Delayed Opening for Students/Staff PD",
@@ -1942,12 +2468,36 @@
       "school": "Mt. Pleasant Middle"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Morning PD - Delay for Stdnts",
+      "type": "school",
+      "start": "2026-11-30",
+      "end": "2026-11-30",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] PTA Coat Drive Begins",
       "type": "school",
       "start": "2026-12-01",
       "end": "2026-12-01",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Fall Picture Day Retakes",
@@ -1973,6 +2523,14 @@
       "end": "2026-12-02",
       "allDay": true,
       "school": "Mt. Pleasant Elementary"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[LHS] Band Concert",
@@ -2001,6 +2559,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-12-03",
+      "end": "2026-12-03",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] Holiday Boutique",
       "type": "school",
       "start": "2026-12-03",
@@ -2017,6 +2583,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] Winter Pretzel Sale Ends",
@@ -2046,6 +2620,14 @@
       "startTime": "07:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] Spelling Bee (1st, 2nd, and 3rd Rounds. Small Gym)",
       "type": "school",
       "start": "2026-12-07",
@@ -2064,6 +2646,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 3rd Grade Young Leaders",
       "type": "school",
       "start": "2026-12-08",
@@ -2071,6 +2661,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] COGAT Testing",
@@ -2109,6 +2707,14 @@
       "startTime": "19:30"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 5th Grade Young Leaders",
       "type": "school",
       "start": "2026-12-10",
@@ -2145,6 +2751,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] Fall Drama -  7:00 PM (SNOW DATE)",
       "type": "school",
       "start": "2026-12-11",
@@ -2162,6 +2776,14 @@
       "school": "Riker Hill Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-12-14",
+      "end": "2026-12-14",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Heritage Orchestra Concert",
       "type": "school",
       "start": "2026-12-14",
@@ -2177,6 +2799,14 @@
       "end": "2026-12-15",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-12-15",
+      "end": "2026-12-15",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 2nd Grade Young Leaders",
@@ -2203,6 +2833,14 @@
       "end": "2026-12-16",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 1st Grade Young Leaders",
@@ -2241,6 +2879,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Bake Sale",
       "type": "school",
       "start": "2026-12-17",
@@ -2268,12 +2914,36 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2026-12-21",
+      "end": "2026-12-21",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] Close Registration for Intramurals",
       "type": "school",
       "start": "2026-12-22",
       "end": "2026-12-22",
       "allDay": true,
       "school": "Mt. Pleasant Middle"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2026-12-22",
+      "end": "2026-12-22",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "Early Dismissal for All",
@@ -2283,11 +2953,51 @@
       "allDay": true
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2026-12-23",
+      "end": "2026-12-23",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Half Day",
+      "type": "school",
+      "start": "2026-12-23",
+      "end": "2026-12-23",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Weekend Off",
+      "type": "school",
+      "start": "2026-12-23",
+      "end": "2026-12-23",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "Winter Recess - District Closed",
       "type": "break",
       "start": "2026-12-24",
       "end": "2026-12-31",
       "allDay": true
+    },
+    {
+      "title": "[LHS] No School - Winter Break",
+      "type": "school",
+      "start": "2026-12-24",
+      "end": "2026-12-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] No School - Winter Break",
+      "type": "school",
+      "start": "2026-12-28",
+      "end": "2027-01-01",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "New Years Day - District Closed",
@@ -2297,6 +3007,14 @@
       "allDay": true
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-01-04",
+      "end": "2027-01-04",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Winter ASE Begins",
       "type": "school",
       "start": "2027-01-04",
@@ -2304,6 +3022,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:50"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-01-05",
+      "end": "2027-01-05",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 3rd Grade Young Leaders",
@@ -2324,6 +3050,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-01-06",
+      "end": "2027-01-06",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 4th Grade Young Leaders",
       "type": "school",
       "start": "2027-01-06",
@@ -2340,6 +3074,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-01-07",
+      "end": "2027-01-07",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 5th Grade Young Leaders",
@@ -2360,6 +3102,14 @@
       "startTime": "18:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-01-08",
+      "end": "2027-01-08",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] HSA Meeting (in person)",
       "type": "school",
       "start": "2027-01-08",
@@ -2376,6 +3126,14 @@
       "allDay": false,
       "school": "Harrison Elementary",
       "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-01-11",
+      "end": "2027-01-11",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HAR] PTA Meeting",
@@ -2414,6 +3172,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-01-12",
+      "end": "2027-01-12",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] District Choral Day",
       "type": "school",
       "start": "2027-01-12",
@@ -2439,6 +3205,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "18:30"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-01-13",
+      "end": "2027-01-13",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] PTO Meeting via Google Meet",
@@ -2477,6 +3251,14 @@
       "startTime": "19:30"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] District Choral Day  Snow Date",
       "type": "school",
       "start": "2027-01-14",
@@ -2513,11 +3295,27 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-01-15",
+      "end": "2027-01-15",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "MLK Jr. Day - District Closed",
       "type": "holiday",
       "start": "2027-01-18",
       "end": "2027-01-18",
       "allDay": true
+    },
+    {
+      "title": "[LHS] No School - MLK Day",
+      "type": "school",
+      "start": "2027-01-18",
+      "end": "2027-01-18",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "Delayed Opening for Students/Staff PD",
@@ -2526,6 +3324,30 @@
       "end": "2027-01-19",
       "allDay": true,
       "description": "Delayed opening"
+    },
+    {
+      "title": "[LHS] Morning PD - Delay for Stdnts",
+      "type": "school",
+      "start": "2027-01-19",
+      "end": "2027-01-19",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-01-19",
+      "end": "2027-01-19",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-01-20",
+      "end": "2027-01-20",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] Spelling Bee - Round 2",
@@ -2553,6 +3375,14 @@
       "allDay": false,
       "school": "Heritage Middle",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-01-21",
+      "end": "2027-01-21",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Bake Sale",
@@ -2591,6 +3421,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] All Classes Meet",
+      "type": "school",
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] Spelling Bee Final Round (Snow Date)",
       "type": "school",
       "start": "2027-01-22",
@@ -2616,6 +3454,22 @@
       "allDay": true
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-01-25",
+      "end": "2027-01-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Half Day - Semester 2 Start",
+      "type": "school",
+      "start": "2027-01-25",
+      "end": "2027-01-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Burnet Hill Concert",
       "type": "school",
       "start": "2027-01-25",
@@ -2632,6 +3486,22 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-01-26",
+      "end": "2027-01-26",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-01-27",
+      "end": "2027-01-27",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Burnet Hill Concert  Snow Date",
@@ -2661,6 +3531,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-01-28",
+      "end": "2027-01-28",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HMS] LHS Choral Field Trip to HMS",
       "type": "school",
       "start": "2027-01-28",
@@ -2688,6 +3566,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-01-29",
+      "end": "2027-01-29",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Winter Improv Show",
       "type": "school",
       "start": "2027-01-29",
@@ -2695,6 +3581,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-02-01",
+      "end": "2027-02-01",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HAR] Harrison Concert Snow Date",
@@ -2715,6 +3609,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-02-02",
+      "end": "2027-02-02",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HMS] LHS Choral Field Trip to HMS  Snow Date",
       "type": "school",
       "start": "2027-02-02",
@@ -2731,6 +3633,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 4th Grade Young Leaders",
@@ -2778,6 +3688,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 5th Grade Young Leaders",
       "type": "school",
       "start": "2027-02-04",
@@ -2814,6 +3732,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-02-05",
+      "end": "2027-02-05",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] Bake Sale",
       "type": "school",
       "start": "2027-02-05",
@@ -2839,6 +3765,14 @@
       "allDay": false,
       "school": "Harrison Elementary",
       "startTime": "12:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-02-08",
+      "end": "2027-02-08",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HAR] PTA Meeting",
@@ -2868,6 +3802,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-02-09",
+      "end": "2027-02-09",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 2nd Grade Young Leaders",
       "type": "school",
       "start": "2027-02-09",
@@ -2884,6 +3826,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 1st Grade Young Leaders",
@@ -2911,6 +3861,14 @@
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "19:30"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] PTO Dance Grades K-2",
@@ -2966,6 +3924,14 @@
       "school": "Riker Hill Elementary"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Bake Sale",
       "type": "school",
       "start": "2027-02-12",
@@ -2991,6 +3957,14 @@
       "allDay": true
     },
     {
+      "title": "[LHS] No School - February Break",
+      "type": "school",
+      "start": "2027-02-15",
+      "end": "2027-02-19",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "February Break - Schools Closed",
       "type": "break",
       "start": "2027-02-16",
@@ -3014,6 +3988,14 @@
       "school": "Hillside Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-02-22",
+      "end": "2027-02-22",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] HSA Meeting (via zoom)",
       "type": "school",
       "start": "2027-02-22",
@@ -3021,6 +4003,22 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "19:15"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-02-23",
+      "end": "2027-02-23",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-02-24",
+      "end": "2027-02-24",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] PTA's Scholastic Book Fair",
@@ -3041,6 +4039,14 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-02-25",
+      "end": "2027-02-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] PTA's Scholastic Book Fair",
       "type": "school",
       "start": "2027-02-25",
@@ -3057,6 +4063,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:30"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-02-26",
+      "end": "2027-02-26",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "Parent/Teacher Conferences - Early Dismissal Elem",
@@ -3082,6 +4096,22 @@
       "school": "Riker Hill Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-03-01",
+      "end": "2027-03-01",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-03-02",
+      "end": "2027-03-02",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] PTA meeting",
       "type": "school",
       "start": "2027-03-02",
@@ -3089,6 +4119,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-03-03",
+      "end": "2027-03-03",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HMS] District Band Day",
@@ -3107,6 +4145,14 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-03-04",
+      "end": "2027-03-04",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HMS] District Band Day  Snow Date",
@@ -3132,6 +4178,14 @@
       "end": "2027-03-05",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-03-05",
+      "end": "2027-03-05",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[LHS] Senior Games",
@@ -3161,6 +4215,14 @@
       "startTime": "12:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-03-08",
+      "end": "2027-03-08",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HAR] PTA Meeting",
       "type": "school",
       "start": "2027-03-08",
@@ -3175,6 +4237,22 @@
       "start": "2027-03-09",
       "end": "2027-03-09",
       "allDay": true
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-03-09",
+      "end": "2027-03-09",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Afternoon PD - Half Day",
+      "type": "school",
+      "start": "2027-03-09",
+      "end": "2027-03-09",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Read-a-Thon",
@@ -3200,6 +4278,30 @@
       "start": "2027-03-10",
       "end": "2027-03-10",
       "allDay": true
+    },
+    {
+      "title": "[LHS] No School - Eid",
+      "type": "school",
+      "start": "2027-03-10",
+      "end": "2027-03-10",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-03-11",
+      "end": "2027-03-11",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] NJGPA Testing",
+      "type": "school",
+      "start": "2027-03-11",
+      "end": "2027-03-11",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] Unsung Hero’s Presentation",
@@ -3229,6 +4331,22 @@
       "startTime": "19:30"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-03-12",
+      "end": "2027-03-12",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] NJGPA Testing",
+      "type": "school",
+      "start": "2027-03-12",
+      "end": "2027-03-12",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Spring Musical #2",
       "type": "school",
       "start": "2027-03-12",
@@ -3256,6 +4374,22 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-03-15",
+      "end": "2027-03-15",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] NJGPA Testing",
+      "type": "school",
+      "start": "2027-03-15",
+      "end": "2027-03-15",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] ACL/AP Art Show Reception",
       "type": "school",
       "start": "2027-03-15",
@@ -3263,6 +4397,22 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-03-16",
+      "end": "2027-03-16",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] NJGPA Testing",
+      "type": "school",
+      "start": "2027-03-16",
+      "end": "2027-03-16",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 3rd Grade Young Leaders",
@@ -3281,6 +4431,14 @@
       "allDay": false,
       "school": "Collins Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-03-17",
+      "end": "2027-03-17",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 4th Grade Young Leaders",
@@ -3318,6 +4476,14 @@
       "school": "Riker Hill Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-03-18",
+      "end": "2027-03-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Bake Sale",
       "type": "school",
       "start": "2027-03-18",
@@ -3345,6 +4511,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-03-19",
+      "end": "2027-03-19",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Academic Team Tournament",
       "type": "school",
       "start": "2027-03-20",
@@ -3363,6 +4537,14 @@
       "startTime": "15:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-03-22",
+      "end": "2027-03-22",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] College Admissions Workshop via Zoom",
       "type": "school",
       "start": "2027-03-22",
@@ -3370,6 +4552,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:30"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-03-23",
+      "end": "2027-03-23",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 2nd Grade Young Leaders",
@@ -3453,6 +4643,14 @@
       "startTime": "18:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-03-24",
+      "end": "2027-03-24",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] Orleans Hanna Testing",
       "type": "school",
       "start": "2027-03-24",
@@ -3480,6 +4678,22 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-03-25",
+      "end": "2027-03-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Weekend Off",
+      "type": "school",
+      "start": "2027-03-25",
+      "end": "2027-03-28",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] Talent Show (HMS)",
       "type": "school",
       "start": "2027-03-25",
@@ -3505,12 +4719,36 @@
       "allDay": true
     },
     {
+      "title": "[LHS] No School - Good Friday",
+      "type": "school",
+      "start": "2027-03-26",
+      "end": "2027-03-26",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] Close Registration for Intramurals",
       "type": "school",
       "start": "2027-03-29",
       "end": "2027-03-29",
       "allDay": true,
       "school": "Mt. Pleasant Middle"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-03-29",
+      "end": "2027-03-29",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-03-30",
+      "end": "2027-03-30",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] TREP$ Workshop #2",
@@ -3531,6 +4769,14 @@
       "startTime": "14:45"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-03-31",
+      "end": "2027-03-31",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] HSA Meeting (in person)",
       "type": "school",
       "start": "2027-03-31",
@@ -3547,6 +4793,22 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:30"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-04-01",
+      "end": "2027-04-01",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-04-02",
+      "end": "2027-04-02",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] HSA Bake Sale",
@@ -3602,6 +4864,14 @@
       "school": "Hillside Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-04-05",
+      "end": "2027-04-05",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Multicultural Night",
       "type": "school",
       "start": "2027-04-05",
@@ -3609,6 +4879,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "17:00"
+    },
+    {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-04-06",
+      "end": "2027-04-06",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] TREP$ Workshop #3",
@@ -3627,6 +4905,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-04-07",
+      "end": "2027-04-07",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 4th Grade Young Leaders",
@@ -3656,6 +4942,14 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-04-08",
+      "end": "2027-04-08",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 5th Grade Young Leaders",
       "type": "school",
       "start": "2027-04-08",
@@ -3674,6 +4968,23 @@
       "startTime": "17:00"
     },
     {
+      "title": "[HMS] 6th-7th Grade Transition -  Parent Presentation",
+      "type": "school",
+      "start": "2027-04-08",
+      "end": "2027-04-08",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-04-09",
+      "end": "2027-04-09",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Long Island Quiz Bowl Alliance @ LHS",
       "type": "school",
       "start": "2027-04-10",
@@ -3683,6 +4994,14 @@
       "startTime": "07:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-04-12",
+      "end": "2027-04-12",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Chorus Concert",
       "type": "school",
       "start": "2027-04-12",
@@ -3690,6 +5009,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-04-13",
+      "end": "2027-04-13",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] 2nd Grade Young Leaders",
@@ -3791,6 +5118,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[COL] PTO Meeting via Google Meet",
       "type": "school",
       "start": "2027-04-14",
@@ -3853,6 +5188,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-04-15",
+      "end": "2027-04-15",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Bake Sale",
       "type": "school",
       "start": "2027-04-15",
@@ -3879,6 +5222,14 @@
       "school": "Hillside Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-04-16",
+      "end": "2027-04-16",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] NAHS Ice Cream Social",
       "type": "school",
       "start": "2027-04-16",
@@ -3893,6 +5244,14 @@
       "start": "2027-04-19",
       "end": "2027-04-23",
       "allDay": true
+    },
+    {
+      "title": "[LHS] No School - Spring Break",
+      "type": "school",
+      "start": "2027-04-19",
+      "end": "2027-04-23",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] HSA Meeting",
@@ -3912,6 +5271,14 @@
       "school": "Hillside Elementary"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-04-26",
+      "end": "2027-04-26",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Key Club Honor Society Induction Ceremony",
       "type": "school",
       "start": "2027-04-26",
@@ -3919,6 +5286,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-04-27",
+      "end": "2027-04-27",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] Spring Book Fair (Small Gym)",
@@ -3957,6 +5332,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-04-28",
+      "end": "2027-04-28",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] TREP$ Marketplace",
       "type": "school",
       "start": "2027-04-28",
@@ -3993,6 +5376,14 @@
       "startTime": "19:15"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-04-29",
+      "end": "2027-04-29",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Band Concert",
       "type": "school",
       "start": "2027-04-29",
@@ -4000,6 +5391,22 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-04-30",
+      "end": "2027-04-30",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-05-03",
+      "end": "2027-05-03",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] NJSLA Testing",
@@ -4018,6 +5425,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "18:30"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-05-04",
+      "end": "2027-05-04",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPM] NJSLA Testing",
@@ -4047,6 +5462,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-05-05",
+      "end": "2027-05-05",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] NJSLA Testing",
       "type": "school",
       "start": "2027-05-05",
@@ -4063,6 +5486,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-05-06",
+      "end": "2027-05-06",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] Spring Plant Sale (Small Gym)",
@@ -4083,6 +5514,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-05-07",
+      "end": "2027-05-07",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Spring Plant Sale",
       "type": "school",
       "start": "2027-05-07",
@@ -4099,6 +5538,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "15:00"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-05-10",
+      "end": "2027-05-10",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] Multi-Cultural Night Dress Rehearsal",
@@ -4119,6 +5566,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-05-11",
+      "end": "2027-05-11",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[RHE] TREP$ Marketplace",
       "type": "school",
       "start": "2027-05-11",
@@ -4126,6 +5581,14 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-05-12",
+      "end": "2027-05-12",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] Multicultural Night Rain Date",
@@ -4153,6 +5616,14 @@
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "19:30"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-05-13",
+      "end": "2027-05-13",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] Spring Book Fair!",
@@ -4200,6 +5671,14 @@
       "startTime": "19:30"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-05-14",
+      "end": "2027-05-14",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Playdate",
       "type": "school",
       "start": "2027-05-14",
@@ -4225,6 +5704,22 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "14:00"
+    },
+    {
+      "title": "[LHS] All Classes Meet",
+      "type": "school",
+      "start": "2027-05-17",
+      "end": "2027-05-17",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] NJSLA Testing",
+      "type": "school",
+      "start": "2027-05-17",
+      "end": "2027-05-17",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] Multi-Cultural Night",
@@ -4254,6 +5749,30 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-05-18",
+      "end": "2027-05-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] NJSLA Testing",
+      "type": "school",
+      "start": "2027-05-18",
+      "end": "2027-05-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Senior Internship Starts",
+      "type": "school",
+      "start": "2027-05-18",
+      "end": "2027-05-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Chorus/Orchestra Awards Dinner (off-site location)",
       "type": "school",
       "start": "2027-05-18",
@@ -4261,6 +5780,22 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:00"
+    },
+    {
+      "title": "[LHS] NJSLA Testing",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-05-19",
+      "end": "2027-05-19",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPE] Multicultural Night",
@@ -4362,6 +5897,22 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] NJSLA Testing",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[COL] Field Day - Rain Date",
       "type": "school",
       "start": "2027-05-20",
@@ -4443,6 +5994,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-05-21",
+      "end": "2027-05-21",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[COL] Field Day",
       "type": "school",
       "start": "2027-05-21",
@@ -4479,6 +6038,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-05-24",
+      "end": "2027-05-24",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Burnet Hill Concert",
       "type": "school",
       "start": "2027-05-24",
@@ -4497,6 +6064,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-05-25",
+      "end": "2027-05-25",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[COL] Collins Spring Fair - Rain Date",
       "type": "school",
       "start": "2027-05-25",
@@ -4504,6 +6079,14 @@
       "allDay": false,
       "school": "Collins Elementary",
       "startTime": "16:00"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] GT ART and MUSIC Testing",
@@ -4613,6 +6196,14 @@
       "school": "Burnet Hill Elementary"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-05-27",
+      "end": "2027-05-27",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Spring Fair!",
       "type": "school",
       "start": "2027-05-27",
@@ -4657,11 +6248,35 @@
       "school": "Riker Hill Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-05-28",
+      "end": "2027-05-28",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Weekend Off",
+      "type": "school",
+      "start": "2027-05-28",
+      "end": "2027-05-31",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "Memorial Day - District Closed",
       "type": "holiday",
       "start": "2027-05-31",
       "end": "2027-05-31",
       "allDay": true
+    },
+    {
+      "title": "[LHS] No School - Memorial Day",
+      "type": "school",
+      "start": "2027-05-31",
+      "end": "2027-05-31",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[BHE] GT ART and MUSIC Testing",
@@ -4718,6 +6333,14 @@
       "startTime": "07:15"
     },
     {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-06-01",
+      "end": "2027-06-01",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Band Senior Awards Dinner",
       "type": "school",
       "start": "2027-06-01",
@@ -4742,6 +6365,14 @@
       "end": "2027-06-02",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] Instrumental Demos ( Coll-RH)",
@@ -4861,6 +6492,14 @@
       "startTime": "16:00"
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[BHE] Instrumental Demos ( BH-Harr)",
       "type": "school",
       "start": "2027-06-03",
@@ -4923,6 +6562,14 @@
       "school": "Mt. Pleasant Elementary"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-06-04",
+      "end": "2027-06-04",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Instrumental Demos ( MPE-HILL)",
       "type": "school",
       "start": "2027-06-04",
@@ -4932,13 +6579,21 @@
       "startTime": "09:30"
     },
     {
-      "title": "[LHS] Spring Impvo Show",
+      "title": "[LHS] Spring Impov Show",
       "type": "school",
       "start": "2027-06-04",
       "end": "2027-06-04",
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[LHS] B Day",
+      "type": "school",
+      "start": "2027-06-07",
+      "end": "2027-06-07",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPE] Incoming K Classroom Visit",
@@ -4977,6 +6632,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-06-08",
+      "end": "2027-06-08",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Incoming Kindergarten Parent Orientation",
       "type": "school",
       "start": "2027-06-08",
@@ -5001,6 +6664,14 @@
       "end": "2027-06-09",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-06-09",
+      "end": "2027-06-09",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[RHE] HSA Thank You Tea (Small Gym)",
@@ -5030,6 +6701,14 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] A Day",
+      "type": "school",
+      "start": "2027-06-10",
+      "end": "2027-06-10",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[LHS] Annual Sports Awards",
       "type": "school",
       "start": "2027-06-10",
@@ -5046,6 +6725,14 @@
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "19:30"
+    },
+    {
+      "title": "[LHS] All Classes Meet",
+      "type": "school",
+      "start": "2027-06-11",
+      "end": "2027-06-11",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HIL] Vocabulary Parade",
@@ -5075,6 +6762,14 @@
       "startTime": "18:00"
     },
     {
+      "title": "[LHS] Per 1 &",
+      "type": "school",
+      "start": "2027-06-14",
+      "end": "2027-06-14",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] Kindergarten Celebration",
       "type": "school",
       "start": "2027-06-14",
@@ -5084,6 +6779,14 @@
       "startTime": "08:30"
     },
     {
+      "title": "[LHS] Per 3 & 4",
+      "type": "school",
+      "start": "2027-06-15",
+      "end": "2027-06-15",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] 5th Grade Tour with Jr. Lancer Leaders",
       "type": "school",
       "start": "2027-06-15",
@@ -5091,6 +6794,14 @@
       "allDay": false,
       "school": "Mt. Pleasant Middle",
       "startTime": "16:30"
+    },
+    {
+      "title": "[LHS] Per 5 & 6",
+      "type": "school",
+      "start": "2027-06-16",
+      "end": "2027-06-16",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[COL] 5th Grade Moving up Ceremony and Clap out",
@@ -5129,6 +6840,22 @@
       "startTime": "18:30"
     },
     {
+      "title": "[LHS] C Day",
+      "type": "school",
+      "start": "2027-06-17",
+      "end": "2027-06-17",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Per 7 & 8",
+      "type": "school",
+      "start": "2027-06-17",
+      "end": "2027-06-17",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[HIL] 5th Grade Moving Up Ceremony",
       "type": "school",
       "start": "2027-06-17",
@@ -5154,6 +6881,22 @@
       "allDay": true
     },
     {
+      "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-06-18",
+      "end": "2027-06-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] No School - Juneteenth",
+      "type": "school",
+      "start": "2027-06-18",
+      "end": "2027-06-18",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "Early Dismissal for Students",
       "type": "early-dismissal",
       "start": "2027-06-21",
@@ -5167,6 +6910,14 @@
       "end": "2027-06-21",
       "allDay": true,
       "school": "Hillside Elementary"
+    },
+    {
+      "title": "[LHS] Half Day - All Classes Meet",
+      "type": "school",
+      "start": "2027-06-21",
+      "end": "2027-06-21",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[HMS] 8th Grade Moving Up Ceremony - Teams 81 & 82",
@@ -5201,6 +6952,14 @@
       "start": "2027-06-22",
       "end": "2027-06-22",
       "allDay": true
+    },
+    {
+      "title": "[LHS] Graduation",
+      "type": "school",
+      "start": "2027-06-22",
+      "end": "2027-06-22",
+      "allDay": true,
+      "school": "Livingston High School"
     },
     {
       "title": "[MPE] 5th grade Clap Out!",
