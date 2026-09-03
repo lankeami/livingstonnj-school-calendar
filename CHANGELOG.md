@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-03
+
+- [52307dc](https://github.com/lankeami/livingstonnj-school-calendar/commit/52307dcca898071a58f00783f4fcb7a4a2d06816) Refresh school events from district API
+
 ## 2026-09-02
 
 - [a49f7dc](https://github.com/lankeami/livingstonnj-school-calendar/commit/a49f7dc59bf893b57f2504d85671599586678398) Show event times on the website under the date
