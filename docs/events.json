@@ -1,7 +1,7 @@
 {
   "schoolYear": "2025-2026 + 2026-2027 + 2027-2028",
-  "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-03T18:44:26.455Z",
+  "lastUpdated": "2026-09-05",
+  "generatedAt": "2026-09-05T02:47:37.389Z",
   "events": [
     {
       "title": "Professional Development Days - No Students",
@@ -524,6 +524,14 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-01",
+      "end": "2026-09-01",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[MPM] Close Registration for Intramurals",
       "type": "school",
       "start": "2026-09-01",
@@ -540,6 +548,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-01",
+      "end": "2026-09-01",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "11:30"
+    },
+    {
       "title": "[HIL] PTA Meeting",
       "type": "school",
       "start": "2026-09-01",
@@ -547,6 +564,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-02",
+      "end": "2026-09-02",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] B Day",
@@ -557,12 +582,38 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-02",
+      "end": "2026-09-02",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "11:30"
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-03",
+      "end": "2026-09-03",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] C Day",
       "type": "school",
       "start": "2026-09-03",
       "end": "2026-09-03",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-03",
+      "end": "2026-09-03",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "11:30"
     },
     {
       "title": "[LHS] New Families to LHS Parent Night",
@@ -579,6 +630,22 @@
       "start": "2026-09-04",
       "end": "2026-09-04",
       "allDay": true
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-04",
+      "end": "2026-09-04",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] D Day",
@@ -615,11 +682,59 @@
       "startTime": "19:00"
     },
     {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-06",
+      "end": "2026-09-06",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-06",
+      "end": "2026-09-06",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "Labor Day - District Closed",
       "type": "holiday",
       "start": "2026-09-07",
       "end": "2026-09-07",
       "allDay": true
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-07",
+      "end": "2026-09-07",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-07",
+      "end": "2026-09-07",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] No School - Labor Day",
@@ -628,6 +743,31 @@
       "end": "2026-09-07",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] ASE Link Opens for PTA Members",
+      "type": "school",
+      "start": "2026-09-07",
+      "end": "2026-09-07",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "10:00"
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-08",
+      "end": "2026-09-08",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-08",
+      "end": "2026-09-08",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] A Day",
@@ -645,6 +785,31 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "07:50"
+    },
+    {
+      "title": "[HIL] ASE Link Opens for PTA Non-Members",
+      "type": "school",
+      "start": "2026-09-08",
+      "end": "2026-09-08",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "10:00"
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] B Day",
@@ -691,13 +856,20 @@
       "startTime": "22:00"
     },
     {
-      "title": "[BHE] HSA Community Meeting-In person",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
       "type": "school",
-      "start": "2026-09-09",
-      "end": "2026-09-09",
-      "allDay": false,
-      "school": "Burnet Hill Elementary",
-      "startTime": "19:30"
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] C Day",
@@ -732,7 +904,7 @@
       "end": "2026-09-10",
       "allDay": false,
       "school": "Mt. Pleasant Middle",
-      "startTime": "18:00"
+      "startTime": "18:45"
     },
     {
       "title": "[LHS] Varsity Football Game vs. Columbia High School @ LHS",
@@ -742,6 +914,22 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "19:00"
+    },
+    {
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "type": "school",
+      "start": "2026-09-11",
+      "end": "2026-09-11",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-11",
+      "end": "2026-09-11",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] D Day",
@@ -759,6 +947,14 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "08:30"
+    },
+    {
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "type": "school",
+      "start": "2026-09-12",
+      "end": "2026-09-12",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] F.I.R.S.T Robotics Kickoff Event",
@@ -822,7 +1018,7 @@
       "startTime": "14:45"
     },
     {
-      "title": "[BHE] HSA Meeting",
+      "title": "[BHE] HSA Meeting -In Person",
       "type": "school",
       "start": "2026-09-15",
       "end": "2026-09-15",
@@ -942,6 +1138,24 @@
       "startTime": "18:00"
     },
     {
+      "title": "[MPE] Back-to-School Night SEPAC",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "18:00"
+    },
+    {
+      "title": "[MPE] Back-to-School-Night Sessions 1  & 2",
+      "type": "school",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "allDay": false,
+      "school": "Mt. Pleasant Elementary",
+      "startTime": "18:35"
+    },
+    {
       "title": "[HAR] Back to School Night",
       "type": "school",
       "start": "2026-09-17",
@@ -960,30 +1174,12 @@
       "startTime": "18:45"
     },
     {
-      "title": "[MPE] Back-to-School Night",
-      "type": "school",
-      "start": "2026-09-17",
-      "end": "2026-09-17",
-      "allDay": false,
-      "school": "Mt. Pleasant Elementary",
-      "startTime": "19:00"
-    },
-    {
       "title": "[LHS] A Day",
       "type": "school",
       "start": "2026-09-18",
       "end": "2026-09-18",
       "allDay": true,
       "school": "Livingston High School"
-    },
-    {
-      "title": "[HIL] PTA Apparel Sale Ends",
-      "type": "school",
-      "start": "2026-09-18",
-      "end": "2026-09-18",
-      "allDay": false,
-      "school": "Hillside Elementary",
-      "startTime": "08:00"
     },
     {
       "title": "[BHE] Back to School Picnic",
@@ -1241,6 +1437,14 @@
       "startTime": "18:30"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-01",
+      "end": "2026-10-01",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] A Day",
       "type": "school",
       "start": "2026-10-01",
@@ -1258,6 +1462,14 @@
       "startTime": "08:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-02",
+      "end": "2026-10-02",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] B Day",
       "type": "school",
       "start": "2026-10-02",
@@ -1273,6 +1485,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "17:30"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] Varsity Football Game vs. East Orange Campus High School @ East Orange - Paul Robeson Stadium",
@@ -1293,6 +1513,14 @@
       "startTime": "14:30"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[BHE] Fall Bike Clinic",
       "type": "school",
       "start": "2026-10-04",
@@ -1300,6 +1528,14 @@
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "10:00"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] C Day",
@@ -1344,6 +1580,14 @@
       "allDay": false,
       "school": "Harrison Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[HMS] Club Fair",
@@ -1397,6 +1641,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[MPE] Walk, Bike, Roll to School Day",
       "type": "school",
       "start": "2026-10-07",
@@ -1413,6 +1665,14 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[MPE] Book Fair",
       "type": "school",
       "start": "2026-10-08",
@@ -1427,6 +1687,14 @@
       "end": "2026-10-08",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[HIL] Back to School Pep Rally",
@@ -1472,11 +1740,35 @@
       "startTime": "19:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "Columbus Day - No School for Students",
       "type": "no-school",
       "start": "2026-10-12",
       "end": "2026-10-12",
       "allDay": true
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-12",
+      "end": "2026-10-12",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] PD Day - No School for Stdnts (Indigenous People's Day)",
@@ -1485,6 +1777,14 @@
       "end": "2026-10-12",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[HIL] Picture Day",
@@ -1510,6 +1810,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] A Day",
@@ -1565,6 +1873,14 @@
       "startTime": "19:30"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] B Day",
       "type": "school",
       "start": "2026-10-15",
@@ -1600,6 +1916,14 @@
       "startTime": "18:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-16",
+      "end": "2026-10-16",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] C Day",
       "type": "school",
       "start": "2026-10-16",
@@ -1626,6 +1950,30 @@
       "startTime": "19:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-19",
+      "end": "2026-10-19",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] D Day",
       "type": "school",
       "start": "2026-10-19",
@@ -1643,6 +1991,14 @@
       "startTime": "19:15"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] A Day",
       "type": "school",
       "start": "2026-10-20",
@@ -1658,6 +2014,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[MPE] Holiday Boutique",
@@ -1702,6 +2066,14 @@
       "startTime": "18:30"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] C Day",
       "type": "school",
       "start": "2026-10-22",
@@ -1737,6 +2109,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[MPE] Walkathon",
       "type": "school",
       "start": "2026-10-23",
@@ -1762,6 +2142,22 @@
       "startTime": "19:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[BHE] Trunk Or Treat",
       "type": "school",
       "start": "2026-10-25",
@@ -1769,6 +2165,14 @@
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "13:00"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[MPE] Walkathon Raindate",
@@ -1796,6 +2200,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[LHS] B Day",
       "type": "school",
       "start": "2026-10-27",
@@ -1811,6 +2223,14 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "08:45"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[LHS] C Day",
@@ -1839,6 +2259,14 @@
       "startTime": "17:00"
     },
     {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "allDay": true,
+      "school": "Hillside Elementary"
+    },
+    {
       "title": "[RHE] Trunk or Treat/Fall Festival (RHE Parking Lot. Time TBD)",
       "type": "school",
       "start": "2026-10-29",
@@ -1862,6 +2290,14 @@
       "allDay": false,
       "school": "Harrison Elementary",
       "startTime": "17:00"
+    },
+    {
+      "title": "[HIL] The Liberty Drive",
+      "type": "school",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "allDay": true,
+      "school": "Hillside Elementary"
     },
     {
       "title": "[RHE] Halloween Parade/Class Parties",
@@ -3510,15 +3946,6 @@
       "end": "2027-01-27",
       "allDay": false,
       "school": "Burnet Hill Elementary",
-      "startTime": "19:00"
-    },
-    {
-      "title": "[COL] Winter Concert",
-      "type": "school",
-      "start": "2027-01-27",
-      "end": "2027-01-27",
-      "allDay": false,
-      "school": "Collins Elementary",
       "startTime": "19:00"
     },
     {
@@ -6632,6 +7059,14 @@
       "startTime": "19:00"
     },
     {
+      "title": "[BHE] Writing Celebration",
+      "type": "school",
+      "start": "2027-06-08",
+      "end": "2027-06-08",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
+    },
+    {
       "title": "[LHS] C Day",
       "type": "school",
       "start": "2027-06-08",
@@ -6865,6 +7300,15 @@
       "startTime": "08:30"
     },
     {
+      "title": "[COL] End of Year Kindergarten Show",
+      "type": "school",
+      "start": "2027-06-17",
+      "end": "2027-06-17",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "13:30"
+    },
+    {
       "title": "[RHE] Kindergarten Graduation (Large Gym)",
       "type": "school",
       "start": "2027-06-17",
@@ -6927,15 +7371,6 @@
       "allDay": false,
       "school": "Heritage Middle",
       "startTime": "10:00"
-    },
-    {
-      "title": "[COL] End of Year Kindergarten Show",
-      "type": "school",
-      "start": "2027-06-21",
-      "end": "2027-06-21",
-      "allDay": false,
-      "school": "Collins Elementary",
-      "startTime": "10:30"
     },
     {
       "title": "[HMS] 8th Grade Moving Up Ceremony - Teams 83 & 84",
