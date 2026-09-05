@@ -1,6 +1,6 @@
 {
   "schoolYear": "2026-2027",
-  "fetchedAt": "2026-09-03",
+  "fetchedAt": "2026-09-05",
   "events": [
     {
       "id": "6i6dkmakm0v833k7tgv1jahv1k",
@@ -393,6 +393,19 @@
       "address": ""
     },
     {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260901",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7mnjtb869ch1v42665lq5iud0f",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -419,6 +432,19 @@
       "address": ""
     },
     {
+      "id": "2s6qqlc0tiqte6sgleuk74ahrj_20260901T153000Z",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-01",
+      "start_time": "11:30:00",
+      "end_time": "12:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0m4l0v85jjtenme8sfbi5lil3t",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -432,12 +458,51 @@
       "address": ""
     },
     {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260902",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "57dbs6gk9pcclmj6d1is9vlina_20260902",
       "feed_id": 27096,
       "school": "Livingston High School",
       "title": "[LHS] B Day",
       "start_date": "2026-09-02",
       "end_date": "2026-09-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "2s6qqlc0tiqte6sgleuk74ahrj_20260902T153000Z",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-02",
+      "start_time": "11:30:00",
+      "end_time": "12:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260903",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-04",
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
@@ -458,6 +523,19 @@
       "address": ""
     },
     {
+      "id": "2s6qqlc0tiqte6sgleuk74ahrj_20260903T153000Z",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-03",
+      "end_date": "2026-09-03",
+      "start_time": "11:30:00",
+      "end_time": "12:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1b8fk5d82q3jocag1ff3ku8e1n",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -467,6 +545,32 @@
       "start_time": "18:30:00",
       "end_time": "20:30:00",
       "all_day": false,
+      "description": "Please note that this is only for new families who have recently enrolled to LPS for the 26-27 school year",
+      "address": ""
+    },
+    {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260904",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260904",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -523,12 +627,129 @@
       "address": ""
     },
     {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260905",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260905",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260906",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-06",
+      "end_date": "2026-09-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260906",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-06",
+      "end_date": "2026-09-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260907",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260907",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4iktcck78hfih543l642bn7b46",
       "feed_id": 27096,
       "school": "Livingston High School",
       "title": "[LHS] No School - Labor Day",
       "start_date": "2026-09-07",
       "end_date": "2026-09-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "32283rlr8n9ojk66hcjtbde882",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Link Opens for PTA Members",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-07",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260908",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260908",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-09",
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
@@ -558,6 +779,45 @@
       "start_time": "07:50:00",
       "end_time": "15:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "57bi54mn09ur26rccqkdebshl1",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Link Opens for PTA Non-Members",
+      "start_date": "2026-09-08",
+      "end_date": "2026-09-08",
+      "start_time": "10:00:00",
+      "end_time": "11:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260909",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260909",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-10",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -627,15 +887,28 @@
       "address": ""
     },
     {
-      "id": "6oo2nvkf0tdl7v2c21rfiu372b",
-      "feed_id": 27085,
-      "school": "Burnet Hill Elementary",
-      "title": "[BHE] HSA Community Meeting-In person",
-      "start_date": "2026-09-09",
-      "end_date": "2026-09-09",
-      "start_time": "19:30:00",
-      "end_time": "20:00:00",
-      "all_day": false,
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260910",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260910",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-10",
+      "end_date": "2026-09-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -685,8 +958,8 @@
       "title": "[MPM] Back to School Night",
       "start_date": "2026-09-10",
       "end_date": "2026-09-10",
-      "start_time": "18:00:00",
-      "end_time": "20:30:00",
+      "start_time": "18:45:00",
+      "end_time": "20:15:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -701,6 +974,32 @@
       "start_time": "19:00:00",
       "end_time": "21:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "09ckbmp5g78d41nq0igj1l4h9r_20260911",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260911",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -727,6 +1026,19 @@
       "start_time": "08:30:00",
       "end_time": "09:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3fn6dbpmk7bsm7h40bjs19ol40_20260912",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] Sign Up for PTA Fall Pretzel Fridays - Sign Up Ends Sept. 12th",
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -825,14 +1137,14 @@
       "id": "6vtbkdfvgsqfi08efjnp98na1m",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
-      "title": "[BHE] HSA Meeting",
+      "title": "[BHE] HSA Meeting -In Person",
       "start_date": "2026-09-15",
       "end_date": "2026-09-15",
       "start_time": "19:30:00",
       "end_time": "20:30:00",
       "all_day": false,
-      "description": "",
-      "address": ""
+      "description": "<div dir=\"auto\">HSA Community Meeting In-Person. Location BHE Media Center.<div dir=\"auto\">",
+      "address": "BHE Media Center"
     },
     {
       "id": "1u5b3t08j27qkqq2pded2erlcv",
@@ -1004,6 +1316,32 @@
       "address": ""
     },
     {
+      "id": "3ftjjed7it29gtn4i4o5e4viqa",
+      "feed_id": 27095,
+      "school": "Mt. Pleasant Elementary",
+      "title": "[MPE] Back-to-School Night SEPAC",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-17",
+      "start_time": "18:00:00",
+      "end_time": "18:30:00",
+      "all_day": false,
+      "description": "6:00 - 6:30 pm SEPAC Special Education Parent Advisory\n\nCommittee (SEPAC) Presentation Media Center\n\n6:35 - 7:05 pm Session 1 Grade 3-5 Class Visits/ Presentations Grades 3-4: Student Homerooms\nGrade 5: MPM Cafeteria (All HRs)\n\n7:15 - 7:45 pm Session 2 Grade K-2 Class Visits/ Presentations Student Homerooms\nThroughout the\nevening Specialists\n\nVisit with specials teachers,\ninterventionists, nurse, and specialists\nas available\n\nMPE Gym",
+      "address": ""
+    },
+    {
+      "id": "0jq4ljlf3rv4kufuck4fg2k6ul",
+      "feed_id": 27095,
+      "school": "Mt. Pleasant Elementary",
+      "title": "[MPE] Back-to-School-Night Sessions 1  & 2",
+      "start_date": "2026-09-17",
+      "end_date": "2026-09-17",
+      "start_time": "18:35:00",
+      "end_time": "19:45:00",
+      "all_day": false,
+      "description": "6:00 - 6:30 pm SEPAC Special Education Parent Advisory\n\nCommittee (SEPAC) Presentation Media Center\n\n6:35 - 7:05 pm Session 1 Grade 3-5 Class Visits/ Presentations Grades 3-4: Student Homerooms\nGrade 5: MPM Cafeteria (All HRs)\n\n7:15 - 7:45 pm Session 2 Grade K-2 Class Visits/ Presentations Student Homerooms\nThroughout the\nevening Specialists\n\nVisit with specials teachers,\ninterventionists, nurse, and specialists\nas available\n\nMPE Gym",
+      "address": ""
+    },
+    {
       "id": "3r5srs6bimavp9spihlc0plimn",
       "feed_id": 27088,
       "school": "Harrison Elementary",
@@ -1030,19 +1368,6 @@
       "address": ""
     },
     {
-      "id": "3ftjjed7it29gtn4i4o5e4viqa",
-      "feed_id": 27095,
-      "school": "Mt. Pleasant Elementary",
-      "title": "[MPE] Back-to-School Night",
-      "start_date": "2026-09-17",
-      "end_date": "2026-09-17",
-      "start_time": "19:00:00",
-      "end_time": "20:30:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
       "id": "0onl06t48boogfsu9qtpkbusgv_20260917",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1052,19 +1377,6 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
-      "description": "",
-      "address": ""
-    },
-    {
-      "id": "3ucge5bia0nmtfia71rujvghhd",
-      "feed_id": 27089,
-      "school": "Hillside Elementary",
-      "title": "[HIL] PTA Apparel Sale Ends",
-      "start_date": "2026-09-18",
-      "end_date": "2026-09-18",
-      "start_time": "08:00:00",
-      "end_time": "08:15:00",
-      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -1416,7 +1728,7 @@
       "start_time": "18:00:00",
       "end_time": "18:30:00",
       "all_day": false,
-      "description": "",
+      "description": "<b>Please note: this event will be pre-recorded.</b>",
       "address": ""
     },
     {
@@ -1429,6 +1741,19 @@
       "start_time": "18:30:00",
       "end_time": "19:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261001",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1459,6 +1784,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261002",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "57dbs6gk9pcclmj6d1is9vlina_20261007",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1481,6 +1819,19 @@
       "start_time": "17:30:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261003",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1511,6 +1862,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261004",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1c737pam9po44d79m0314u0tck",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -1521,6 +1885,19 @@
       "end_time": "13:00:00",
       "all_day": false,
       "description": "There will be 2 session- 10am-11:30am and 11:30am - 1pm.  Please visit the HSA website for details.",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261005",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -1586,6 +1963,19 @@
       "end_time": "20:00:00",
       "all_day": false,
       "description": "Old gym - Use door 4",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261006",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -1667,6 +2057,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261007",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7ni19mtqi9lve30pfk28er5l7s",
       "feed_id": 27095,
       "school": "Mt. Pleasant Elementary",
@@ -1693,6 +2096,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261008",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3aa7p6f4iubd0h7a74kb5p24dq",
       "feed_id": 27095,
       "school": "Mt. Pleasant Elementary",
@@ -1712,6 +2128,19 @@
       "title": "[LHS] B Day",
       "start_date": "2026-10-08",
       "end_date": "2026-10-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261009",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-10",
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
@@ -1784,12 +2213,64 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261010",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261011",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-11",
+      "end_date": "2026-10-12",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261012",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "57r99sgb57tuh7tov9al580kg3",
       "feed_id": 27096,
       "school": "Livingston High School",
       "title": "[LHS] PD Day - No School for Stdnts (Indigenous People's Day)",
       "start_date": "2026-10-12",
       "end_date": "2026-10-13",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261013",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-14",
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
@@ -1832,6 +2313,19 @@
       "start_time": "14:45:00",
       "end_time": "15:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261014",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1914,6 +2408,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261015",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-16",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5d9hqinrt0s9ov0j0ge4msm1pa",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1966,6 +2473,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261016",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-17",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261029",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2005,6 +2525,45 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261017",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261018",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-18",
+      "end_date": "2026-10-19",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261019",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-20",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1ooc084vushvm6agp997kqavhj",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2031,6 +2590,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261020",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-21",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0onl06t48boogfsu9qtpkbusgv_20261022",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2053,6 +2625,19 @@
       "start_time": "14:45:00",
       "end_time": "15:45:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261021",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-22",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2122,6 +2707,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261022",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-23",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20261022",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2174,6 +2772,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261023",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-24",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "2gtkljopc7jietp2qss43r56go",
       "feed_id": 27095,
       "school": "Mt. Pleasant Elementary",
@@ -2213,6 +2824,32 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261024",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-25",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261025",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-25",
+      "end_date": "2026-10-26",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3n5g831l81mnpn9jg2u1a8fdmq",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
@@ -2222,6 +2859,19 @@
       "start_time": "13:00:00",
       "end_time": "14:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261026",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-27",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2265,6 +2915,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261027",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-28",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "57dbs6gk9pcclmj6d1is9vlina_20261028",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2287,6 +2950,19 @@
       "start_time": "08:45:00",
       "end_time": "15:30:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261028",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-29",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2330,6 +3006,19 @@
       "address": ""
     },
     {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261029",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-30",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0g3fho5e8o4uhmpcnsb45bkl6t",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -2366,6 +3055,19 @@
       "end_time": "18:30:00",
       "all_day": false,
       "description": "Main parking lot",
+      "address": ""
+    },
+    {
+      "id": "678jr11vuhkt0e3a6trjf7sbkk_20261030",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] The Liberty Drive",
+      "start_date": "2026-10-30",
+      "end_date": "2026-10-31",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -4745,20 +5447,7 @@
       "end_time": "21:00:00",
       "all_day": false,
       "description": "",
-      "address": ""
-    },
-    {
-      "id": "2um2hqharca1es2hbkhaj38h4q",
-      "feed_id": 27087,
-      "school": "Collins Elementary",
-      "title": "[COL] Winter Concert",
-      "start_date": "2027-01-27",
-      "end_date": "2027-01-27",
-      "start_time": "19:00:00",
-      "end_time": "21:00:00",
-      "all_day": false,
-      "description": "",
-      "address": "HMS"
+      "address": "Heritage Middle School, 20 Foxcroft Dr, Livingston, NJ 07039, USA"
     },
     {
       "id": "7qi4trfd9drhini1t4lvfbau2k",
@@ -9337,6 +10026,19 @@
       "address": ""
     },
     {
+      "id": "3me615hf25490rlt880vro33jf",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Writing Celebration",
+      "start_date": "2027-06-08",
+      "end_date": "2027-06-09",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1ag2e7e0ngfd6kkj7etfk1ueqa_20270610",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -9688,6 +10390,19 @@
       "address": ""
     },
     {
+      "id": "2eca8sq936gtgmirqkjkr803ou",
+      "feed_id": 27087,
+      "school": "Collins Elementary",
+      "title": "[COL] End of Year Kindergarten Show",
+      "start_date": "2027-06-17",
+      "end_date": "2027-06-17",
+      "start_time": "13:30:00",
+      "end_time": "14:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "3164g3f3vcc5e0tmisbfng9d6u",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -9760,19 +10475,6 @@
       "start_date": "2027-06-21",
       "end_date": "2027-06-21",
       "start_time": "10:00:00",
-      "end_time": "11:30:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
-      "id": "2eca8sq936gtgmirqkjkr803ou",
-      "feed_id": 27087,
-      "school": "Collins Elementary",
-      "title": "[COL] End of Year Kindergarten Show",
-      "start_date": "2027-06-21",
-      "end_date": "2027-06-21",
-      "start_time": "10:30:00",
       "end_time": "11:30:00",
       "all_day": false,
       "description": "",
