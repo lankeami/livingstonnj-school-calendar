@@ -1,7 +1,7 @@
 {
   "schoolYear": "2025-2026 + 2026-2027 + 2027-2028",
-  "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-05T02:47:37.389Z",
+  "lastUpdated": "2026-10-11",
+  "generatedAt": "2026-10-11T13:26:18.366Z",
   "events": [
     {
       "title": "Professional Development Days - No Students",
@@ -829,6 +829,15 @@
       "startTime": "07:50"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HAR] PTA Fall Family Picnic",
       "type": "school",
       "start": "2026-09-09",
@@ -845,15 +854,6 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:00"
-    },
-    {
-      "title": "[LHS] BTSN",
-      "type": "school",
-      "start": "2026-09-09",
-      "end": "2026-09-09",
-      "allDay": false,
-      "school": "Livingston High School",
-      "startTime": "22:00"
     },
     {
       "title": "[HIL] PTA Apparel Sale - Ends Friday Sept. 11th",
@@ -880,22 +880,13 @@
       "school": "Livingston High School"
     },
     {
-      "title": "[BHE] Registration opens for FALL Hobby Hour, Bike Clinic and Pretzels",
+      "title": "[BHE] Registration opens for FALL Hobby Hour, School Play and Pretzels",
       "type": "school",
       "start": "2026-09-10",
       "end": "2026-09-10",
       "allDay": false,
       "school": "Burnet Hill Elementary",
       "startTime": "07:00"
-    },
-    {
-      "title": "[HAR] PTA Fall Family Picnic Rain Date",
-      "type": "school",
-      "start": "2026-09-10",
-      "end": "2026-09-10",
-      "allDay": false,
-      "school": "Harrison Elementary",
-      "startTime": "17:00"
     },
     {
       "title": "[MPM] Back to School Night",
@@ -1059,6 +1050,24 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[LHS] Club Fair during Lancer Time",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:40"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] 4th Grade Young Leaders",
       "type": "school",
       "start": "2026-09-16",
@@ -1102,13 +1111,13 @@
       "school": "Livingston High School"
     },
     {
-      "title": "[BHE] Bake Sale",
+      "title": "[BHE] Blacktop Brew-(Pop Up Coffee Stand) at 7:15am",
       "type": "school",
       "start": "2026-09-17",
       "end": "2026-09-17",
       "allDay": false,
       "school": "Burnet Hill Elementary",
-      "startTime": "14:45"
+      "startTime": "07:15"
     },
     {
       "title": "[HIL] 5th Grade Young Leaders",
@@ -1314,7 +1323,7 @@
       "end": "2026-09-24",
       "allDay": false,
       "school": "Collins Elementary",
-      "startTime": "19:00"
+      "startTime": "18:30"
     },
     {
       "title": "[LHS] A Day",
@@ -1325,6 +1334,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[BHE] Apparel Sale Ends",
+      "type": "school",
+      "start": "2026-09-25",
+      "end": "2026-09-25",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "12:30"
+    },
+    {
       "title": "[LHS] Varsity Football Game vs. Morristown High School @ Morristown High School Stadium",
       "type": "school",
       "start": "2026-09-25",
@@ -1332,22 +1350,6 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:30"
-    },
-    {
-      "title": "[RHE] Car Wash (Riker Hill Parking Lot.  Time TBD)",
-      "type": "school",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "allDay": true,
-      "school": "Riker Hill Elementary"
-    },
-    {
-      "title": "[RHE] Car Wash (Rain Date. Time TBD)",
-      "type": "school",
-      "start": "2026-09-27",
-      "end": "2026-09-27",
-      "allDay": true,
-      "school": "Riker Hill Elementary"
     },
     {
       "title": "[LHS] B Day",
@@ -1393,15 +1395,6 @@
       "startTime": "14:45"
     },
     {
-      "title": "[COL] Fall Fest",
-      "type": "school",
-      "start": "2026-09-29",
-      "end": "2026-09-29",
-      "allDay": false,
-      "school": "Collins Elementary",
-      "startTime": "17:00"
-    },
-    {
       "title": "[LHS] D Day",
       "type": "school",
       "start": "2026-09-30",
@@ -1410,22 +1403,22 @@
       "school": "Livingston High School"
     },
     {
-      "title": "[COL] Fall Fest Rain Date",
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-09-30",
+      "end": "2026-09-30",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
+      "title": "[COL] Fall Fest",
       "type": "school",
       "start": "2026-09-30",
       "end": "2026-09-30",
       "allDay": false,
       "school": "Collins Elementary",
       "startTime": "17:00"
-    },
-    {
-      "title": "[LHS] Post Secondary Transition for Students with Learning Disabilities via Zoom",
-      "type": "school",
-      "start": "2026-09-30",
-      "end": "2026-09-30",
-      "allDay": false,
-      "school": "Livingston High School",
-      "startTime": "18:00"
     },
     {
       "title": "[LHS] 11th Grade Post Secondary Planning Night: The Search Process via Zoom",
@@ -1435,6 +1428,14 @@
       "allDay": false,
       "school": "Livingston High School",
       "startTime": "18:30"
+    },
+    {
+      "title": "[BHE] \"BOO\" Your Teacher Begins",
+      "type": "school",
+      "start": "2026-10-01",
+      "end": "2026-10-01",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
     },
     {
       "title": "[HIL] The Liberty Drive",
@@ -1460,6 +1461,31 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "08:00"
+    },
+    {
+      "title": "[RHE] Fall ASE Begins- Thursday Sessions",
+      "type": "school",
+      "start": "2026-10-01",
+      "end": "2026-10-01",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[BHE] Fall Fest/Trunk or Treat Registration Opens",
+      "type": "school",
+      "start": "2026-10-02",
+      "end": "2026-10-02",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
+    },
+    {
+      "title": "[BHE] Thanksgiving Pie Fundraiser Begins",
+      "type": "school",
+      "start": "2026-10-02",
+      "end": "2026-10-02",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
     },
     {
       "title": "[HIL] The Liberty Drive",
@@ -1495,6 +1521,15 @@
       "school": "Hillside Elementary"
     },
     {
+      "title": "[RHE] HSA Car Wash (Riker Hill Parking Lot)",
+      "type": "school",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "11:00"
+    },
+    {
       "title": "[LHS] Varsity Football Game vs. East Orange Campus High School @ East Orange - Paul Robeson Stadium",
       "type": "school",
       "start": "2026-10-03",
@@ -1521,13 +1556,12 @@
       "school": "Hillside Elementary"
     },
     {
-      "title": "[BHE] Fall Bike Clinic",
+      "title": "[BHE] Last Day to Sign-up for: Pretzel Fridays (Fall) + Be A Hero! School Play",
       "type": "school",
-      "start": "2026-10-04",
-      "end": "2026-10-04",
-      "allDay": false,
-      "school": "Burnet Hill Elementary",
-      "startTime": "10:00"
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
     },
     {
       "title": "[HIL] The Liberty Drive",
@@ -1546,7 +1580,7 @@
       "school": "Livingston High School"
     },
     {
-      "title": "[BHE] Picture Day!",
+      "title": "[BHE] Picture Day & Crazy Sock Day!",
       "type": "school",
       "start": "2026-10-05",
       "end": "2026-10-05",
@@ -1562,6 +1596,15 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "08:00"
+    },
+    {
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "type": "school",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[LHS] Rho Kappa Honor Society Induction Ceremony",
@@ -1580,6 +1623,14 @@
       "allDay": false,
       "school": "Harrison Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[BHE] 5th Grade Class Sweatshirt Sale Opens",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
     },
     {
       "title": "[HIL] The Liberty Drive",
@@ -1614,6 +1665,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[BHE] Hats Off to Respect!",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:00"
+    },
+    {
       "title": "[COL] Collins: Picture Day",
       "type": "school",
       "start": "2026-10-06",
@@ -1621,6 +1681,24 @@
       "allDay": false,
       "school": "Collins Elementary",
       "startTime": "08:00"
+    },
+    {
+      "title": "[HIL] ASE Dance & ASE Science",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE Begins- Tuesday Session",
+      "type": "school",
+      "start": "2026-10-06",
+      "end": "2026-10-06",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[MPE] Milk & Bookies",
@@ -1639,6 +1717,14 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "19:00"
+    },
+    {
+      "title": "[BHE] November Half Day Activities Registration Opens",
+      "type": "school",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "allDay": true,
+      "school": "Burnet Hill Elementary"
     },
     {
       "title": "[HIL] The Liberty Drive",
@@ -1665,6 +1751,33 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[BHE] Being Kind and Respectful is No Sweat!",
+      "type": "school",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "[RHE] First Grade Field Trip to Riamede Farms",
+      "type": "school",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "08:30"
+    },
+    {
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "type": "school",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[HIL] The Liberty Drive",
       "type": "school",
       "start": "2026-10-08",
@@ -1687,6 +1800,33 @@
       "end": "2026-10-08",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[BHE] Team Up Against Bullying!",
+      "type": "school",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:00"
+    },
+    {
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "type": "school",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "type": "school",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[HIL] The Liberty Drive",
@@ -1713,13 +1853,13 @@
       "school": "Livingston High School"
     },
     {
-      "title": "[RHE] Fall Bake Sale",
+      "title": "[BHE] United We Stand!",
       "type": "school",
       "start": "2026-10-09",
       "end": "2026-10-09",
       "allDay": false,
-      "school": "Riker Hill Elementary",
-      "startTime": "14:30"
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:00"
     },
     {
       "title": "[HIL] PTA's Outdoor Movie Night RAIN DATE",
@@ -1803,12 +1943,30 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] ASE Dance & ASE Science",
+      "type": "school",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[HIL] 3rd Grade Young Leaders",
       "type": "school",
       "start": "2026-10-13",
       "end": "2026-10-13",
       "allDay": false,
       "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "type": "school",
+      "start": "2026-10-13",
+      "end": "2026-10-13",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
       "startTime": "14:45"
     },
     {
@@ -1826,6 +1984,24 @@
       "end": "2026-10-14",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "type": "school",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[HIL] 4th Grade Young Leaders",
@@ -1889,13 +2065,13 @@
       "school": "Livingston High School"
     },
     {
-      "title": "[BHE] Bake Sale",
+      "title": "[BHE] Blacktop Brew",
       "type": "school",
       "start": "2026-10-15",
       "end": "2026-10-15",
       "allDay": false,
       "school": "Burnet Hill Elementary",
-      "startTime": "14:45"
+      "startTime": "07:15"
     },
     {
       "title": "[HIL] 5th Grade Young Leaders",
@@ -1904,6 +2080,24 @@
       "end": "2026-10-15",
       "allDay": false,
       "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "type": "school",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "type": "school",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
       "startTime": "14:45"
     },
     {
@@ -1982,6 +2176,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "type": "school",
+      "start": "2026-10-19",
+      "end": "2026-10-19",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[RHE] HSA Meeting (via zoom)",
       "type": "school",
       "start": "2026-10-19",
@@ -2013,6 +2216,24 @@
       "end": "2026-10-20",
       "allDay": false,
       "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[HIL] ASE Dance & ASE Science",
+      "type": "school",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "type": "school",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
       "startTime": "14:45"
     },
     {
@@ -2057,6 +2278,15 @@
       "startTime": "14:45"
     },
     {
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "type": "school",
+      "start": "2026-10-21",
+      "end": "2026-10-21",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[MPM] HSA Meeting",
       "type": "school",
       "start": "2026-10-21",
@@ -2080,6 +2310,24 @@
       "end": "2026-10-22",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "type": "school",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "type": "school",
+      "start": "2026-10-22",
+      "end": "2026-10-22",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[LHS] Varsity Football Game vs. Bloomfield High School @ Bloomfield Foley Field Stadium",
@@ -2133,6 +2381,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[BHE] School Store-Halloween Theme",
+      "type": "school",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "10:45"
+    },
+    {
       "title": "[LHS] Inner Circle Cabaret Show",
       "type": "school",
       "start": "2026-10-23",
@@ -2158,7 +2415,7 @@
       "school": "Hillside Elementary"
     },
     {
-      "title": "[BHE] Trunk Or Treat",
+      "title": "[BHE] BHE Fall Fest/Trunk or Treat",
       "type": "school",
       "start": "2026-10-25",
       "end": "2026-10-25",
@@ -2189,6 +2446,15 @@
       "end": "2026-10-26",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "type": "school",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[LHS] Army Jazz Ambassador Tour",
@@ -2225,6 +2491,15 @@
       "startTime": "08:45"
     },
     {
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "type": "school",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[HIL] The Liberty Drive",
       "type": "school",
       "start": "2026-10-28",
@@ -2239,6 +2514,15 @@
       "end": "2026-10-28",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "type": "school",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[LHS] Fall National Honor Society Induction Ceremony",
@@ -2267,20 +2551,39 @@
       "school": "Hillside Elementary"
     },
     {
-      "title": "[RHE] Trunk or Treat/Fall Festival (RHE Parking Lot. Time TBD)",
-      "type": "school",
-      "start": "2026-10-29",
-      "end": "2026-10-29",
-      "allDay": true,
-      "school": "Riker Hill Elementary"
-    },
-    {
       "title": "[LHS] D Day",
       "type": "school",
       "start": "2026-10-29",
       "end": "2026-10-29",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "type": "school",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "type": "school",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Trunk or Treat/Fall Festival (RHE Parking Lot)",
+      "type": "school",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "16:30"
     },
     {
       "title": "[HAR] PTA Truck or Treat Rain Date",
@@ -2391,6 +2694,14 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[LHS] Instant Decision Day",
+      "type": "school",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
       "title": "[MPM] District String Day Snow Date",
       "type": "school",
       "start": "2026-11-04",
@@ -2423,6 +2734,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "type": "school",
+      "start": "2026-11-09",
+      "end": "2026-11-09",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[LHS] B Day",
       "type": "school",
       "start": "2026-11-10",
@@ -2437,6 +2757,24 @@
       "end": "2026-11-10",
       "allDay": false,
       "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[HIL] ASE Dance (Last Class) & ASE Science (Last Class)",
+      "type": "school",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "type": "school",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
       "startTime": "14:45"
     },
     {
@@ -2473,7 +2811,25 @@
       "startTime": "08:45"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] 4th Grade Young Leaders",
+      "type": "school",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[HIL] ASE Golf (Last Class) & ASE Yummy Lab (Last Class)",
       "type": "school",
       "start": "2026-11-11",
       "end": "2026-11-11",
@@ -2517,6 +2873,15 @@
       "startTime": "14:45"
     },
     {
+      "title": "[HIL] ASE Engineering (Last Class) & ASE Yoga (Last Class)",
+      "type": "school",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[HIL] 5th Grade Young Leaders",
       "type": "school",
       "start": "2026-11-12",
@@ -2524,6 +2889,24 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "type": "school",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
+      "title": "[LHS] Multicultural Fashion Show",
+      "type": "school",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "18:00"
     },
     {
       "title": "[LHS] A Day",
@@ -2577,6 +2960,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[HIL] ASE Soccer (Last Class) & ASE Art (Last Class)",
+      "type": "school",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "allDay": false,
+      "school": "Hillside Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[HAR] PTA Meeting",
       "type": "school",
       "start": "2026-11-16",
@@ -2603,6 +2995,15 @@
       "startTime": "14:45"
     },
     {
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "type": "school",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[HMS] Picture Retakes",
       "type": "school",
       "start": "2026-11-18",
@@ -2626,6 +3027,15 @@
       "allDay": false,
       "school": "Collins Elementary",
       "startTime": "08:00"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
     },
     {
       "title": "[BHE] Book Fair!",
@@ -2681,6 +3091,15 @@
       "startTime": "09:00"
     },
     {
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "type": "school",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[COL] PTO Meeting via Google Meet",
       "type": "school",
       "start": "2026-11-19",
@@ -2705,6 +3124,15 @@
       "end": "2026-11-20",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[BHE] Turkey Trot",
+      "type": "school",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "09:00"
     },
     {
       "title": "[RHE] HSA Meeting (in person)",
@@ -2849,6 +3277,24 @@
       "startTime": "08:00"
     },
     {
+      "title": "[BHE] Kinder Thanksgivings Show",
+      "type": "school",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "08:30"
+    },
+    {
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "type": "school",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[LHS] A Day",
       "type": "school",
       "start": "2026-11-25",
@@ -2871,6 +3317,15 @@
       "end": "2026-11-29",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[BHE] PRIDE Thanksgiving Picnic",
+      "type": "school",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "allDay": false,
+      "school": "Burnet Hill Elementary",
+      "startTime": "11:00"
     },
     {
       "title": "Thanksgiving Recess - District Closed",
@@ -2945,6 +3400,15 @@
       "startTime": "08:00"
     },
     {
+      "title": "[RHE] Fall ASE- Tuesday Session Ends",
+      "type": "school",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
+    },
+    {
       "title": "[HIL] Winter ASE Link Opens",
       "type": "school",
       "start": "2026-12-02",
@@ -2967,6 +3431,15 @@
       "end": "2026-12-02",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-12-02",
+      "end": "2026-12-02",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
     },
     {
       "title": "[LHS] Band Concert",
@@ -3010,6 +3483,15 @@
       "allDay": false,
       "school": "Riker Hill Elementary",
       "startTime": "08:45"
+    },
+    {
+      "title": "[RHE] Fall ASE- Thursday Session Ends",
+      "type": "school",
+      "start": "2026-12-03",
+      "end": "2026-12-03",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "14:45"
     },
     {
       "title": "[LHS] Band Concert  Snow Date",
@@ -3116,6 +3598,15 @@
       "startTime": "08:30"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] 4th Grade Young Leaders",
       "type": "school",
       "start": "2026-12-09",
@@ -3123,6 +3614,15 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "14:45"
+    },
+    {
+      "title": "[HMS] Chorus Concert @ LHS",
+      "type": "school",
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
     },
     {
       "title": "[LHS] Heritage Chorus Concert",
@@ -3218,6 +3718,15 @@
       "end": "2026-12-14",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[HMS] Orchestra Concert",
+      "type": "school",
+      "start": "2026-12-14",
+      "end": "2026-12-14",
+      "allDay": false,
+      "school": "Heritage Middle",
+      "startTime": "19:00"
     },
     {
       "title": "[LHS] Heritage Orchestra Concert",
@@ -3321,6 +3830,15 @@
       "end": "2026-12-17",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
     },
     {
       "title": "[BHE] Bake Sale",
@@ -3492,6 +4010,15 @@
       "end": "2027-01-06",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-01-06",
+      "end": "2027-01-06",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
     },
     {
       "title": "[HIL] 4th Grade Young Leaders",
@@ -3704,6 +4231,15 @@
       "startTime": "08:00"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-01-14",
+      "end": "2027-01-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] PTA's Skate Night",
       "type": "school",
       "start": "2027-01-14",
@@ -3830,7 +4366,7 @@
       "startTime": "14:45"
     },
     {
-      "title": "[RHE] Spelling Bee Final Round (Small Gym)",
+      "title": "[RHE] Spelling Bee Final Round (Large Gym)",
       "type": "school",
       "start": "2027-01-21",
       "end": "2027-01-21",
@@ -3881,6 +4417,15 @@
       "allDay": false,
       "school": "Hillside Elementary",
       "startTime": "17:00"
+    },
+    {
+      "title": "[LHS] Winter Improv Show",
+      "type": "school",
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "19:00"
     },
     {
       "title": "Early Dismissal LHS Only - Semester Chg",
@@ -3949,7 +4494,7 @@
       "startTime": "19:00"
     },
     {
-      "title": "[RHE] Riker Hill Concert",
+      "title": "[RHE] Riker Hill Concert- Snow Date",
       "type": "school",
       "start": "2027-01-27",
       "end": "2027-01-27",
@@ -3999,15 +4544,6 @@
       "end": "2027-01-29",
       "allDay": true,
       "school": "Livingston High School"
-    },
-    {
-      "title": "[LHS] Winter Improv Show",
-      "type": "school",
-      "start": "2027-01-29",
-      "end": "2027-01-29",
-      "allDay": false,
-      "school": "Livingston High School",
-      "startTime": "19:00"
     },
     {
       "title": "[LHS] B Day",
@@ -4063,6 +4599,14 @@
     },
     {
       "title": "[LHS] D Day",
+      "type": "school",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "allDay": true,
+      "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Course Preview Day",
       "type": "school",
       "start": "2027-02-03",
       "end": "2027-02-03",
@@ -4263,6 +4807,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] 1st Grade Young Leaders",
       "type": "school",
       "start": "2027-02-10",
@@ -4368,15 +4921,6 @@
       "startTime": "14:45"
     },
     {
-      "title": "[LHS] ROBOTICS Competition",
-      "type": "school",
-      "start": "2027-02-13",
-      "end": "2027-02-13",
-      "allDay": false,
-      "school": "Livingston High School",
-      "startTime": "06:00"
-    },
-    {
       "title": "Presidents Day - District Closed",
       "type": "holiday",
       "start": "2027-02-15",
@@ -4448,6 +4992,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-02-24",
+      "end": "2027-02-24",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] PTA's Scholastic Book Fair",
       "type": "school",
       "start": "2027-02-24",
@@ -4498,6 +5051,15 @@
       "end": "2027-02-26",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] ROBOTICS Competition",
+      "type": "school",
+      "start": "2027-02-28",
+      "end": "2027-02-28",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "06:00"
     },
     {
       "title": "Parent/Teacher Conferences - Early Dismissal Elem",
@@ -4563,6 +5125,15 @@
       "allDay": false,
       "school": "Heritage Middle",
       "startTime": "08:00"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-03-03",
+      "end": "2027-03-03",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
     },
     {
       "title": "[RHE] Bingo Night (Large Gym)",
@@ -4868,6 +5439,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-03-17",
+      "end": "2027-03-17",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] 4th Grade Young Leaders",
       "type": "school",
       "start": "2027-03-17",
@@ -5087,6 +5667,15 @@
       "startTime": "08:30"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-03-24",
+      "end": "2027-03-24",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] 1st Grade Young Leaders",
       "type": "school",
       "start": "2027-03-24",
@@ -5213,6 +5802,15 @@
       "startTime": "09:15"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-03-31",
+      "end": "2027-03-31",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[LHS] All Township Concert  Snow Date",
       "type": "school",
       "start": "2027-03-31",
@@ -5228,6 +5826,15 @@
       "end": "2027-04-01",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[MPM] HSA Meeting",
+      "type": "school",
+      "start": "2027-04-01",
+      "end": "2027-04-01",
+      "allDay": false,
+      "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
     },
     {
       "title": "[LHS] C Day",
@@ -5342,6 +5949,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-04-07",
+      "end": "2027-04-07",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[HIL] 4th Grade Young Leaders",
       "type": "school",
       "start": "2027-04-07",
@@ -5410,6 +6026,15 @@
       "end": "2027-04-09",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] NAHS Ice Cream Social",
+      "type": "school",
+      "start": "2027-04-09",
+      "end": "2027-04-09",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "14:45"
     },
     {
       "title": "[LHS] Long Island Quiz Bowl Alliance @ LHS",
@@ -5553,6 +6178,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-04-14",
+      "end": "2027-04-14",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[COL] PTO Meeting via Google Meet",
       "type": "school",
       "start": "2027-04-14",
@@ -5657,15 +6291,6 @@
       "school": "Livingston High School"
     },
     {
-      "title": "[LHS] NAHS Ice Cream Social",
-      "type": "school",
-      "start": "2027-04-16",
-      "end": "2027-04-16",
-      "allDay": false,
-      "school": "Livingston High School",
-      "startTime": "14:45"
-    },
-    {
       "title": "Spring Recess - Schools Closed",
       "type": "break",
       "start": "2027-04-19",
@@ -5765,6 +6390,15 @@
       "end": "2027-04-28",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-04-28",
+      "end": "2027-04-28",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
     },
     {
       "title": "[HIL] TREP$ Marketplace",
@@ -5906,6 +6540,15 @@
       "startTime": "08:30"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-05-05",
+      "end": "2027-05-05",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[MPM] MPMS Orchestra/Chorus Concert",
       "type": "school",
       "start": "2027-05-05",
@@ -6016,6 +6659,15 @@
       "end": "2027-05-12",
       "allDay": true,
       "school": "Livingston High School"
+    },
+    {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-05-12",
+      "end": "2027-05-12",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
     },
     {
       "title": "[COL] Multicultural Night Rain Date",
@@ -6588,6 +7240,15 @@
       "startTime": "09:15"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[LHS] Annual Science Research Symposium",
       "type": "school",
       "start": "2027-05-26",
@@ -6820,6 +7481,15 @@
       "startTime": "09:30"
     },
     {
+      "title": "[LHS] Lancer Time",
+      "type": "school",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "allDay": false,
+      "school": "Livingston High School",
+      "startTime": "09:41"
+    },
+    {
       "title": "[MPE] Gr 5 MPM Visit at MPM",
       "type": "school",
       "start": "2027-06-02",
@@ -6943,6 +7613,15 @@
       "allDay": false,
       "school": "Harrison Elementary",
       "startTime": "09:30"
+    },
+    {
+      "title": "[COL] 1st grade writing celebration",
+      "type": "school",
+      "start": "2027-06-03",
+      "end": "2027-06-03",
+      "allDay": false,
+      "school": "Collins Elementary",
+      "startTime": "12:45"
     },
     {
       "title": "[MPE] Fair Rain date",
@@ -7075,6 +7754,15 @@
       "school": "Livingston High School"
     },
     {
+      "title": "[RHE] 5th Grade Trip to Harbor Hills",
+      "type": "school",
+      "start": "2027-06-08",
+      "end": "2027-06-08",
+      "allDay": false,
+      "school": "Riker Hill Elementary",
+      "startTime": "08:30"
+    },
+    {
       "title": "[HIL] Incoming Kindergarten Parent Orientation",
       "type": "school",
       "start": "2027-06-08",
@@ -7197,6 +7885,14 @@
       "startTime": "18:00"
     },
     {
+      "title": "[RHE] 5th Grade Yearbook Signing Party (Time TBD)",
+      "type": "school",
+      "start": "2027-06-14",
+      "end": "2027-06-14",
+      "allDay": true,
+      "school": "Riker Hill Elementary"
+    },
+    {
       "title": "[LHS] Per 1 &",
       "type": "school",
       "start": "2027-06-14",
@@ -7272,6 +7968,15 @@
       "end": "2027-06-16",
       "allDay": false,
       "school": "Mt. Pleasant Middle",
+      "startTime": "18:30"
+    },
+    {
+      "title": "[HMS] & MPM Joint HSA Meeting",
+      "type": "school",
+      "start": "2027-06-16",
+      "end": "2027-06-16",
+      "allDay": false,
+      "school": "Heritage Middle",
       "startTime": "18:30"
     },
     {
