@@ -1,6 +1,6 @@
 {
   "schoolYear": "2026-2027",
-  "fetchedAt": "2026-09-05",
+  "fetchedAt": "2026-10-11",
   "events": [
     {
       "id": "6i6dkmakm0v833k7tgv1jahv1k",
@@ -848,6 +848,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20260909T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-09",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "4ln95avk0a3pigfhcqipip27fc",
       "feed_id": 27088,
       "school": "Harrison Elementary",
@@ -869,19 +882,6 @@
       "end_date": "2026-09-09",
       "start_time": "18:00:00",
       "end_time": "20:00:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
-      "id": "54namlhe61v4d4nokpvj89ef1u",
-      "feed_id": 27096,
-      "school": "Livingston High School",
-      "title": "[LHS] BTSN",
-      "start_date": "2026-09-09",
-      "end_date": "2026-09-09",
-      "start_time": "22:00:00",
-      "end_time": "22:30:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -929,24 +929,11 @@
       "id": "424glvp4q6mujc7loo3nmlcvk4",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
-      "title": "[BHE] Registration opens for FALL Hobby Hour, Bike Clinic and Pretzels",
+      "title": "[BHE] Registration opens for FALL Hobby Hour, School Play and Pretzels",
       "start_date": "2026-09-10",
       "end_date": "2026-09-10",
       "start_time": "07:00:00",
       "end_time": "07:30:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
-      "id": "1tqlq1o9hs6ck236dm6205rjmn",
-      "feed_id": 27088,
-      "school": "Harrison Elementary",
-      "title": "[HAR] PTA Fall Family Picnic Rain Date",
-      "start_date": "2026-09-10",
-      "end_date": "2026-09-10",
-      "start_time": "17:00:00",
-      "end_time": "19:00:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -1199,6 +1186,32 @@
       "address": ""
     },
     {
+      "id": "12ik6cevg3r0ufc0tb3nt1if4s",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Club Fair during Lancer Time",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-16",
+      "start_time": "09:40:00",
+      "end_time": "10:30:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20260916T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-09-16",
+      "end_date": "2026-09-16",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "2pg295ifoq8t8jtt4dm6r8emt0_20260916T184500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -1267,11 +1280,11 @@
       "id": "5245ch73hkeq8j4cmfo6tljrtc",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
-      "title": "[BHE] Bake Sale",
+      "title": "[BHE] Blacktop Brew-(Pop Up Coffee Stand) at 7:15am",
       "start_date": "2026-09-17",
       "end_date": "2026-09-17",
-      "start_time": "14:45:00",
-      "end_time": "15:15:00",
+      "start_time": "07:15:00",
+      "end_time": "07:45:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -1556,8 +1569,8 @@
       "title": "[COL] Collins Back to School Night",
       "start_date": "2026-09-24",
       "end_date": "2026-09-24",
-      "start_time": "19:00:00",
-      "end_time": "20:30:00",
+      "start_time": "18:30:00",
+      "end_time": "20:00:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -1576,6 +1589,19 @@
       "address": ""
     },
     {
+      "id": "1u13292363uub3mmq89j2uuntb",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Apparel Sale Ends",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-25",
+      "start_time": "12:30:00",
+      "end_time": "13:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "1p6p9fuufpnj1is30hld71kiag",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1585,32 +1611,6 @@
       "start_time": "18:30:00",
       "end_time": "20:30:00",
       "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
-      "id": "1keurq66lgi6dvbgr34moovebv",
-      "feed_id": 27094,
-      "school": "Riker Hill Elementary",
-      "title": "[RHE] Car Wash (Riker Hill Parking Lot.  Time TBD)",
-      "start_date": "2026-09-26",
-      "end_date": "2026-09-27",
-      "start_time": "00:00:00",
-      "end_time": "00:00:00",
-      "all_day": true,
-      "description": "",
-      "address": ""
-    },
-    {
-      "id": "6gjh65o1liraieggerbg30cj86",
-      "feed_id": 27094,
-      "school": "Riker Hill Elementary",
-      "title": "[RHE] Car Wash (Rain Date. Time TBD)",
-      "start_date": "2026-09-27",
-      "end_date": "2026-09-28",
-      "start_time": "00:00:00",
-      "end_time": "00:00:00",
-      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1680,19 +1680,6 @@
       "address": ""
     },
     {
-      "id": "3i7d9243bh55dmsfs64lv4ds04",
-      "feed_id": 27087,
-      "school": "Collins Elementary",
-      "title": "[COL] Fall Fest",
-      "start_date": "2026-09-29",
-      "end_date": "2026-09-29",
-      "start_time": "17:00:00",
-      "end_time": "18:30:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
       "id": "4m5oe1l64g26cd06r4q6jaf3le_20261002",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1706,29 +1693,29 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20260930T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-09-30",
+      "end_date": "2026-09-30",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "0vub5km21r28l9hfsmob8rcfem",
       "feed_id": 27087,
       "school": "Collins Elementary",
-      "title": "[COL] Fall Fest Rain Date",
+      "title": "[COL] Fall Fest",
       "start_date": "2026-09-30",
       "end_date": "2026-09-30",
       "start_time": "17:00:00",
       "end_time": "18:30:00",
       "all_day": false,
       "description": "",
-      "address": ""
-    },
-    {
-      "id": "11vnrhiuerdsd0jh4ghcj3c6vm",
-      "feed_id": 27096,
-      "school": "Livingston High School",
-      "title": "[LHS] Post Secondary Transition for Students with Learning Disabilities via Zoom",
-      "start_date": "2026-09-30",
-      "end_date": "2026-09-30",
-      "start_time": "18:00:00",
-      "end_time": "18:30:00",
-      "all_day": false,
-      "description": "<b>Please note: this event will be pre-recorded.</b>",
       "address": ""
     },
     {
@@ -1741,6 +1728,19 @@
       "start_time": "18:30:00",
       "end_time": "19:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4n2t615pe6sul1tb5tvqqijm3o",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] \"BOO\" Your Teacher Begins",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-02",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1780,6 +1780,45 @@
       "start_time": "08:00:00",
       "end_time": "08:15:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7kk7fqij066toi44lgjlrr96mp",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE Begins- Thursday Sessions",
+      "start_date": "2026-10-01",
+      "end_date": "2026-10-01",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6pcvtavlqajpg4l67m6t3q58pm",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Fall Fest/Trunk or Treat Registration Opens",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6sjs15k6004b75bq76p58rpeeh",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Thanksgiving Pie Fundraiser Begins",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-03",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -1836,6 +1875,19 @@
       "address": ""
     },
     {
+      "id": "6fkcqnaeb5sbu7v17jsi13f7mf",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] HSA Car Wash (Riker Hill Parking Lot)",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-03",
+      "start_time": "11:00:00",
+      "end_time": "13:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "187edm04b5ve4t7klcg94ai4sb",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -1875,16 +1927,16 @@
       "address": ""
     },
     {
-      "id": "1c737pam9po44d79m0314u0tck",
+      "id": "4sbkbqet377eqq8idjlrmiv93f",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
-      "title": "[BHE] Fall Bike Clinic",
-      "start_date": "2026-10-04",
-      "end_date": "2026-10-04",
-      "start_time": "10:00:00",
-      "end_time": "13:00:00",
-      "all_day": false,
-      "description": "There will be 2 session- 10am-11:30am and 11:30am - 1pm.  Please visit the HSA website for details.",
+      "title": "[BHE] Last Day to Sign-up for: Pretzel Fridays (Fall) + Be A Hero! School Play",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-06",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -1917,13 +1969,13 @@
       "id": "4os9nhsao9o7e9gggj6g24ibst",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
-      "title": "[BHE] Picture Day!",
+      "title": "[BHE] Picture Day & Crazy Sock Day!",
       "start_date": "2026-10-05",
       "end_date": "2026-10-05",
       "start_time": "08:00:00",
       "end_time": "08:30:00",
       "all_day": false,
-      "description": "",
+      "description": "Dress your best but rock your crazy socks underneath for Respect Week!",
       "address": ""
     },
     {
@@ -1935,6 +1987,19 @@
       "end_date": "2026-10-05",
       "start_time": "08:00:00",
       "end_time": "15:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3n41cqptqn9ldp433he458bnod",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-05",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -1963,6 +2028,19 @@
       "end_time": "20:00:00",
       "all_day": false,
       "description": "Old gym - Use door 4",
+      "address": ""
+    },
+    {
+      "id": "5agof4d24mpa5c7qdq3e1phs34",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] 5th Grade Class Sweatshirt Sale Opens",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-07",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
       "address": ""
     },
     {
@@ -2018,6 +2096,19 @@
       "address": ""
     },
     {
+      "id": "60k4pf0g05sco6kv1cp1ofqae2",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Hats Off to Respect!",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-06",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
+      "all_day": false,
+      "description": "Respect Week-Dress Up- Wear your favorite hat!",
+      "address": ""
+    },
+    {
       "id": "4s0assaknnq9snas50ea4fborn",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -2026,6 +2117,32 @@
       "end_date": "2026-10-06",
       "start_time": "08:00:00",
       "end_time": "15:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "5vr6o1c2ag1419e3p9l2f83t7q",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Dance & ASE Science",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-06",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "56dlrh9ajah64a48hg8emar6h0",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE Begins- Tuesday Session",
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-06",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -2053,6 +2170,19 @@
       "start_time": "19:00:00",
       "end_time": "20:00:00",
       "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3arlrqr0tcjiq3ku4fa28sv9qr",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] November Half Day Activities Registration Opens",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-08",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
       "description": "",
       "address": ""
     },
@@ -2096,6 +2226,45 @@
       "address": ""
     },
     {
+      "id": "2qjkect600n5jdgnm09ghjbdkg",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Being Kind and Respectful is No Sweat!",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
+      "all_day": false,
+      "description": "Respect Week-Dress Up- Wear your favorite sweats!",
+      "address": ""
+    },
+    {
+      "id": "2lr6dgf9bd4j0bdrs1fshfhjuf",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] First Grade Field Trip to Riamede Farms",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "start_time": "08:30:00",
+      "end_time": "11:30:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7455kupldeg0gd28k74i5ofm3e",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-07",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "678jr11vuhkt0e3a6trjf7sbkk_20261008",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -2131,6 +2300,45 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6hvececrlc2hd1dgpr5qilkk89",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Team Up Against Bullying!",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
+      "all_day": false,
+      "description": "Respect Week-Dress Up- Wear your favorite sports team apparel!",
+      "address": ""
+    },
+    {
+      "id": "47vcvvpnspdffftl3ch90koj7l",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6jl5mr1en5tqnrgpld5g02jf45",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -2174,16 +2382,16 @@
       "address": ""
     },
     {
-      "id": "5t3geqqreagh3b9oe6md1g3gq1",
-      "feed_id": 27094,
-      "school": "Riker Hill Elementary",
-      "title": "[RHE] Fall Bake Sale",
+      "id": "2n2gioicesfartrpakgimsdgn6",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] United We Stand!",
       "start_date": "2026-10-09",
       "end_date": "2026-10-09",
-      "start_time": "14:30:00",
-      "end_time": "15:00:00",
+      "start_time": "08:00:00",
+      "end_time": "08:30:00",
       "all_day": false,
-      "description": "",
+      "description": "Respect Week-Dress Up- Wear blue and gold to show unity and support!",
       "address": ""
     },
     {
@@ -2304,10 +2512,36 @@
       "address": ""
     },
     {
-      "id": "0300752om2kbrrnk1npe1gddgu",
+      "id": "5350g9921l8g1pmta8liksf5l5",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Dance & ASE Science",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7t6nc093dkkqf0224paiss6hpi",
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 3rd Grade Young Leaders",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-13",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4f06n2uo9b041j0kc6o6rdg7b3",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Tuesday Session",
       "start_date": "2026-10-13",
       "end_date": "2026-10-13",
       "start_time": "14:45:00",
@@ -2343,14 +2577,40 @@
       "address": ""
     },
     {
-      "id": "6t8c6q39c1bq7lj85lecvp6d4q",
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20261014T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
+      "id": "4a9i8et4m1kpm2i6doahh34l06",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-14",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "7ssrpfh71v5p879sdd47q2j8cu",
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 4th Grade Young Leaders",
       "start_date": "2026-10-14",
       "end_date": "2026-10-14",
       "start_time": "14:45:00",
-      "end_time": "15:45:00",
+      "end_time": "15:50:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -2437,11 +2697,11 @@
       "id": "1quqg9eego98u22i7pb251pucq",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
-      "title": "[BHE] Bake Sale",
+      "title": "[BHE] Blacktop Brew",
       "start_date": "2026-10-15",
       "end_date": "2026-10-15",
-      "start_time": "14:45:00",
-      "end_time": "15:15:00",
+      "start_time": "07:15:00",
+      "end_time": "08:15:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -2451,6 +2711,32 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 5th Grade Young Leaders",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6sjn2e75q5mqdoeugg10inq1c1",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "start_date": "2026-10-15",
+      "end_date": "2026-10-15",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "2lob4jbprr6nvhpcoeaa2bql2c",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Thursday Session",
       "start_date": "2026-10-15",
       "end_date": "2026-10-15",
       "start_time": "14:45:00",
@@ -2577,6 +2863,19 @@
       "address": ""
     },
     {
+      "id": "5pknhu1tihau40nbmlo4r9vk5k",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-19",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "5p6j1cam7kfvu4ki6j5h7qi7od",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
@@ -2620,6 +2919,32 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 2nd Grade Young Leaders",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "2sr8lf3qmfaa4atnska2tp82uj",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Dance & ASE Science",
+      "start_date": "2026-10-20",
+      "end_date": "2026-10-20",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3kfqoemd6ninmvmf0bnp13ot2t",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Tuesday Session",
       "start_date": "2026-10-20",
       "end_date": "2026-10-20",
       "start_time": "14:45:00",
@@ -2694,6 +3019,19 @@
       "address": ""
     },
     {
+      "id": "7dlqqr6f39hogpr7o30mtp5d5v",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-21",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6ikrtsbh7k0g5nle93dq5ti972",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -2729,6 +3067,32 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "43ip9aubbj787ci7ci2s3vs0le",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1fatja1jlk6hl4pufacdcsq057",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "start_date": "2026-10-22",
+      "end_date": "2026-10-22",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -2811,6 +3175,19 @@
       "address": ""
     },
     {
+      "id": "2q0dnhjvhse7nbar8lp2beb4rj",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] School Store-Halloween Theme",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-23",
+      "start_time": "10:45:00",
+      "end_time": "11:45:00",
+      "all_day": false,
+      "description": "This is during student lunches.",
+      "address": ""
+    },
+    {
       "id": "5m5qrbm6saiq787hpc1l251tlf",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -2853,7 +3230,7 @@
       "id": "3n5g831l81mnpn9jg2u1a8fdmq",
       "feed_id": 27085,
       "school": "Burnet Hill Elementary",
-      "title": "[BHE] Trunk Or Treat",
+      "title": "[BHE] BHE Fall Fest/Trunk or Treat",
       "start_date": "2026-10-25",
       "end_date": "2026-10-25",
       "start_time": "13:00:00",
@@ -2898,6 +3275,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "22htbrf70pu5blrm1dedv3eamg",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-26",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -2954,6 +3344,19 @@
       "address": ""
     },
     {
+      "id": "3op61vg4tuvmprq8umaabh9eln",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "start_date": "2026-10-27",
+      "end_date": "2026-10-27",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "678jr11vuhkt0e3a6trjf7sbkk_20261028",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -2976,6 +3379,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "23jiomebomkqe71o3pntt0f2ar",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Golf & ASE Yummy Lab",
+      "start_date": "2026-10-28",
+      "end_date": "2026-10-28",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -3019,19 +3435,6 @@
       "address": ""
     },
     {
-      "id": "0g3fho5e8o4uhmpcnsb45bkl6t",
-      "feed_id": 27094,
-      "school": "Riker Hill Elementary",
-      "title": "[RHE] Trunk or Treat/Fall Festival (RHE Parking Lot. Time TBD)",
-      "start_date": "2026-10-29",
-      "end_date": "2026-10-30",
-      "start_time": "00:00:00",
-      "end_time": "00:00:00",
-      "all_day": true,
-      "description": "",
-      "address": ""
-    },
-    {
       "id": "4m5oe1l64g26cd06r4q6jaf3le_20261030",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -3041,6 +3444,45 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "5hqi8f2h19dr0kped1t6r84954",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Engineering & ASE Yoga",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "41hn078cqsm03r7p0d0boo2eti",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0g3fho5e8o4uhmpcnsb45bkl6t",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Trunk or Treat/Fall Festival (RHE Parking Lot)",
+      "start_date": "2026-10-29",
+      "end_date": "2026-10-29",
+      "start_time": "16:30:00",
+      "end_time": "18:00:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -3201,6 +3643,19 @@
       "address": ""
     },
     {
+      "id": "528lqkof2cld490oehn867lrpr",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Instant Decision Day",
+      "start_date": "2026-11-04",
+      "end_date": "2026-11-05",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0kadcnk44jk1ijooh5ckjnmc1q",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -3240,6 +3695,19 @@
       "address": ""
     },
     {
+      "id": "5f7oiknrpjh6v749gug8vijh85",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Soccer & ASE Art",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-09",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "57dbs6gk9pcclmj6d1is9vlina_20261111",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -3257,6 +3725,32 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 3rd Grade Young Leaders",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1pb4e8j668a8l790v8vb9q4p7m",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Dance (Last Class) & ASE Science (Last Class)",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-10",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1u4b5eqfs15pk0ga9n6t22rk82",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Tuesday Session",
       "start_date": "2026-11-10",
       "end_date": "2026-11-10",
       "start_time": "14:45:00",
@@ -3305,6 +3799,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20261111T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "2pg295ifoq8t8jtt4dm6r8emt0_20261118T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -3313,6 +3820,19 @@
       "end_date": "2026-11-11",
       "start_time": "14:45:00",
       "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4iace95bt1tp2r61407nact4m6",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Golf (Last Class) & ASE Yummy Lab (Last Class)",
+      "start_date": "2026-11-11",
+      "end_date": "2026-11-11",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -3370,6 +3890,19 @@
       "address": ""
     },
     {
+      "id": "1297el4a3cngcb68vd87rspkcc",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Engineering (Last Class) & ASE Yoga (Last Class)",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "4pee16l8jjpv1qaiv8ac6j58uh_20261119T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -3380,6 +3913,32 @@
       "end_time": "15:45:00",
       "all_day": false,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "2e7o2v5lgeslb24nmstsl7ocs2",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "1a65kubha2h45hlhvm4rmfh71u",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Multicultural Fashion Show",
+      "start_date": "2026-11-12",
+      "end_date": "2026-11-12",
+      "start_time": "18:00:00",
+      "end_time": "20:00:00",
+      "all_day": false,
+      "description": "AUX Gym",
       "address": ""
     },
     {
@@ -3461,6 +4020,19 @@
       "address": ""
     },
     {
+      "id": "2ij9iqgbo458o9gk46obsg2nu1",
+      "feed_id": 27089,
+      "school": "Hillside Elementary",
+      "title": "[HIL] ASE Soccer (Last Class) & ASE Art (Last Class)",
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-16",
+      "start_time": "14:45:00",
+      "end_time": "15:50:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "6jbt59uprrnahcm8l1pog3cc9h",
       "feed_id": 27088,
       "school": "Harrison Elementary",
@@ -3491,6 +4063,19 @@
       "feed_id": 27089,
       "school": "Hillside Elementary",
       "title": "[HIL] 2nd Grade Young Leaders",
+      "start_date": "2026-11-17",
+      "end_date": "2026-11-17",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "39j95c5gtsj2hcg1be6rb5rlav",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Tuesday Session",
       "start_date": "2026-11-17",
       "end_date": "2026-11-17",
       "start_time": "14:45:00",
@@ -3536,6 +4121,19 @@
       "end_time": "16:00:00",
       "all_day": false,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20261118T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-18",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
       "address": ""
     },
     {
@@ -3617,6 +4215,19 @@
       "address": ""
     },
     {
+      "id": "0fop3vi715k57955n2d5sfbl14",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Thursday Session",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "63lntegkr359g1f9pnksmjgecf",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -3652,6 +4263,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "4cbr3k6lvh2u1tko2fve40fvgb",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Turkey Trot",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "start_time": "09:00:00",
+      "end_time": "10:30:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -3864,6 +4488,32 @@
       "address": ""
     },
     {
+      "id": "0710tn34ng662qbd64gun4lvoo",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] Kinder Thanksgivings Show",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "start_time": "08:30:00",
+      "end_time": "09:00:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "6560rhemcg8otll7bc0q0qau24",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Tuesday Session",
+      "start_date": "2026-11-24",
+      "end_date": "2026-11-24",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "0onl06t48boogfsu9qtpkbusgv_20261126",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -3899,6 +4549,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "766uv4d26h93kf1trfd61j9l7f",
+      "feed_id": 27085,
+      "school": "Burnet Hill Elementary",
+      "title": "[BHE] PRIDE Thanksgiving Picnic",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-25",
+      "start_time": "11:00:00",
+      "end_time": "11:30:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -3994,6 +4657,19 @@
       "address": ""
     },
     {
+      "id": "2ln5p97fslgurbvk412fijf53d",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Tuesday Session Ends",
+      "start_date": "2026-12-01",
+      "end_date": "2026-12-01",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "7m77sg8ekh28gkdgf7kac7epva",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -4030,6 +4706,19 @@
       "end_time": "00:00:00",
       "all_day": true,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20261202T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-02",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
       "address": ""
     },
     {
@@ -4093,6 +4782,19 @@
       "end_date": "2026-12-04",
       "start_time": "08:45:00",
       "end_time": "14:30:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "0s9r0i7kt3q3qvj9f29jsfi8l1",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] Fall ASE- Thursday Session Ends",
+      "start_date": "2026-12-03",
+      "end_date": "2026-12-03",
+      "start_time": "14:45:00",
+      "end_time": "15:45:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -4254,6 +4956,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20261209T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-09",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "2pg295ifoq8t8jtt4dm6r8emt0_20261216T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -4262,6 +4977,19 @@
       "end_date": "2026-12-09",
       "start_time": "14:45:00",
       "end_time": "15:45:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "3alrnmqd9nbhjm5v66ppkv0ssk",
+      "feed_id": 27092,
+      "school": "Heritage Middle",
+      "title": "[HMS] Chorus Concert @ LHS",
+      "start_date": "2026-12-09",
+      "end_date": "2026-12-09",
+      "start_time": "19:00:00",
+      "end_time": "21:00:00",
       "all_day": false,
       "description": "",
       "address": ""
@@ -4406,6 +5134,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "77ngifpgkffbbmim25c1au29m9",
+      "feed_id": 27092,
+      "school": "Heritage Middle",
+      "title": "[HMS] Orchestra Concert",
+      "start_date": "2026-12-14",
+      "end_date": "2026-12-14",
+      "start_time": "19:00:00",
+      "end_time": "21:00:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -4563,6 +5304,19 @@
       "end_time": "00:00:00",
       "all_day": true,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20261216T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2026-12-17",
+      "end_date": "2026-12-17",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
       "address": ""
     },
     {
@@ -4797,6 +5551,19 @@
       "end_time": "00:00:00",
       "all_day": true,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270106T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-01-06",
+      "end_date": "2027-01-06",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
       "address": ""
     },
     {
@@ -5112,6 +5879,19 @@
       "address": "MPMS"
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270113T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-01-14",
+      "end_date": "2027-01-14",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "12jmtebbl6daoq6lbbqu4su5oc",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -5284,7 +6064,7 @@
       "id": "6uahrsd0pv111mhj3d8hur4ejh",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
-      "title": "[RHE] Spelling Bee Final Round (Small Gym)",
+      "title": "[RHE] Spelling Bee Final Round (Large Gym)",
       "start_date": "2027-01-21",
       "end_date": "2027-01-21",
       "start_time": "15:00:00",
@@ -5356,6 +6136,19 @@
       "end_time": "18:00:00",
       "all_day": false,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "6pubv10c8oodkoknqf5qqg0277",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Winter Improv Show",
+      "start_date": "2027-01-22",
+      "end_date": "2027-01-22",
+      "start_time": "19:00:00",
+      "end_time": "20:30:00",
+      "all_day": false,
+      "description": "Cafe ABCD",
       "address": ""
     },
     {
@@ -5453,7 +6246,7 @@
       "id": "7qi4trfd9drhini1t4lvfbau2k",
       "feed_id": 27094,
       "school": "Riker Hill Elementary",
-      "title": "[RHE] Riker Hill Concert",
+      "title": "[RHE] Riker Hill Concert- Snow Date",
       "start_date": "2027-01-27",
       "end_date": "2027-01-27",
       "start_time": "19:00:00",
@@ -5525,19 +6318,6 @@
       "end_time": "00:00:00",
       "all_day": true,
       "description": "",
-      "address": ""
-    },
-    {
-      "id": "6pubv10c8oodkoknqf5qqg0277",
-      "feed_id": 27096,
-      "school": "Livingston High School",
-      "title": "[LHS] Winter Improv Show",
-      "start_date": "2027-01-29",
-      "end_date": "2027-01-29",
-      "start_time": "19:00:00",
-      "end_time": "20:30:00",
-      "all_day": false,
-      "description": "Cafe ABCD",
       "address": ""
     },
     {
@@ -5623,6 +6403,19 @@
       "feed_id": 27096,
       "school": "Livingston High School",
       "title": "[LHS] D Day",
+      "start_date": "2027-02-03",
+      "end_date": "2027-02-04",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "77actg5p46bf87gb5kdefsa695",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Course Preview Day",
       "start_date": "2027-02-03",
       "end_date": "2027-02-04",
       "start_time": "00:00:00",
@@ -5918,6 +6711,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270210T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-02-10",
+      "end_date": "2027-02-10",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "11a5f0t6sf5s6c5mla5lqui7fq_20270224T194500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -6074,19 +6880,6 @@
       "address": ""
     },
     {
-      "id": "451697ce6iao03irdufhq2ruuh",
-      "feed_id": 27096,
-      "school": "Livingston High School",
-      "title": "[LHS] ROBOTICS Competition",
-      "start_date": "2027-02-13",
-      "end_date": "2027-02-13",
-      "start_time": "06:00:00",
-      "end_time": "16:00:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
       "id": "7tnbvv61fpjprlhclekjc516p2",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -6178,6 +6971,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270224T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-02-24",
+      "end_date": "2027-02-24",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "574h3u74vr7hvq701fv60lql1m",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -6252,6 +7058,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "451697ce6iao03irdufhq2ruuh",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] ROBOTICS Competition",
+      "start_date": "2027-02-28",
+      "end_date": "2027-02-28",
+      "start_time": "06:00:00",
+      "end_time": "16:00:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -6345,6 +7164,19 @@
       "all_day": false,
       "description": "",
       "address": "HMS"
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270303T144100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-03-03",
+      "end_date": "2027-03-03",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
     },
     {
       "id": "1qe8hcape9jlm17g16g1r1gbrj",
@@ -6789,6 +7621,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270317T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-03-17",
+      "end_date": "2027-03-17",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "2pg295ifoq8t8jtt4dm6r8emt0_20270317T184500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -7114,6 +7959,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270324T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-03-24",
+      "end_date": "2027-03-24",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "11a5f0t6sf5s6c5mla5lqui7fq_20270324T184500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -7296,6 +8154,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270331T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-03-31",
+      "end_date": "2027-03-31",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "2u2vn0j7u1rcdbqmo7juttj173",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -7318,6 +8189,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "2judf8f3h4ri88dq3fkss2fjvi",
+      "feed_id": 27091,
+      "school": "Mt. Pleasant Middle",
+      "title": "[MPM] HSA Meeting",
+      "start_date": "2027-04-01",
+      "end_date": "2027-04-01",
+      "start_time": "18:30:00",
+      "end_time": "19:15:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -7491,6 +8375,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270407T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-04-07",
+      "end_date": "2027-04-07",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "nq246lqepgukgeh95l20v59h4l_20270407T184500Z",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -7591,6 +8488,19 @@
       "start_time": "00:00:00",
       "end_time": "00:00:00",
       "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
+      "id": "003bbq2pi4pud1gbpfdenrca1i",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] NAHS Ice Cream Social",
+      "start_date": "2027-04-09",
+      "end_date": "2027-04-09",
+      "start_time": "14:45:00",
+      "end_time": "16:45:00",
+      "all_day": false,
       "description": "",
       "address": ""
     },
@@ -7803,6 +8713,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270414T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-04-14",
+      "end_date": "2027-04-14",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "6lnp3rmgh23m8kji7esvq0ouqo",
       "feed_id": 27087,
       "school": "Collins Elementary",
@@ -7959,19 +8882,6 @@
       "address": ""
     },
     {
-      "id": "003bbq2pi4pud1gbpfdenrca1i",
-      "feed_id": 27096,
-      "school": "Livingston High School",
-      "title": "[LHS] NAHS Ice Cream Social",
-      "start_date": "2027-04-16",
-      "end_date": "2027-04-16",
-      "start_time": "14:45:00",
-      "end_time": "16:45:00",
-      "all_day": false,
-      "description": "",
-      "address": ""
-    },
-    {
       "id": "7237uucjvthtpsekvvl8r1dnp2",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -8112,6 +9022,19 @@
       "end_time": "00:00:00",
       "all_day": true,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270428T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-04-28",
+      "end_date": "2027-04-28",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
       "address": ""
     },
     {
@@ -8323,6 +9246,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270505T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-05-05",
+      "end_date": "2027-05-05",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "3br1q3roskj7uuafnjose2a71i",
       "feed_id": 27091,
       "school": "Mt. Pleasant Middle",
@@ -8489,6 +9425,19 @@
       "end_time": "00:00:00",
       "all_day": true,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270512T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-05-12",
+      "end_date": "2027-05-12",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
       "address": ""
     },
     {
@@ -9337,6 +10286,19 @@
       "address": ""
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270526T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-05-26",
+      "end_date": "2027-05-26",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "57hvj74e88d7q4sr8hjbr1c6oq",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -9675,6 +10637,19 @@
       "address": "Collins and Riker Hill"
     },
     {
+      "id": "3bdgtgvodsu5e5truhnkh8ag1j_20270602T134100Z",
+      "feed_id": 27096,
+      "school": "Livingston High School",
+      "title": "[LHS] Lancer Time",
+      "start_date": "2027-06-02",
+      "end_date": "2027-06-02",
+      "start_time": "09:41:00",
+      "end_time": "10:25:00",
+      "all_day": false,
+      "description": "Block 1 - 7:50-8:42\nBlock 2 - 8:48-9:35\nLancer Time - 9:41 - 10:25\nBlock 3 - 10:31-11:18\nLunch - 11:18-12:08\nBlock 4 - 12:08-12:55\nBlock 5 - 1:01-1:48\nBlock 6 - 1:54-2:41",
+      "address": ""
+    },
+    {
       "id": "2qs3157a0hfkb1e26mdqj72osu",
       "feed_id": 27095,
       "school": "Mt. Pleasant Elementary",
@@ -9855,6 +10830,19 @@
       "all_day": false,
       "description": "Grade 3 Assembly only",
       "address": "Burnet Hill and Harrison"
+    },
+    {
+      "id": "6fu7rea3okok7o5fc7nuc3et8s",
+      "feed_id": 27087,
+      "school": "Collins Elementary",
+      "title": "[COL] 1st grade writing celebration",
+      "start_date": "2027-06-03",
+      "end_date": "2027-06-03",
+      "start_time": "12:45:00",
+      "end_time": "13:15:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
     },
     {
       "id": "2jhir18eiv63om3kis38dbuv1r",
@@ -10052,6 +11040,19 @@
       "address": ""
     },
     {
+      "id": "1nk22finrnidia8buaksf33k75",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] 5th Grade Trip to Harbor Hills",
+      "start_date": "2027-06-08",
+      "end_date": "2027-06-08",
+      "start_time": "08:30:00",
+      "end_time": "14:30:00",
+      "all_day": false,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "11ipqdpll2b72459ah5vqd0o3v",
       "feed_id": 27089,
       "school": "Hillside Elementary",
@@ -10234,6 +11235,19 @@
       "address": ""
     },
     {
+      "id": "7n7ckt91ss65pt4nqr8bv4998u",
+      "feed_id": 27094,
+      "school": "Riker Hill Elementary",
+      "title": "[RHE] 5th Grade Yearbook Signing Party (Time TBD)",
+      "start_date": "2027-06-14",
+      "end_date": "2027-06-15",
+      "start_time": "00:00:00",
+      "end_time": "00:00:00",
+      "all_day": true,
+      "description": "",
+      "address": ""
+    },
+    {
       "id": "20r5erio61dm26qo9g5ahraibk",
       "feed_id": 27096,
       "school": "Livingston High School",
@@ -10348,6 +11362,19 @@
       "end_time": "19:30:00",
       "all_day": false,
       "description": "",
+      "address": ""
+    },
+    {
+      "id": "4pdmqpjhbarjfmcdi4le147h1g",
+      "feed_id": 27092,
+      "school": "Heritage Middle",
+      "title": "[HMS] & MPM Joint HSA Meeting",
+      "start_date": "2027-06-16",
+      "end_date": "2027-06-16",
+      "start_time": "18:30:00",
+      "end_time": "19:30:00",
+      "all_day": false,
+      "description": "Meeting to be held at Mount Pleasant Middle School",
       "address": ""
     },
     {
